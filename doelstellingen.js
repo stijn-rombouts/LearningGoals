@@ -50,7 +50,7 @@ const doelstellingen = {
       "type": [
         "APP","AI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2 - Fase 2",
       "bewijs": ""
@@ -59,7 +59,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": ""
@@ -494,7 +494,7 @@ const doelstellingen = {
         "CCS",
         "APPAI, DI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": ""
@@ -504,7 +504,7 @@ const doelstellingen = {
         "CCS",
         "APPAI, DI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": ""
@@ -513,7 +513,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2 - Fase 2",
       "bewijs": ""
@@ -1087,7 +1087,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": ""
@@ -1096,7 +1096,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": ""
@@ -1105,7 +1105,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": ""
@@ -1224,7 +1224,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1233,7 +1233,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1242,7 +1242,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1251,7 +1251,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1260,7 +1260,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1269,7 +1269,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1278,7 +1278,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1287,7 +1287,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1296,7 +1296,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1305,7 +1305,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1314,7 +1314,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Windows Server Advanced - Fase 2",
       "bewijs": ""
@@ -1478,7 +1478,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2 - Fase 2",
       "bewijs": ""
@@ -1487,7 +1487,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2 - Fase 2",
       "bewijs": ""
@@ -1496,7 +1496,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Skills Integration Lab 2 - Fase 2",
       "bewijs": ""
