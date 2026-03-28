@@ -101,7 +101,7 @@ function generate() {
     const categoryId = a.replace(/\s+/g, '-');
     tableBody.innerHTML += `
     <tr class="category-header cursor-pointer hover:bg-gray-300" data-category="${categoryId}">
-      <th class="bg-gray-200 text-left px-6 py-4 select-none" colspan="6">
+      <th class="bg-gray-200 text-left px-6 py-4 select-none" colspan="7">
         <span class="inline-flex items-center">
           <svg class="w-4 h-4 mr-2 transition-transform category-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -136,6 +136,7 @@ function generate() {
         <td class="px-6 py-4">${status}</td>
         <td class="px-6 py-4">${d["verified"] || ""}</td>
         <td class="px-6 py-4">${d["project"] || ""}</td>
+        <td class="px-6 py-4">${d["subject"] || ""}</td>
         <td class="px-6 py-4">${d["bewijs"] ? `<button onclick="openModel(${c.split(" ")[0]}, \`${d["bewijs"]}\`)" class="hover:filter hover:brightness-50"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="#2563eb" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg></button>` : ""}</td>
       </tr>
       `;
