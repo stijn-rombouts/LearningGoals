@@ -247,7 +247,10 @@ function generate() {
   const ctx = document.getElementById('chart');
   Chart.register(ChartDataLabels);
   new Chart(ctx, config);
-  for (const v of r) { v == "ALLES" ? richtingenSelect.innerHTML += `<option value="${v}" selected>${v}</option>` : richtingenSelect.innerHTML += `<option value="${v}">${v}</option>`; }
+  const defaultTrack = r.includes("CCS & DI") ? "CCS & DI" : "ALLES";
+  for (const v of r) { 
+    richtingenSelect.innerHTML += `<option value="${v}"${v === defaultTrack ? " selected" : ""}>${v}</option>`;
+  }
   
   // Add accordion functionality
   setupAccordion();
