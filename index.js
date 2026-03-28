@@ -38,7 +38,11 @@ function checkFilters() {
     const statesSelectValue = statesSelect.value;
     if (richtingenSelectValue != "ALLES") {
       const types = tr.children[1].innerText.split(", ");
-      if (!types.includes(richtingenSelectValue) && !types.includes('ALLES')) passesFilter = false;
+      if (richtingenSelectValue === "CCS & DI") {
+        if (!types.includes("CCS") && !types.includes("DI") && !types.includes("ALLES")) passesFilter = false;
+      } else if (!types.includes(richtingenSelectValue) && !types.includes('ALLES')) {
+        passesFilter = false;
+      }
     };
     if (statesSelectValue != "n") {
       if (!tr.children[2].innerText.includes(states[statesSelectValue]["label"])) {
@@ -127,10 +131,14 @@ function generate() {
         color = states[d["status"]]["color"] || "odd:bg-white even:bg-gray-50 hover:bg-gray-100";
         if (d["status"] == "d" && d["verified"] != "") { color = "odd:bg-[#94b3ed]/30 even:bg-[#94b3ed]/40 hover:bg-[#94b3ed]/50 text-black" }
       };
-      for (const [e, f] of Object.entries(d["type"])) {
-        if (!r.includes(f.toUpperCase())) r = [...r, f.toUpperCase()];
-        types += f.toUpperCase();
-        if (d["type"].length != d["type"].indexOf(f) + 1) types += ", ";
+      for (const f of d["type"]) {
+        const cleanTrack = f.toUpperCase().trim();
+        const splitTracks = cleanTrack.split(", ").map(t => t.trim());
+        for (const st of splitTracks) {
+          if (st && !r.includes(st)) r.push(st);
+        }
+        types += cleanTrack;
+        if (d["type"].indexOf(f) !== d["type"].length - 1) types += ", ";
       }
       tableBody.innerHTML += `
       <tr class="border-b text-center category-item ${color}" data-category="${categoryId}">
@@ -146,6 +154,7 @@ function generate() {
     }
   }
   r.sort();
+  if (r.includes("CCS") && r.includes("DI")) r.push("CCS & DI");
   const total = countDone + countInProgress + countTodo + countVerified + countMandatoryTodo;
   const done = countDone + countVerified;
   const data = {
