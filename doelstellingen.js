@@ -628,7 +628,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -638,7 +638,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -648,7 +648,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -658,7 +658,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -668,7 +668,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -678,7 +678,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -688,7 +688,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -698,7 +698,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Internship & Portfolio- Fase 3",
@@ -708,7 +708,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "RZL - Fase 3",
@@ -718,7 +718,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "RZL - Fase 3",
@@ -728,7 +728,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "RZL - Fase 3",
@@ -738,7 +738,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "RZL - Fase 3",
@@ -748,7 +748,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "RZL - Fase 3",
@@ -758,7 +758,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -768,7 +768,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -778,7 +778,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -788,7 +788,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -798,7 +798,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",
@@ -808,7 +808,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",
@@ -818,7 +818,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",
@@ -828,7 +828,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",
@@ -838,7 +838,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",
@@ -848,7 +848,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",
@@ -858,7 +858,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "tm",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 3 - Fase 3",

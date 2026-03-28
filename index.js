@@ -1,6 +1,7 @@
 const states = {
   "n": { label: "No filter" },
   "td": { label: "To Do" },
+  "tm": { label: "Todo: Mandatory subject", color: "odd:bg-[#ff4040]/20 even:bg-[#ff4040]/30 hover:bg-[#ff4040]/40 text-black" },
   "ip": { label: "In Progress", color: "odd:bg-[#ffc240]/30 even:bg-[#ffc240]/40 hover:bg-[#ffc240]/50 text-black" },
   "d": { label: "Done", color: "odd:bg-[#40ff80]/30 even:bg-[#40ff80]/40 hover:bg-[#40ff80]/50 text-black" },
 };
@@ -92,6 +93,7 @@ function generate() {
   richtingenSelect.innerHTML = "";
   tableBody.innerHTML = "";
   let countTodo = 0;
+  let countMandatoryTodo = 0;
   let countDone = 0;
   let countInProgress = 0;
   let countVerified = 0;
@@ -120,9 +122,10 @@ function generate() {
         if (d["status"] == "d" && d["verified"] == "") countDone++;
         if (d["status"] == "ip") countInProgress++;
         if (d["status"] == "td") countTodo++;
+        if (d["status"] == "tm") countMandatoryTodo++;
         if (d["verified"] != "" && d["status"] != "ip") countVerified++;
         color = states[d["status"]]["color"] || "odd:bg-white even:bg-gray-50 hover:bg-gray-100";
-        if (d["status"] == "d" && d["verified"] != "") {color = "odd:bg-[#94b3ed]/30 even:bg-[#94b3ed]/40 hover:bg-[#94b3ed]/50 text-black"}
+        if (d["status"] == "d" && d["verified"] != "") { color = "odd:bg-[#94b3ed]/30 even:bg-[#94b3ed]/40 hover:bg-[#94b3ed]/50 text-black" }
       };
       for (const [e, f] of Object.entries(d["type"])) {
         if (!r.includes(f.toUpperCase())) r = [...r, f.toUpperCase()];
@@ -143,20 +146,22 @@ function generate() {
     }
   }
   r.sort();
-  const total = countDone + countInProgress + countTodo + countVerified;
+  const total = countDone + countInProgress + countTodo + countVerified + countMandatoryTodo;
   const done = countDone + countVerified;
   const data = {
     labels: [
       'Todo',
+      'Todo: Mandatory subject',
       'Done',
       'In Progress',
       'Verified'
     ],
     datasets: [{
       label: 'Count',
-      data: [countTodo, countDone, countInProgress, countVerified],
+      data: [countTodo, countMandatoryTodo, countDone, countInProgress, countVerified],
       backgroundColor: [
         '#d1d5db',
+        '#f87171',
         '#10b981',
         '#FA6432',
         '#7FC1E0FF'
