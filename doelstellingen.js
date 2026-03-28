@@ -580,7 +580,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": ""
     },
@@ -590,7 +590,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": ""
     },
@@ -600,7 +600,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": ""
     },
@@ -610,7 +610,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": ""
     },
@@ -620,7 +620,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": ""
     },
@@ -1135,9 +1135,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Orangepi Kubernetes / DI-Hosting",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": ""
     },
@@ -1145,9 +1145,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Orangepi Kubernetes / DI-Hosting / Openstack / DI-Datacenter stuff",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": ""
     },
@@ -1165,9 +1165,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Orangepi Kubernetes",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": ""
     },
@@ -1175,9 +1175,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Orangepi Kubernetes (autoscaling)",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": ""
     },
@@ -1185,9 +1185,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "UAnt Arcadekast Docker / Trackmore",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": ""
     },
@@ -1307,9 +1307,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff / VPN",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1317,9 +1317,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff / VPN",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1337,9 +1337,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1347,9 +1347,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Openstack (neutron) / Proxmox SDN",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1467,9 +1467,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff / Openstack",
       "subject": "Linux Network Services - Fase 2",
       "bewijs": ""
     },
@@ -1477,9 +1477,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff / Openstack",
       "subject": "Linux Network Services - Fase 2",
       "bewijs": ""
     },
@@ -1487,9 +1487,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff / Openstack",
       "subject": "Linux Network Services - Fase 2",
       "bewijs": ""
     },
@@ -1497,9 +1497,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Orangepi Kubernetes (ansible)",
       "subject": "Linux Network Services - Fase 2",
       "bewijs": ""
     },
