@@ -291,7 +291,24 @@ function openModel(number, data) {
   model.classList.remove("hidden");
   model.classList.add("flex");
   modelTitle.innerHTML = `Evidence ${number}`;
-  modelText.innerHTML = data;
+  
+  let processedData = data;
+  
+  // Check if data is an image path
+  const imageRegex = /([^ \s,]+\.(png|jpg|jpeg|gif|svg))/gi;
+  if (imageRegex.test(data)) {
+    processedData = data.replace(imageRegex, (img) => {
+      return `<img src="${img}" class="max-w-full h-auto rounded shadow-lg mt-4" alt="Evidence ${number}">`;
+    });
+  } else {
+    // Convert URLs to clickable links
+    const urlRegex = /(https?:\/\/[^\s,]+)/g;
+    processedData = data.replace(urlRegex, (url) => {
+      return `<a href="${url}" target="_blank" class="text-blue-600 hover:underline break-all">${url}</a>`;
+    });
+  }
+  
+  modelText.innerHTML = processedData;
   checkAccordions();
 }
 

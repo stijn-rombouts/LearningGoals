@@ -8,7 +8,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "1.2 You identify and justify non-functional requirements for your project based on the ISO25010 quality model, ensuring that reliability and security are explicitly addressed. ": {
       "type": [
@@ -19,7 +19,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "1.3 You research and compare various software solutions and substantiate your best choice with strong arguments by using the Weighted Decision Matrix technique or an equivalent.": {
       "type": [
@@ -79,7 +79,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "1.9 You compare different testing methods and select the most appropriate one for the given circumstances.": {
       "type": [
@@ -89,7 +89,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     }
   },
   "2 Artificial Intelligens": {
@@ -540,7 +540,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "5.2 You convey IT knowledge tailored to the audience's prior knowledge": {
       "type": [
@@ -893,7 +893,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "5.37 You use the scrum methodology to execute projects": {
       "type": [
@@ -965,7 +965,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "6.2 You master the principles of virtual networking and virtual storage, applying them in a cluster environment.": {
       "type": [
@@ -975,7 +975,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "6.3 You identify the components of a virtual machine, make them 'high available' and 'fault tolerant', and optimize an OS (Windows and Linux) for a virtualized environment.": {
       "type": [
@@ -985,7 +985,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "6.4 You combine servers and storage devices into your own fault-tolerant and highly available software-defined data center, integrate virtual storage and networks, and manage resources based on IT and business needs.": {
       "type": [
@@ -995,7 +995,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "6.5 You research and evaluate possible deployment scenarios for IT platforms based on requirements, both for on premise and in the cloud.": {
       "type": [
@@ -1003,7 +1003,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: Phising simulatie naar studenten. Vergelijken M365 en andere (gratis) oplossingen",
       "subject": "Cloud Platforms - Fase 2",
       "bewijs": ""
     },
@@ -1135,61 +1135,61 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "Orangepi Kubernetes / DI-Hosting",
       "subject": "Linux Web Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/8-1.md"
     },
     "8.2 You know and configure network settings on a Linux system.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "Orangepi Kubernetes / DI-Hosting / Openstack / DI-Datacenter stuff",
       "subject": "Linux Web Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/8-2.md"
     },
     "8.3 You automate system administration tasks with Linux service management.": {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "IP Terminals",
       "subject": "Linux Web Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-003-ip-terminals-netwerklokalen/blob/main/LearningGoals/8-3.md"
     },
     "8.4 You install and configure various Web server stacks on a Linux environment.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "Orangepi Kubernetes",
       "subject": "Linux Web Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/8-4.md"
     },
     "8.5 You optimize and scale web server stacks.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "Orangepi Kubernetes (autoscaling)",
       "subject": "Linux Web Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/8-5.md"
     },
     "8.6 You work with containers to package and distribute applications.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "UAnt Arcadekast Docker / Trackmore",
       "subject": "Linux Web Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/8-6.md"
     },
     "8.7 You build a proof of concept, based on the design, that meets the client's expectations": {
       "type": [
@@ -1199,7 +1199,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "8.8 You create an infrastructure design that integrates the technologies into a working solution": {
       "type": [
@@ -1241,7 +1241,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.2 You define and troubleshoot the operation of DNS.": {
       "type": [
@@ -1251,7 +1251,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.3 You manage and automate Active Directory users and groups": {
       "type": [
@@ -1261,7 +1261,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.4 Je beheert en automatiseert Active Directory gebruikers en groepen": {
       "type": [
@@ -1271,7 +1271,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.5 You secure data with NTFS permissions and you secure systems with Group Policies.": {
       "type": [
@@ -1281,7 +1281,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.6 You install, configure and distribute certificates with a Certificate Authority and use them forTLS and IPSEC": {
       "type": [
@@ -1291,7 +1291,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.7 You will apply the technologies learned in a real-world case study": {
       "type": [
@@ -1301,7 +1301,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/2DI-semester1.png"
     },
     "9.8 You master the basic principles of networking.": {
       "type": [
@@ -1497,11 +1497,11 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "Orangepi Kubernetes (ansible)",
       "subject": "Linux Network Services - Fase 2",
-      "bewijs": ""
+      "bewijs": "https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/9-27.md"
     },
     "9.28 You analyze and compare different wireless network standards and technologies, such as WiFi, 5G, and Bluetooth, understanding their applications and limitations.": {
       "type": [
@@ -1873,7 +1873,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: Phising simulatie naar studenten.",
       "subject": "Application Security - Fase 2",
       "bewijs": ""
     },
@@ -1883,7 +1883,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: MISP: Gategoriseert volgent MITRE ATT&CK",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": ""
     },
@@ -1893,7 +1893,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: MISP: Kerncomponent van SOC voor het delen van Indicators of Compromise",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": ""
     },
@@ -1913,7 +1913,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: MISP: Integratie met firewalls",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": ""
     },
@@ -1923,7 +1923,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: MISP: hardening endpoint based on MISP information",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": ""
     },
@@ -1933,7 +1933,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: Phising simulatie naar studenten.",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": ""
     },
@@ -1943,7 +1943,7 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Erik Thijs: MISP: Vectra network monitoring",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": ""
     },
