@@ -1238,7 +1238,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
       "bewijs": "assets/2DI-semester1.png"
@@ -1248,7 +1248,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
       "bewijs": "assets/2DI-semester1.png"
@@ -1258,7 +1258,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
       "bewijs": "assets/2DI-semester1.png"
@@ -1278,7 +1278,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
       "bewijs": "assets/2DI-semester1.png"
@@ -1288,7 +1288,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
       "bewijs": "assets/2DI-semester1.png"
@@ -1298,7 +1298,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
       "bewijs": "assets/2DI-semester1.png"
