@@ -1871,7 +1871,7 @@ const doelstellingen = {
         "APP",
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: Phising simulatie naar studenten.",
       "subject": "Application Security - Fase 2",
@@ -1881,7 +1881,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: MISP: Gategoriseert volgent MITRE ATT&CK",
       "subject": "Network & OS Security - Fase 2",
@@ -1891,7 +1891,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: MISP: Kerncomponent van SOC voor het delen van Indicators of Compromise",
       "subject": "Network & OS Security - Fase 2",
@@ -1911,7 +1911,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: MISP: Integratie met firewalls",
       "subject": "Network & OS Security - Fase 2",
@@ -1921,7 +1921,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: MISP: hardening endpoint based on MISP information",
       "subject": "Network & OS Security - Fase 2",
@@ -1931,7 +1931,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: Phising simulatie naar studenten.",
       "subject": "Network & OS Security - Fase 2",
@@ -1941,7 +1941,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "Erik Thijs: MISP: Vectra network monitoring",
       "subject": "Network & OS Security - Fase 2",
