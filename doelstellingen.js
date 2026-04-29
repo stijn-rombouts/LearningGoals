@@ -899,7 +899,7 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "DI",
@@ -909,7 +909,7 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "DI",
@@ -919,7 +919,7 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "DI",
@@ -929,7 +929,7 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "DI",
@@ -939,7 +939,7 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "DI",
@@ -949,7 +949,7 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "Alumni Avond",
       "subject": "DI",
@@ -1573,7 +1573,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1583,7 +1583,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1593,7 +1593,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1603,7 +1603,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1613,7 +1613,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1623,7 +1623,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1633,7 +1633,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1643,7 +1643,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1653,7 +1653,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1663,7 +1663,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
