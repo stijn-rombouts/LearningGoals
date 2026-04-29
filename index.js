@@ -294,16 +294,16 @@ function openModel(number, data) {
 
   let processedData = data;
 
-  // Convert URLs to clickable links (excluding images)
-  const urlRegex = /(https?:\/\/[^\s,<>\"]+)/g;
-  processedData = processedData.replace(urlRegex, (url) => {
+  // Convert URLs to clickable links (excluding images and existing tags)
+  processedData = processedData.replace(/(<[a-z][^>]*>)|(https?:\/\/[^\s,<>\'\"]+)/gi, (match, tag, url) => {
+    if (tag) return tag;
     if (/\.(png|jpg|jpeg|gif|svg)$/i.test(url)) return url;
     return `<a href="${url}" target="_blank" class="text-blue-600 hover:underline break-all">${url}</a>`;
   });
 
-  // Convert image paths/URLs to img tags
-  const imageRegex = /([^ \s,<>\"]+\.(png|jpg|jpeg|gif|svg))/gi;
-  processedData = processedData.replace(imageRegex, (img) => {
+  // Convert image paths/URLs to img tags (excluding existing tags)
+  processedData = processedData.replace(/(<[a-z][^>]*>)|([^ \s,<>\'\"]+\.(png|jpg|jpeg|gif|svg))/gi, (match, tag, img) => {
+    if (tag) return tag;
     return `<img src="${img}" class="max-w-full h-auto rounded shadow-lg mt-4" alt="Evidence ${number}">`;
   });
 
