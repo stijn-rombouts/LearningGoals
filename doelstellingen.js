@@ -951,9 +951,9 @@ const doelstellingen = {
       ],
       "status": "td",
       "verified": "",
-      "project": "",
+      "project": "Alumni Avond",
       "subject": "DI",
-      "bewijs": ""
+      "bewijs": "Alumni Avond 28/04/2026"
     }
   },
   "6 Cloud": {
