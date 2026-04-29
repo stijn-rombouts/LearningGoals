@@ -3,6 +3,7 @@ const states = {
   "td": { label: "To Do" },
   "tm": { label: "Todo: Mandatory subject", color: "odd:bg-[#818cf8]/20 even:bg-[#818cf8]/30 hover:bg-[#818cf8]/40 text-black" },
   "ip": { label: "In Progress", color: "odd:bg-[#ffc240]/30 even:bg-[#ffc240]/40 hover:bg-[#ffc240]/50 text-black" },
+  "at": { label: "Attending subject", color: "odd:bg-[#f472b6]/20 even:bg-[#f472b6]/30 hover:bg-[#f472b6]/40 text-black" },
   "d": { label: "Done", color: "odd:bg-[#40ff80]/30 even:bg-[#40ff80]/40 hover:bg-[#40ff80]/50 text-black" },
 };
 
@@ -101,6 +102,7 @@ function generate() {
   let countDone = 0;
   let countInProgress = 0;
   let countVerified = 0;
+  let countAttending = 0;
   for (const [k, v] of Object.entries(states)) { k == "n" ? statesSelect.innerHTML += `<option value="${k}" selected>${v["label"]}</option>` : statesSelect.innerHTML += `<option value="${k}">${v["label"]}</option>`; }
   let r = [];
   for (const [a, b] of Object.entries(doelstellingen)) {
@@ -127,6 +129,7 @@ function generate() {
         if (d["status"] == "ip") countInProgress++;
         if (d["status"] == "td") countTodo++;
         if (d["status"] == "tm") countMandatoryTodo++;
+        if (d["status"] == "at") countAttending++;
         if (d["verified"] != "" && d["status"] != "ip") countVerified++;
         color = states[d["status"]]["color"] || "odd:bg-white even:bg-gray-50 hover:bg-gray-100";
         if (d["status"] == "d" && d["verified"] != "") { color = "odd:bg-[#94b3ed]/30 even:bg-[#94b3ed]/40 hover:bg-[#94b3ed]/50 text-black" }
@@ -155,7 +158,7 @@ function generate() {
   }
   r.sort();
   if (r.includes("CCS") && r.includes("DI")) r.push("CCS & DI");
-  const total = countDone + countInProgress + countTodo + countVerified + countMandatoryTodo;
+  const total = countDone + countInProgress + countTodo + countVerified + countMandatoryTodo + countAttending;
   const done = countDone + countVerified;
   const data = {
     labels: [
@@ -163,17 +166,19 @@ function generate() {
       'Todo: Mandatory subject',
       'Done',
       'In Progress',
-      'Verified'
+      'Verified',
+      'Attending Subject'
     ],
     datasets: [{
       label: 'Count',
-      data: [countTodo, countMandatoryTodo, countDone, countInProgress, countVerified],
+      data: [countTodo, countMandatoryTodo, countDone, countInProgress, countVerified, countAttending],
       backgroundColor: [
         '#d1d5db',
         '#818cf8',
         '#10b981',
         '#FA6432',
-        '#7FC1E0FF'
+        '#7FC1E0FF',
+        '#f472b6'
       ],
       borderColor: '#ffffff',
       borderWidth: 3,
