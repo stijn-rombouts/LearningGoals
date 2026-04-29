@@ -27,7 +27,7 @@ function checkFilters() {
   // First pass: check if items pass the filter (don't apply accordion state yet)
   for (const tr of tableBody.children) {
     if (tr.children[0].tagName == "TH") continue;
-    
+
     let passesFilter = true;
     for (const td of tr.children) {
       if (!td.innerText.toLowerCase().includes(search.value.toLowerCase())) {
@@ -49,15 +49,15 @@ function checkFilters() {
         passesFilter = false;
       }
     };
-    
+
     // Store filter result as data attribute
     tr.dataset.passesFilter = passesFilter;
   }
-  
+
   // Second pass: hide category headers if all items are filtered out
   let currentHeader = null;
   let hasFilteredItems = false;
-  
+
   for (const tr of tableBody.children) {
     if (tr.children[0].tagName == "TH") {
       // If we have a previous header, update its visibility
@@ -74,19 +74,19 @@ function checkFilters() {
       }
     }
   }
-  
+
   // Handle the last category
   if (currentHeader) {
     currentHeader.style.display = hasFilteredItems ? "" : "none";
   }
-  
+
   // Third pass: apply display based on both filter and accordion state
   for (const tr of tableBody.children) {
     if (tr.children[0].tagName == "TH") continue;
-    
+
     const passesFilter = tr.dataset.passesFilter === "true";
     const isCollapsed = tr.classList.contains('accordion-collapsed');
-    
+
     // Show only if it passes filter AND is not collapsed by accordion
     tr.style.display = (passesFilter && !isCollapsed) ? "" : "none";
   }
@@ -248,10 +248,10 @@ function generate() {
   Chart.register(ChartDataLabels);
   new Chart(ctx, config);
   const defaultTrack = r.includes("CCS & DI") ? "CCS & DI" : "ALLES";
-  for (const v of r) { 
+  for (const v of r) {
     richtingenSelect.innerHTML += `<option value="${v}"${v === defaultTrack ? " selected" : ""}>${v}</option>`;
   }
-  
+
   // Add accordion functionality
   setupAccordion();
   checkFilters();
@@ -259,13 +259,13 @@ function generate() {
 
 function setupAccordion() {
   const headers = document.querySelectorAll('.category-header');
-  
+
   headers.forEach(header => {
     header.addEventListener('click', () => {
       const categoryId = header.dataset.category;
       const items = document.querySelectorAll(`.category-item[data-category="${categoryId}"]`);
       const icon = header.querySelector('.category-icon');
-      
+
       items.forEach(item => {
         if (item.classList.contains('accordion-collapsed')) {
           item.classList.remove('accordion-collapsed');
@@ -273,10 +273,10 @@ function setupAccordion() {
           item.classList.add('accordion-collapsed');
         }
       });
-      
+
       // Rotate icon
       icon.classList.toggle('rotate-180');
-      
+
       // After toggling, recheck filters to update visibility
       checkFilters();
     });
@@ -291,23 +291,22 @@ function openModel(number, data) {
   model.classList.remove("hidden");
   model.classList.add("flex");
   modelTitle.innerHTML = `Evidence ${number}`;
-  
+
   let processedData = data;
-  
-  // Check if data is an image path
-  const imageRegex = /([^ \s,]+\.(png|jpg|jpeg|gif|svg))/gi;
-  if (imageRegex.test(data)) {
-    processedData = data.replace(imageRegex, (img) => {
-      return `<img src="${img}" class="max-w-full h-auto rounded shadow-lg mt-4" alt="Evidence ${number}">`;
-    });
-  } else {
-    // Convert URLs to clickable links
-    const urlRegex = /(https?:\/\/[^\s,]+)/g;
-    processedData = data.replace(urlRegex, (url) => {
-      return `<a href="${url}" target="_blank" class="text-blue-600 hover:underline break-all">${url}</a>`;
-    });
-  }
-  
+
+  // Convert URLs to clickable links (excluding images)
+  const urlRegex = /(https?:\/\/[^\s,<>\"]+)/g;
+  processedData = processedData.replace(urlRegex, (url) => {
+    if (/\.(png|jpg|jpeg|gif|svg)$/i.test(url)) return url;
+    return `<a href="${url}" target="_blank" class="text-blue-600 hover:underline break-all">${url}</a>`;
+  });
+
+  // Convert image paths/URLs to img tags
+  const imageRegex = /([^ \s,<>\"]+\.(png|jpg|jpeg|gif|svg))/gi;
+  processedData = processedData.replace(imageRegex, (img) => {
+    return `<img src="${img}" class="max-w-full h-auto rounded shadow-lg mt-4" alt="Evidence ${number}">`;
+  });
+
   modelText.innerHTML = processedData;
   checkAccordions();
 }
