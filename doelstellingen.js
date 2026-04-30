@@ -517,7 +517,7 @@ const doelstellingen = {
       "status": "td",
       "verified": "",
       "project": "",
-      "subject": "IT Service Management - Fase 3",
+      "subject": "IT Governance - Fase 3",
       "bewijs": ""
     },
     "4.10 You enthuse others to go along with an innovation with a convincing business pitch.": {
