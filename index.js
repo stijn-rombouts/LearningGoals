@@ -1,9 +1,9 @@
 const states = {
   "n": { label: "No filter" },
-  "td": { label: "To Do" },
+  "td": { label: "To Do", color: "odd:bg-[#f87171]/20 even:bg-[#f87171]/30 hover:bg-[#f87171]/40 text-black" },
   "tm": { label: "Todo: Mandatory subject", color: "odd:bg-[#818cf8]/20 even:bg-[#818cf8]/30 hover:bg-[#818cf8]/40 text-black" },
   "ip": { label: "In Progress", color: "odd:bg-[#ffc240]/30 even:bg-[#ffc240]/40 hover:bg-[#ffc240]/50 text-black" },
-  "at": { label: "Attending subject", color: "odd:bg-[#f472b6]/20 even:bg-[#f472b6]/30 hover:bg-[#f472b6]/40 text-black" },
+  "at": { label: "Attending subject", color: "odd:bg-[#22d3ee]/20 even:bg-[#22d3ee]/30 hover:bg-[#22d3ee]/40 text-black" },
   "d": { label: "Done", color: "odd:bg-[#40ff80]/30 even:bg-[#40ff80]/40 hover:bg-[#40ff80]/50 text-black" },
 };
 
@@ -173,12 +173,12 @@ function generate() {
       label: 'Count',
       data: [countTodo, countMandatoryTodo, countDone, countInProgress, countVerified, countAttending],
       backgroundColor: [
-        '#d1d5db',
+        '#f87171',
         '#818cf8',
         '#10b981',
         '#FA6432',
         '#7FC1E0FF',
-        '#f472b6'
+        '#22d3ee'
       ],
       borderColor: '#ffffff',
       borderWidth: 3,
