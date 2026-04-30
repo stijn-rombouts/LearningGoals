@@ -2536,7 +2536,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "Student/lecturer VPN to datacenter",
+      "project": "VPN to datacenter",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
