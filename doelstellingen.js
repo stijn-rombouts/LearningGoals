@@ -1673,7 +1673,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
