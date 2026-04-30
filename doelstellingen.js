@@ -498,17 +498,6 @@ const doelstellingen = {
       "subject": "",
       "bewijs": ""
     },
-    "4.8 Together with your peers, you analyse a business process (sales, procurment, on-boarding…), visualise it in BPMN and propose possible improvements to increase its efficiency and effectiveness. ": {
-      "type": [
-        "APP", "AI",
-        "CCS"
-      ],
-      "status": "td",
-      "verified": "",
-      "project": "",
-      "subject": "IT Service Management - Fase 3",
-      "bewijs": ""
-    },
     "4.9 You demonstrate the ability to integrate ITIL best practices into a practical software maintenance workflow, ensuring service quality, stability and controlled delivery of system updates. ": {
       "type": [
         "APP", "AI",
