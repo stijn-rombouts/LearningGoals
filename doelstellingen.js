@@ -747,7 +747,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "tm",
+      "status": "td",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -757,7 +757,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "tm",
+      "status": "td",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -767,7 +767,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "tm",
+      "status": "td",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
@@ -777,7 +777,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "tm",
+      "status": "td",
       "verified": "",
       "project": "",
       "subject": "Communication Skills 3 - Fase 3",
