@@ -1538,16 +1538,6 @@ const doelstellingen = {
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
-    "9.11 You manage and optimize a corporate network, including detecting and resolving issues.": {
-      "type": [
-        "CCS"
-      ],
-      "status": "ip",
-      "verified": "",
-      "project": "Datacenter stuff",
-      "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
-    },
     "9.12 You master the basic principles of network virtualization.": {
       "type": [
         "CCS"
