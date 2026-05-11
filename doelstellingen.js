@@ -1514,7 +1514,7 @@ const doelstellingen = {
       ],
       "status": "ip",
       "verified": "",
-      "project": "Datacenter stuff / VPN",
+      "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1524,7 +1524,7 @@ const doelstellingen = {
       ],
       "status": "ip",
       "verified": "",
-      "project": "Datacenter stuff / VPN",
+      "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1532,9 +1532,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
@@ -1544,7 +1544,7 @@ const doelstellingen = {
       ],
       "status": "ip",
       "verified": "",
-      "project": "Openstack (neutron) / Proxmox SDN",
+      "project": "Datacenter stuff (Openstack (neutron) / Proxmox SDN)",
       "subject": "Networking Advanced - Fase 2",
       "bewijs": ""
     },
