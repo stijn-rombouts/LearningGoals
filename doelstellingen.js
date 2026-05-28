@@ -1000,31 +1000,133 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "AWS Academy - Cloud Foundations",
       "subject": "Cloud Platforms - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>A. Leerdoel behaald via een cursus/certificaat</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Cursusbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Succesvol afronden van de <strong>AWS Academy Graduate - Cloud Foundations</strong> cursus. Deze cursus focust op het ontwerpen en implementeren van veilige cloudoplossingen, inclusief Identity and Access Management (IAM), netwerkbeveiliging (VPCs, Security Groups) en data-encryptie binnen het AWS ecosysteem.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Details</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>Aantal uur:</strong> 20 uur</li>
+                <li><strong>Uitgiftedatum:</strong> 11/07/2025</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Certificaat & Badge</h3>
+              <div class='flex flex-wrap gap-3 mb-4'>
+                <a href='https://www.credly.com/go/OY1PjnWC' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z'/>
+                  </svg>
+                  Credly Digital Badge
+                </a>
+              </div>
+              <img src='assets/6-6.png' class='max-w-full h-auto rounded-lg shadow-lg border mt-4' alt='AWS Academy Certificate'>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "6.7 You install, configure, secure and maintain cloud solutions.": {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "AWS Academy - Cloud Foundations",
       "subject": "Cloud Platforms - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>A. Leerdoel behaald via een cursus/certificaat</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Cursusbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Succesvol afronden van de <strong>AWS Academy Graduate - Cloud Foundations</strong> cursus. In deze cursus is hands-on ervaring opgedaan met het configureren, beveiligen en onderhouden van AWS resources zoals EC2 instances, S3 storage buckets, RDS databases en Autoscaling.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Details</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>Aantal uur:</strong> 20 uur</li>
+                <li><strong>Uitgiftedatum:</strong> 11/07/2025</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Certificaat & Badge</h3>
+              <div class='flex flex-wrap gap-3 mb-4'>
+                <a href='https://www.credly.com/go/OY1PjnWC' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z'/>
+                  </svg>
+                  Credly Digital Badge
+                </a>
+              </div>
+              <img src='assets/6-7.png' class='max-w-full h-auto rounded-lg shadow-lg border mt-4' alt='AWS Academy Certificate'>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "6.8 You describe the distinction between different cloud concepts and cloud service models.": {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "OpenStack (DI-Hosting)",
       "subject": "Cloud Platforms - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Vergelijking van OpenStack services met services van diverse andere cloud platformen binnen het DI-Hosting project.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li>Een uitgebreide vergelijking opgesteld tussen OpenStack-diensten en die van andere cloudproviders om de verschillen in cloudconcepten en servicemodellen te verduidelijken.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/rancher-harvester/-/blob/main/OPENSTACK-COMPARE.md?ref_type=heads' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                  </svg>
+                  GitLab: OpenStack Comparison
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     }
   },
   "7 Data": {
