@@ -1001,7 +1001,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "AWS Academy - Cloud Foundations",
       "subject": "Cloud Platforms - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1044,7 +1044,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "AWS Academy - Cloud Foundations",
       "subject": "Cloud Platforms - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1087,7 +1087,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "OpenStack (DI-Hosting)",
       "subject": "Cloud Platforms - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1227,7 +1227,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Orangepi K3S Cluster / DI-Hosting",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1273,7 +1273,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Orangepi K3S / DI-Hosting / Openstack / DI-Datacenter stuff",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1319,7 +1319,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "IP Terminals",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1411,7 +1411,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Orangepi K3S (autoscaling)",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1457,7 +1457,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "UAnt Arcadekast Docker / Trackmore",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -2212,7 +2212,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Orangepi Kubernetes (ansible)",
       "subject": "Linux Network Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
