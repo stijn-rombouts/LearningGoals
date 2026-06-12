@@ -1,0 +1,56 @@
+Cloud engineering:
+{
+"nl": "Je automatiseert en orchestreert cloud resources en ook fysieke netwerk- en infrastructuurcomponenten met behulp van CI/CD-pipelines.",
+"en": "You automate and orchestrate cloud resources as well as physical network and infrastructure components using CI/CD pipelines."
+{
+"nl": "Je herkent en benoemt de termen die relevant zijn binnen de wereld van DevOps, automatische deploymentstrategieën en Infrastructure-as-Code.",
+"en": "You identify and explain key terms related to DevOps, automated deployment strategies, and Infrastructure-as-Code."
+{
+"nl": "Je past in teamverband reeds opgedane kennis en vaardigheden toe op nieuwe technologieën, producten en domeinen.",
+"en": "You collaborate in a team to apply existing knowledge and skills to new technologies, products, and domains."
+{
+"nl": "Je ontwikkelt scripts die veilig verbinden naar en data uitwisselen met API-services.",
+"en": "You develop scripts that securely connect to and exchange data with API services."
+{
+"nl": "Je gebruikt automatiseringstools om netwerken, applicaties en securitytechnologieën uit te rollen, te configureren en te beheren door middel van Infrastructure-as-Code.",
+"en": "You use automation tools to deploy, configure, and manage networks, applications, and security technologies using Infrastructure-as-Code."
+ 
+Cloud automation & Defence:
+{
+"nl": "Je implementeert geavanceerde cloud security-concepten zoals Secrets Management, Container Security en DevSecOps om de vertrouwelijkheid, integriteit en beschikbaarheid van cloudomgevingen te waarborgen.",
+"en": "You implement advanced cloud security concepts such as Secrets Management, Container Security, and DevSecOps to ensure the confidentiality, integrity, and availability of cloud environments."
+{
+"nl": "Je optimaliseert de schaalbaarheid, zichtbaarheid en prestaties van cloudinfrastructuren door monitoring, logging en security observability strategieën toe te passen.",
+"en": "You optimize the scalability, visibility, and performance of cloud infrastructures by applying monitoring, logging, and security observability strategies."
+{
+"nl": "Je beveiligt en automatiseert cloud-native applicaties door middel van CI/CD-integratie, Kubernetes Security en Cloud-Native Application Protection Platforms (CNAPP).",
+"en": "You secure and automate cloud-native applications through CI/CD integration, Kubernetes Security, and Cloud-Native Application Protection Platforms (CNAPP)."
+ 
+Cyber Security & Security Operations:
+{
+"nl": "Je herkent en begrijpt verschillende bedreigingen voor IT-systemen en kunt ze in actie zien, ontdekken én toepassen binnen een realistische cyberaanval. ",
+"en": "You identify and leverage various IT threats, applying them in a real-world cyberattack."
+{
+"nl": "Je voert een ethische pentest/security audit uit volgens professionele frameworks, gemaakte afspraken en best practices.",
+"en": "You conduct an ethical pentest/security audit in compliance with professional frameworks, agreements, and best practices."
+{
+"nl": "Je analyseert en classificeert ontdekte kwetsbaarheden en formuleert gerichte aanbevelingen op basis van erkende frameworks.",
+"en": "You analyze and classify detected vulnerabilities, providing actionable recommendations based on recognized frameworks."
+{
+"nl": " Je integreert verschillende beveiligingstechnologieën in een zelfgebouwd Security Operation Center (SOC), test de werking en optimaliseert op basis van resultaten.",
+"en": "You integrate multiple security technologies into a self-designed Security Operation Center (SOC), testing and refining its performance."
+{
+"nl": "Je gebruikt incidentanalyse-tools en security playbooks om cyberaanvallen te onderzoeken en adequaat te reageren.",
+"en": "You utilize incident analysis tools and security playbooks to investigate and respond to cyberattacks."
+ 
+IT Governance:
+{
+"nl": "Je kan IT-processen in een eerste fase herkennen en daarna in een tweede fase schematisch weergeven volgens het referentiekader  “Information Technology Infrastructure Library” (ITIL).",
+"en": "You can recognize IT processes in a first phase and then schematically represent them in a second phase according to the reference framework "Information Technology Infrastructure Library" (ITIL)."
+{
+"nl": "Je kan binnen een reële businesscontext de scope van een IT-bedrijfsproces beschrijven, schematisch weergeven, en knelpunten afleiden volgens de best practices en concepten van ITIL.. Je kan business en IT in verband brengen met elkaar.",
+"en": "You can describe the scope of an IT business process within a real business context, show it schematically, and derive bottlenecks according to the best practices and concepts of ITIL. You can connect business and IT."
+{
+"nl": "Je kan de aangeleerde methodieken uitzoeken, kiezen en hanteren in een samenvatting.",
+"en": "You can select, choose and use the learned methodologies in a summary."
+ 

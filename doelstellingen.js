@@ -2768,5 +2768,173 @@ const doelstellingen = {
       "subject": "Wireless Networks - Fase 3",
       "bewijs": ""
     }
+  },
+  "12 Extra learning goals Cloud Engineering": {
+    "12.1 You automate and orchestrate cloud resources as well as physical network and infrastructure components using CI/CD pipelines.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Engineering - Fase 3",
+      "bewijs": ""
+    },
+    "12.2 You identify and explain key terms related to DevOps, automated deployment strategies, and Infrastructure-as-Code.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Engineering - Fase 3",
+      "bewijs": ""
+    },
+    "12.3 You collaborate in a team to apply existing knowledge and skills to new technologies, products, and domains.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Engineering - Fase 3",
+      "bewijs": ""
+    },
+    "12.4 You develop scripts that securely connect to and exchange data with API services.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Engineering - Fase 3",
+      "bewijs": ""
+    },
+    "12.5 You use automation tools to deploy, configure, and manage networks, applications, and security technologies using Infrastructure-as-Code.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Engineering - Fase 3",
+      "bewijs": ""
+    }
+  },
+  "13 Extra learning goals Cloud Automation & Defence": {
+    "13.1 You implement advanced cloud security concepts such as Secrets Management, Container Security, and DevSecOps to ensure the confidentiality, integrity, and availability of cloud environments.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Automation & Defence - Fase 3",
+      "bewijs": ""
+    },
+    "13.2 You optimize the scalability, visibility, and performance of cloud infrastructures by applying monitoring, logging, and security observability strategies.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Automation & Defence - Fase 3",
+      "bewijs": ""
+    },
+    "13.3 You secure and automate cloud-native applications through CI/CD integration, Kubernetes Security, and Cloud-Native Application Protection Platforms (CNAPP).": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cloud Automation & Defence - Fase 3",
+      "bewijs": ""
+    }
+  },
+  "14 Extra learning goals Cyber Security & Security Operations": {
+    "14.1 You identify and leverage various IT threats, applying them in a real-world cyberattack.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cyber Security & Security Operations - Fase 3",
+      "bewijs": ""
+    },
+    "14.2 You conduct an ethical pentest/security audit in compliance with professional frameworks, agreements, and best practices.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cyber Security & Security Operations - Fase 3",
+      "bewijs": ""
+    },
+    "14.3 You analyze and classify detected vulnerabilities, providing actionable recommendations based on recognized frameworks.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cyber Security & Security Operations - Fase 3",
+      "bewijs": ""
+    },
+    "14.4 You integrate multiple security technologies into a self-designed Security Operation Center (SOC), testing and refining its performance.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cyber Security & Security Operations - Fase 3",
+      "bewijs": ""
+    },
+    "14.5 You utilize incident analysis tools and security playbooks to investigate and respond to cyberattacks.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "Cyber Security & Security Operations - Fase 3",
+      "bewijs": ""
+    }
+  },
+  "15 Extra learning goals IT Governance": {
+    "15.1 You can recognize IT processes in a first phase and then schematically represent them in a second phase according to the reference framework 'Information Technology Infrastructure Library' (ITIL).": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "IT Governance - Fase 3",
+      "bewijs": ""
+    },
+    "15.2 You can describe the scope of an IT business process within a real business context, show it schematically, and derive bottlenecks according to the best practices and concepts of ITIL. You can connect business and IT.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "IT Governance - Fase 3",
+      "bewijs": ""
+    },
+    "15.3 You can select, choose and use the learned methodologies in a summary.": {
+      "type": [
+        "CCS"
+      ],
+      "status": "td",
+      "verified": "",
+      "project": "",
+      "subject": "IT Governance - Fase 3",
+      "bewijs": ""
+    }
   }
 };
