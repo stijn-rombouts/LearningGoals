@@ -55,7 +55,7 @@ const doelstellingen = {
       "type": [
         "APP", "AI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
@@ -65,7 +65,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
@@ -536,7 +536,7 @@ const doelstellingen = {
         "CCS",
         "APPAI, DI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
@@ -547,7 +547,7 @@ const doelstellingen = {
         "CCS",
         "APPAI, DI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
@@ -557,7 +557,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
@@ -567,7 +567,7 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "tm",
+      "status": "d",
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
@@ -1512,7 +1512,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
@@ -1522,7 +1522,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
@@ -1532,7 +1532,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
@@ -2389,7 +2389,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
@@ -2399,7 +2399,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
@@ -2409,7 +2409,7 @@ const doelstellingen = {
       "type": [
         "APPAI, DI"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
