@@ -1654,7 +1654,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1664,7 +1664,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1674,7 +1674,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1684,7 +1684,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1694,7 +1694,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1704,7 +1704,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1714,7 +1714,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1724,7 +1724,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1734,7 +1734,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1744,7 +1744,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
@@ -1754,7 +1754,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "at",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
