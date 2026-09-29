@@ -8,7 +8,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "1.2 You identify and justify non-functional requirements for your project based on the ISO25010 quality model, ensuring that reliability and security are explicitly addressed. ": {
       "type": [
@@ -19,7 +19,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "1.3 You research and compare various software solutions and substantiate your best choice with strong arguments by using the Weighted Decision Matrix technique or an equivalent.": {
       "type": [
@@ -59,7 +59,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "1.7 You dissect stated requirements and choose the most appropriate technologies to meet those requirements": {
       "type": [
@@ -69,7 +69,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "1.8 You research and compare various solutions and substantiate your best choice with strong arguments by using the Weighted Decision Matrix technique or an equivalent.": {
       "type": [
@@ -79,7 +79,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "1.9 You compare different testing methods and select the most appropriate one for the given circumstances.": {
       "type": [
@@ -89,7 +89,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     }
   },
   "2 Artificial Intelligens": {
@@ -529,7 +529,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.2 You convey IT knowledge tailored to the audience's prior knowledge": {
       "type": [
@@ -540,7 +540,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.3 You present your online portfolio, according to your personal brand, to a limited audience": {
       "type": [
@@ -551,7 +551,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.4 You make an ethical analysis in an IT context, weighing up interests and weighing up values and norms that apply in society": {
       "type": [
@@ -561,7 +561,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.5 Research culturally relevant topics. Delve into current, social issues that affect your IT workplace. Consider how you can use technology to positively impact the world around you.": {
       "type": [
@@ -571,7 +571,7 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.6 Develop your ability to adapt to new situations, persuade others and negotiate successfully. These techniques will help you, as an IT professional, to collaborate with various stakeholders and achieve results.": {
       "type": [
@@ -581,7 +581,7 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.7 You actively participate in class discussions, activities and research assignments. This is how you improve your English language skills and upgrade your ability to communicate effectively in an international work environment.": {
       "type": [
@@ -591,7 +591,7 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.8 Conduct professional conversations with clients and understand their needs. Upon completion of a project, create a clear and structured final report with reliable sources so that you can always present your findings with conviction and confidence.": {
       "type": [
@@ -601,7 +601,7 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.9 Present your work in a compelling way. Whether you are in front of a small team or a large audience, you will present your work in a way that perfectly meets the needs of your audience. You will learn how to get your message across correctly and make an impact.": {
       "type": [
@@ -611,7 +611,7 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.10 You act efficiently, with perseverance and initiative, and carry out assignments ethically, creatively, deontologically, and socially responsibly, taking responsibility for the results.\"": {
       "type": [
@@ -882,7 +882,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "5.37 You use the scrum methodology to execute projects": {
       "type": [
@@ -954,7 +954,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "6.2 You master the principles of virtual networking and virtual storage, applying them in a cluster environment.": {
       "type": [
@@ -964,7 +964,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "6.3 You identify the components of a virtual machine, make them 'high available' and 'fault tolerant', and optimize an OS (Windows and Linux) for a virtualized environment.": {
       "type": [
@@ -974,7 +974,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "6.4 You combine servers and storage devices into your own fault-tolerant and highly available software-defined data center, integrate virtual storage and networks, and manage resources based on IT and business needs.": {
       "type": [
@@ -984,7 +984,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "6.5 You research and evaluate possible deployment scenarios for IT platforms based on requirements, both for on premise and in the cloud.": {
       "type": [
@@ -1506,7 +1506,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "8.8 You create an infrastructure design that integrates the technologies into a working solution": {
       "type": [
@@ -1516,7 +1516,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "8.9 You build an IT solution based on a design that meets customer expectations and according to system administration best practices": {
       "type": [
@@ -1526,7 +1526,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "8.10 You prepare and execute a test plan on the built solution": {
       "type": [
@@ -1536,7 +1536,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     }
   },
   "9 Infrastructure": {
@@ -1548,7 +1548,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.2 You define and troubleshoot the operation of DNS.": {
       "type": [
@@ -1558,7 +1558,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.3 You manage and automate Active Directory users and groups": {
       "type": [
@@ -1568,7 +1568,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.4 Je beheert en automatiseert Active Directory gebruikers en groepen": {
       "type": [
@@ -1578,7 +1578,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.5 You secure data with NTFS permissions and you secure systems with Group Policies.": {
       "type": [
@@ -1588,7 +1588,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.6 You install, configure and distribute certificates with a Certificate Authority and use them forTLS and IPSEC": {
       "type": [
@@ -1598,7 +1598,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.7 You will apply the technologies learned in a real-world case study": {
       "type": [
@@ -1608,7 +1608,7 @@ const doelstellingen = {
       "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Essentials - Fase 2",
-      "bewijs": "assets/2DI-semester1.png"
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.8 You master the basic principles of networking.": {
       "type": [
@@ -1618,7 +1618,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.9 You build and configure a corporate network with routers, switches, and current protocols.": {
       "type": [
@@ -1628,7 +1628,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.10 You identify threats to a corporate network and apply standardized security methods to protect it.": {
       "type": [
@@ -1638,7 +1638,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.12 You master the basic principles of network virtualization.": {
       "type": [
@@ -1648,7 +1648,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff (Openstack (neutron) / Proxmox SDN)",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.13 You configure, install, and secure on-premise mail servers.": {
       "type": [
@@ -1658,7 +1658,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.14 You evaluate opportunities to integrate a mail environment with a hybrid cloud solution.": {
       "type": [
@@ -1668,7 +1668,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.15 You evaluate opportunities to integrate a BYOD environment with a hybrid cloud solution (Azure Intune).": {
       "type": [
@@ -1678,7 +1678,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.16 You install and configure a Windows Server Active Directory environment tailored to the characteristics and requirements of a multinational global enterprise.": {
       "type": [
@@ -1688,7 +1688,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.17 You define and troubleshoot the operation of DNS in a multi-domain environment.": {
       "type": [
@@ -1698,7 +1698,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.18 You manage Active Directory replication.": {
       "type": [
@@ -1708,7 +1708,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.19 You create trusts and manage data access across trust boundaries.": {
       "type": [
@@ -1718,7 +1718,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.20 You install, configure, and manage a forest with a child domain.": {
       "type": [
@@ -1728,7 +1728,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.21 You manage FSMO roles.": {
       "type": [
@@ -1738,7 +1738,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.22 You install, configure, and manage VPN connections with an RRAS server.": {
       "type": [
@@ -1748,7 +1748,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.23 You configure and manage mail security en Azure infrastructure services": {
       "type": [
@@ -1758,7 +1758,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "9.24 The student installs/configures/manages Linux network services found in an (inter)network environment.": {
       "type": [
@@ -2393,7 +2393,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "10.11 You build a proof of concept, based on the design, that meets the client's expectations": {
       "type": [
@@ -2403,7 +2403,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "10.12 You build a proof of concept according to the imposed best practices and technical specifications": {
       "type": [
@@ -2413,7 +2413,7 @@ const doelstellingen = {
       "verified": "",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
-      "bewijs": ""
+      "bewijs": "assets/kuloket-jaar2.png"
     },
     "10.13 You develop a cross-platform mobile application in accordance with platform-specific design guidelines and best practices.": {
       "type": [
