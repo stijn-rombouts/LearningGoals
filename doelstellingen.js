@@ -2826,7 +2826,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Cloud Automation & Defence - Fase 3",
@@ -2836,7 +2836,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Cloud Automation & Defence - Fase 3",
@@ -2846,7 +2846,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "at",
       "verified": "",
       "project": "",
       "subject": "Cloud Automation & Defence - Fase 3",
