@@ -1618,7 +1618,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": ""
     },
     "9.9 You build and configure a corporate network with routers, switches, and current protocols.": {
       "type": [
@@ -1628,7 +1628,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": ""
     },
     "9.10 You identify threats to a corporate network and apply standardized security methods to protect it.": {
       "type": [
@@ -1638,7 +1638,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": ""
     },
     "9.12 You master the basic principles of network virtualization.": {
       "type": [
@@ -1648,7 +1648,7 @@ const doelstellingen = {
       "verified": "",
       "project": "Datacenter stuff (Openstack (neutron) / Proxmox SDN)",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": ""
     },
     "9.13 You configure, install, and secure on-premise mail servers.": {
       "type": [
