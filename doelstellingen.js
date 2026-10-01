@@ -1679,11 +1679,310 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
       "project": "Erik Thijs: Phising simulatie naar studenten. Vergelijken M365 en andere (gratis) oplossingen",
       "subject": "Cloud Platforms - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Voor <strong>Thomas More ICTS</strong> (in opdracht van Erik Thijs) is een diepgaand onderzoek uitgevoerd naar het opzetten en implementeren van phishing-simulaties specifiek gericht op <strong>studenten</strong>. Terwijl Thomas More voor medewerkers al een commerciële cloudoplossing gebruikt, bestond de behoefte om haalbare, schaalbare en kostenefficiënte scenario's te onderzoeken voor tienduizenden studenten.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                De kern van de opdracht was het onderzoeken, hands-on testen en evalueren van verschillende IT-platformen en deployment scenario's: van <strong>on-premise</strong> (self-hosted open source via containers) tot <strong>cloud-native in-tenant</strong> (Microsoft 365 Defender) en gespecialiseerde <strong>Cloud SaaS</strong>-platformen (CanIPhish en Wizer).
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Gedefinieerde Requirements & Randvoorwaarden</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de mogelijke deployment scenario's te toetsen en te rangschikken, zijn vooraf concrete functionele, technische en operationele criteria vastgelegd:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Schaalbaarheid & Volume:</strong> Geschikt voor tienduizenden studenten zonder dat het platform vastloopt of per student intensieve handmatige administratie vergt.</li>
+                <li><strong>Identity & User Management:</strong> Directe integratie met Microsoft Entra ID (Azure AD), dynamische groepen of SCIM 2.0 provisioning om studentenlijsten automatisch up-to-date te houden en Single Sign-On (SSO) te faciliteren.</li>
+                <li><strong>E-mail Delivery & Bypass van Filters:</strong> Garanderen dat gesimuleerde phishing-mails daadwerkelijk in de primaire inbox van studenten aankomen zonder te worden tegengehouden door Exchange Online Protection (EOP) of spamfilters (voorkeur voor Direct Email Injection via Graph API vs. complexe SMTP whitelisting).</li>
+                <li><strong>Educatieve Opvolging (Teachable Moments):</strong> Mogelijkheid om direct gerichte educatieve video's of trainingsmodules te koppelen aan gebruikersinteractie (bv. specifiek triggeren bij een credential compromise of linkklik).</li>
+                <li><strong>Licentiekost & TCO (Total Cost of Ownership):</strong> Zoeken naar een haalbare oplossing binnen het onderwijsbudget, gezien studentenlicenties (bv. Microsoft 365 A1/A3) niet standaard over geavanceerde security testing suites beschikken.</li>
+                <li><strong>Onderhouds- en Beheerlast:</strong> Minimale infrastructurele overhead voor het centrale ICTS-team (geen zwaar serverbeheer, mail relay patching of handmatig databeheer).</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Onderzochte Deployment Scenario's & Platformen</h3>
+              <div class='space-y-4'>
+                <div class='bg-white p-4 rounded-lg border border-gray-200'>
+                  <h4 class='font-bold text-gray-800 mb-1'>1. On-Premise / Self-Hosted: GoPhish (Docker)</h4>
+                  <p class='text-gray-700 leading-relaxed text-sm mb-2'>
+                    <strong>Architectuur:</strong> Zelf-gehoste open-source container via Docker (admin panel op HTTPS 3333, phishing landing pages op HTTP/HTTPS 80/443).
+                  </p>
+                  <p class='text-gray-700 leading-relaxed text-sm mb-2'>
+                    <strong>Evaluatie tegen requirements:</strong> Biedt volledige data-soevereiniteit en kent geen softwarelicentiekosten. Echter ontbreekt native integratie met Microsoft Entra ID, waardoor duizenden studenten manueel of via zelfontwikkelde Graph API scripts moeten worden ingeladen. Bovendien vereist GoPhish een externe SMTP-relay (met complexe SPF/DKIM/DMARC whitelisting in Exchange Online) en ondersteunt het geen Direct Email Injection.
+                  </p>
+                  <p class='text-gray-700 leading-relaxed text-sm'>
+                    <em>Cloud-variant (HailBytes SAT):</em> Biedt pre-configured VM-deployment via Azure/AWS Marketplace met SCIM 2.0 en SSO, maar behoudt de noodzaak voor een eigen SMTP-infrastructuur.
+                  </p>
+                </div>
+
+                <div class='bg-white p-4 rounded-lg border border-gray-200'>
+                  <h4 class='font-bold text-gray-800 mb-1'>2. Cloud-Native In-Tenant: Microsoft 365 Defender (Attack Simulation Training)</h4>
+                  <p class='text-gray-700 leading-relaxed text-sm mb-2'>
+                    <strong>Architectuur:</strong> Volledig geïntegreerd in de bestaande Microsoft 365 cloud tenant via het Microsoft Defender Security Portal (<code>security.microsoft.com</code>).
+                  </p>
+                  <p class='text-gray-700 leading-relaxed text-sm'>
+                    <strong>Evaluatie tegen requirements:</strong> Technisch de meest naadloze oplossing: directe targeting op Entra ID groepen, geen noodzaak voor externe whitelisting (gebruik van officiële Microsoft simulatie-domeinen), en geautomatiseerde trainingen met configureerbare triggers (bv. toewijzen bij 'Compromised'). Grootste struikelblok is echter het <strong>licentiemodel</strong>: studentenaccounts hebben standaard A1/A3-licenties, terwijl Attack Simulation Training een Defender for Office 365 Plan 2 of M365 A5-licentie vereist, wat een forse budgettaire meerkost met zich meebrengt voor grote studentenaantallen.
+                  </p>
+                </div>
+
+                <div class='bg-white p-4 rounded-lg border border-gray-200'>
+                  <h4 class='font-bold text-gray-800 mb-1'>3. Dedicated Cloud SaaS: CanIPhish & Wizer</h4>
+                  <p class='text-gray-700 leading-relaxed text-sm mb-2'>
+                    <strong>Architectuur:</strong> Externe gespecialiseerde Cloud SaaS-omgevingen met API-koppelingen naar Microsoft 365.
+                  </p>
+                  <p class='text-gray-700 leading-relaxed text-sm mb-2'>
+                    <strong>CanIPhish:</strong> Ondersteunt <strong>Direct Email Injection (DEI)</strong> via de Microsoft Graph API (waarbij mails rechtstreeks in de mailbox worden geïnjecteerd zonder door de mail filtering pipeline te gaan) en geautomatiseerde Entra ID directory synchronisatie. Biedt flexibele targeting, adaptieve leermodules en schaalbare volume-prijzen (community tier tot 10 gebruikers, schaalbaar vanaf ca. €0,42/gebruiker/maand).
+                  </p>
+                  <p class='text-gray-700 leading-relaxed text-sm'>
+                    <strong>Wizer:</strong> Richt zich op korte, story-based video's met SCIM user provisioning en Azure SSO. Ondersteunt eveneens Direct Email Delivery. Echter vereist Wizer een initiële registratielink / SSO-aanmelding van de student voordat een simulatie kan worden verzonden, wat een hoge operationele drempel opwerpt voor studentenbrede campagnes.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Vergelijkende Evaluatiematrix</h3>
+              <div class='overflow-x-auto'>
+                <table class='min-w-full text-xs text-left text-gray-700 border border-gray-300 rounded-lg overflow-hidden'>
+                  <thead class='bg-gray-100 text-gray-800 font-semibold border-b'>
+                    <tr>
+                      <th class='p-3'>Platform</th>
+                      <th class='p-3'>Deployment Model</th>
+                      <th class='p-3'>Identity / Entra ID Sync</th>
+                      <th class='p-3'>E-mail Aflevering</th>
+                      <th class='p-3'>Licentiekost / TCO</th>
+                      <th class='p-3'>Beheersoverhead</th>
+                      <th class='p-3'>Geschiktheid voor TM Studenten</th>
+                    </tr>
+                  </thead>
+                  <tbody class='divide-y divide-gray-200 bg-white'>
+                    <tr>
+                      <td class='p-3 font-semibold'>GoPhish</td>
+                      <td class='p-3'>On-Premise (Docker / VM)</td>
+                      <td class='p-3 text-red-600'>Geen (manueel of custom API script)</td>
+                      <td class='p-3'>Klassieke SMTP relay (whitelisting vereist)</td>
+                      <td class='p-3 text-green-600'>Gratis (open source, enkel hosting)</td>
+                      <td class='p-3 text-red-600'>Hoog (server, updates, mail server beheer)</td>
+                      <td class='p-3 font-medium text-amber-700'>Laag (te veel handmatig beheer)</td>
+                    </tr>
+                    <tr>
+                      <td class='p-3 font-semibold'>HailBytes SAT</td>
+                      <td class='p-3'>Cloud Marketplace (Azure / AWS VM)</td>
+                      <td class='p-3 text-green-600'>SCIM 2.0 & Azure SSO</td>
+                      <td class='p-3'>Klassieke SMTP relay (whitelisting vereist)</td>
+                      <td class='p-3 text-amber-600'>VM hosting + HailBytes licentie</td>
+                      <td class='p-3 text-amber-600'>Gemiddeld (VM beheer, aparte SMTP)</td>
+                      <td class='p-3 font-medium text-amber-700'>Gemiddeld (SMTP blijft bottleneck)</td>
+                    </tr>
+                    <tr>
+                      <td class='p-3 font-semibold'>Microsoft 365 Defender</td>
+                      <td class='p-3'>Cloud Native (In-Tenant SaaS)</td>
+                      <td class='p-3 text-green-600'>Native Entra ID (real-time groepen)</td>
+                      <td class='p-3 text-green-600'>Native in-tenant (officiële testdomeinen)</td>
+                      <td class='p-3 text-red-600'>Hoog (vereist MDO Plan 2 / A5 per student)</td>
+                      <td class='p-3 text-green-600'>Zeer laag (geïntegreerd in admin portal)</td>
+                      <td class='p-3 font-medium text-blue-700'>Technisch ideaal, budgettair vaak te duur</td>
+                    </tr>
+                    <tr>
+                      <td class='p-3 font-semibold'>Wizer</td>
+                      <td class='p-3'>Cloud SaaS</td>
+                      <td class='p-3 text-green-600'>SCIM provisioning & Azure SSO</td>
+                      <td class='p-3 text-green-600'>Direct Email Injection (Graph API)</td>
+                      <td class='p-3 text-amber-600'>Gratis tot 100 users, daarna volume licenties</td>
+                      <td class='p-3 text-amber-600'>Gemiddeld (vereist initiële student SSO-activatie)</td>
+                      <td class='p-3 font-medium text-amber-700'>Gemiddeld (activatiedrempel voor studenten)</td>
+                    </tr>
+                    <tr class='bg-blue-50/50'>
+                      <td class='p-3 font-semibold text-blue-900'>CanIPhish</td>
+                      <td class='p-3'>Cloud SaaS</td>
+                      <td class='p-3 text-green-600'>Entra ID Directory Sync (Group import)</td>
+                      <td class='p-3 text-green-600'>Direct Email Injection (Graph API)</td>
+                      <td class='p-3 text-green-600'>Gratis community tier (10 users), scherpe staffelprijs</td>
+                      <td class='p-3 text-green-600'>Laag (geen whitelisting, snelle onboarding)</td>
+                      <td class='p-3 font-medium text-green-700 font-bold'>Hoog (beste balans cost / ease of use)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Conclusie & Advies voor Thomas More ICTS</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Op basis van het onderzoek en de praktijktesten kunnen we duidelijke conclusies trekken voor de inzet van een phishing-simulatieplatform voor studenten:
+              </p>
+              <ol class='list-decimal ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>On-premise GoPhish</strong> is uitstekend voor security-teams die volledige controle willen over individuele campagnes, maar is <em>ongeschikt</em> voor studentenbrede uitrol vanwege het ontbreken van geautomatiseerde Entra ID-synchronisatie en de lastige configuratie van een eigen mailserver om te voorkomen dat testmails in de spamfilter belanden.</li>
+                <li><strong>Microsoft 365 Defender Attack Simulation Training</strong> is qua techniek en gebruikerservaring de superieure keuze omdat het rechtstreeks in de bestaande studententenant functioneert. De doorslaggevende factor is hier licentietechnisch: als Thomas More bereid is studentenlicenties te upgraden naar MDO Plan 2 / M365 A5, is dit de aanbevolen route.</li>
+                <li><strong>Cloud SaaS met Direct Email Injection (CanIPhish)</strong> vormt het meest levensvatbare en kostenefficiënte alternatief. Het omzeilt zowel de mail filtering problemen (via Graph API) als de beheerslast van lokale servers, synchroniseert direct met studentengroepen uit Entra ID en vereist geen voorafgaande interactie van studenten.</li>
+              </ol>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Broncode</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2526-ICTS-001-Phishing-simulation' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: 2526-ICTS-001-Phishing-simulation
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class='border-t pt-6'>
+          <p class='text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4'>Gedetailleerde technische evaluaties & bewijzen</p>
+          <div class='space-y-4'>
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>Microsoft 365 Defender — Attack Simulation Training (Cloud Native)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  Voor de evaluatie van Microsoft 365 Defender is een dedicated testomgeving ingericht via een Visual Studio Developer Subscription en een Microsoft 365 Developer Tenant. De rol <strong>Attack Simulation Administrator</strong> is toegekend en teststudent-accounts (zoals <code>teststudent1</code>) zijn aangemaakt.
+                </p>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  Er is een simulatie opgezet met de techniek <strong>Credential Harvest</strong> (payload: <em>Payroll work file sharing</em>). Hierbij is getest hoe het platform omgaat met linkkliks vs. daadwerkelijk inloggen, en hoe de automatische trainingstriggers functioneren.
+                </p>
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4'>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Campagne overzicht in M365 Defender Portal:</p>
+                    assets/6-5-m365-overview.png
+                  </div>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Geleverde simulatiemail aan teststudent:</p>
+                    assets/6-5-m365-email.png
+                  </div>
+                </div>
+                <p class='text-gray-700 leading-relaxed mt-4'>
+                  Zodra de teststudent de gegevens invoerde, werd het account direct geregistreerd als <strong>Compromised</strong> en werd geautomatiseerd de bijbehorende training toegewezen. De integratie werkt vlekkeloos en zonder mail filtering issues binnen het M365-ecosysteem.
+                </p>
+                assets/6-5-m365-compromised.png
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>GoPhish & HailBytes SAT — On-Premise Docker vs Cloud Marketplace</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  GoPhish is lokaal gedeployed met Docker via <code>docker run -d --name gophish -p 3333:3333 -p 80:80 -p 443:443 gophish/gophish</code>. Uit het onderzoek bleek dat hoewel de software krachtig en gratis is, twee zware knelpunten grootschalige inzet voor studenten verhinderen:
+                </p>
+                <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                  <li><strong>Handmatig gebruikersbeheer:</strong> Geen synchronisatie met Microsoft Entra ID; gebruikers moeten handmatig worden ingevoerd of via een maatwerk REST API script worden gesynchroniseerd.</li>
+                  <li><strong>SMTP-server vereiste:</strong> GoPhish fungeert louter als sending engine en vereist een eigen geconfigureerde SMTP relay met strenge SPF/DKIM afstemming.</li>
+                </ul>
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4'>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Manueel gebruikersbeheer in GoPhish:</p>
+                    assets/6-5-gophish-users.png
+                  </div>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Sending Profile configuratie (SMTP server vereist):</p>
+                    assets/6-5-gophish-smtp.png
+                  </div>
+                </div>
+                <p class='text-gray-700 leading-relaxed mt-4'>
+                  Als alternatief is <strong>HailBytes SAT</strong> onderzocht: een cloud-marketplace image van GoPhish (Azure/AWS) die SCIM 2.0 en SSO toevoegt, maar waarbij alsnog een externe SMTP-infrastructuur moet worden opgezet en onderhouden.
+                </p>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>CanIPhish — Cloud SaaS met Direct Email Injection (Graph API)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  CanIPhish is als Cloud SaaS geëvalueerd en getest. Een groot voordeel is de ondersteuning voor <strong>Microsoft 365 Direct Email Injection</strong>: via API-permissies op de Microsoft Graph API worden simulatiemails direct in de mailbox geplaatst, waardoor geen ingewikkelde transport rules of mail filter whitelists nodig zijn.
+                </p>
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4'>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Direct Email Injection configuratie via M365:</p>
+                    assets/6-5-caniphish-dei.png
+                  </div>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Automatische import van studentengroep uit Entra ID:</p>
+                    assets/6-5-caniphish-entra.png
+                  </div>
+                </div>
+                <p class='text-gray-700 leading-relaxed mt-4'>
+                  Gebruikers kunnen eenvoudig per groep (bv. 'Students') gesynchroniseerd worden vanuit Microsoft Entra ID. Na het doorlopen van een testcampagne toont het centrale dashboard direct realtime statistieken over interactie, doorklikpercentages en voltooide educatieve modules.
+                </p>
+                assets/6-5-caniphish-reporting.png
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>Wizer — Security Awareness Platform (SCIM & SSO)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  Wizer is geëvalueerd met focus op story-based awareness training en simulaties. Het platform ondersteunt Microsoft Direct Email Delivery (DED), Azure SSO en automatische SCIM provisioning vanuit Entra ID.
+                </p>
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4'>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>Direct Email Delivery configuratie:</p>
+                    assets/6-5-wizer-dei.png
+                  </div>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-600 mb-1'>SCIM gebruikersprovisioning via Entra ID:</p>
+                    assets/6-5-wizer-scim.png
+                  </div>
+                </div>
+                <p class='text-gray-700 leading-relaxed mt-4'>
+                  Een kritische bevinding tijdens de evaluatie was het <strong>registratieproces</strong>: gebruikers worden in Wizer pas als actief/simuleerbaar beschouwd nadat ze eenmalig via de SSO-enrollment link hebben ingelogd. Dit vormt voor een grote en passieve doelgroep zoals tienduizenden studenten een aanzienlijke operationele barrière in vergelijking met CanIPhish of Microsoft 365 Defender.
+                </p>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+          </div>
+        </div>
+      </div>`
     },
     "6.6 You design and develop secure implementations of cloud solutions with attention to agreements made.": {
       "type": [
