@@ -432,11 +432,70 @@ const doelstellingen = {
         "APP", "AI",
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Business Essentials - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Tijdens het BIP in Krems stond het thema <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em> centraal. We hebben vertrekkend vanuit reële maatschappelijke uitdagingen gezocht naar opportuniteiten waar AI daadwerkelijk meerwaarde kan creëren voor de eindgebruiker. Binnen de workshops rond <strong>business modeling en conceptvalidatie</strong> hebben we aannames getoetst, waardeproposities opgesteld en het concept iteratief gevalideerd op basis van feedback van docenten en peers. Zo werkten we van een initieel idee toe naar een levensvatbare en gevalideerde oplossing met de mens centraal.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "4.2 You elaborate the foundation of a good business plan using value proposition design and business model canvas.": {
       "type": [
@@ -513,11 +572,70 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Business Essentials - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Een cruciaal onderdeel van het programma was het overtuigen van stakeholders en een deskundige jury van onze AI-innovatie. Tijdens de workshops <strong>Pitching en presentatievaardigheden</strong> leerden we hoe je een innovatief businessconcept helder structureert en met overtuiging overbrengt met behulp van een sterke waardepropositie, probleemstelling en storytelling. Aan het einde van de week hebben we met ons team een overtuigende business pitch gehouden voor een internationale jury en publiek, waarbij we hen enthousiast wisten te maken over de haalbaarheid en impact van onze innovatie.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     }
   },
   "5 Soft skills": {
@@ -571,7 +689,75 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+        <div class='border-t pt-4'>
+          <div class='accordion-item border rounded-lg overflow-hidden'>
+            <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+              <div class='flex items-center gap-3'>
+                <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                <span class='font-semibold'>Bewijs van deelname</span>
+              </div>
+              <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </div>
+            <div class='toggle hidden p-4 border-t bg-white'>
+              assets/kuloket-jaar2.png
+            </div>
+            <div class='line hidden h-1 bg-blue-600'></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>`
     },
     "5.6 Develop your ability to adapt to new situations, persuade others and negotiate successfully. These techniques will help you, as an IT professional, to collaborate with various stakeholders and achieve results.": {
       "type": [
@@ -581,7 +767,75 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+        <div class='border-t pt-4'>
+          <div class='accordion-item border rounded-lg overflow-hidden'>
+            <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+              <div class='flex items-center gap-3'>
+                <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                <span class='font-semibold'>Bewijs van deelname</span>
+              </div>
+              <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </div>
+            <div class='toggle hidden p-4 border-t bg-white'>
+              assets/kuloket-jaar2.png
+            </div>
+            <div class='line hidden h-1 bg-blue-600'></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>`
     },
     "5.7 You actively participate in class discussions, activities and research assignments. This is how you improve your English language skills and upgrade your ability to communicate effectively in an international work environment.": {
       "type": [
@@ -591,7 +845,75 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+        <div class='border-t pt-4'>
+          <div class='accordion-item border rounded-lg overflow-hidden'>
+            <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+              <div class='flex items-center gap-3'>
+                <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                <span class='font-semibold'>Bewijs van deelname</span>
+              </div>
+              <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </div>
+            <div class='toggle hidden p-4 border-t bg-white'>
+              assets/kuloket-jaar2.png
+            </div>
+            <div class='line hidden h-1 bg-blue-600'></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>`
     },
     "5.8 Conduct professional conversations with clients and understand their needs. Upon completion of a project, create a clear and structured final report with reliable sources so that you can always present your findings with conviction and confidence.": {
       "type": [
@@ -601,7 +923,75 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+        <div class='border-t pt-4'>
+          <div class='accordion-item border rounded-lg overflow-hidden'>
+            <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+              <div class='flex items-center gap-3'>
+                <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                <span class='font-semibold'>Bewijs van deelname</span>
+              </div>
+              <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </div>
+            <div class='toggle hidden p-4 border-t bg-white'>
+              assets/kuloket-jaar2.png
+            </div>
+            <div class='line hidden h-1 bg-blue-600'></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>`
     },
     "5.9 Present your work in a compelling way. Whether you are in front of a small team or a large audience, you will present your work in a way that perfectly meets the needs of your audience. You will learn how to get your message across correctly and make an impact.": {
       "type": [
@@ -611,7 +1001,75 @@ const doelstellingen = {
       "verified": "",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
-      "bewijs": "assets/kuloket-jaar2.png"
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+        <div class='border-t pt-4'>
+          <div class='accordion-item border rounded-lg overflow-hidden'>
+            <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+              <div class='flex items-center gap-3'>
+                <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                <span class='font-semibold'>Bewijs van deelname</span>
+              </div>
+              <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </div>
+            <div class='toggle hidden p-4 border-t bg-white'>
+              assets/kuloket-jaar2.png
+            </div>
+            <div class='line hidden h-1 bg-blue-600'></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>`
     },
     "5.10 You act efficiently, with perseverance and initiative, and carry out assignments ethically, creatively, deontologically, and socially responsibly, taking responsibility for the results.\"": {
       "type": [
@@ -757,11 +1215,70 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 3 - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Tijdens het BIP kregen we intensieve training in presentatietechnieken van internationale docenten om onze boodschap krachtig en to-the-point over te brengen. Aan het einde van de week presenteerden we ons uitgewerkte concept voor een grote groep internationale medestudenten en een officiële vakjury. Door de gerichte voorbereiding, het herhaaldelijk oefenen van pitches en constructieve feedbackmomenten, lukte het om presentatiespanning om te zetten in een zelfverzekerde, professionele presentatie in het Engels met een duidelijke en krachtige boodschap.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.25 Pick a topic, delve into it, and teach it yourself. You will organize a workshop and learn how to engage and excite others.": {
       "type": [
@@ -777,11 +1294,70 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "Communication Skills 3 - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Het BIP-programma was opgezet als een intensieve en dynamische communicatiechallenge. Samen met medestudenten uit vier verschillende landen (België, Finland, Roemenië en Moldavië) gingen we in internationale teams aan de slag met een reëel maatschappelijk vraagstuk. De week combineerde actieve debatten, brainstormsessies en een vriendschappelijke pitchcompetitie als finale. Dit bood een fantastische kans om presentatie- en communicatieve vaardigheden in het Engels te versterken, samen te werken onder tijdsdruk en hechte internationale connecties op te bouwen.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.27 You collect and analyze data within your professional domain to address complex IT issues, considering the business context and other professional areas with minimal coaching and guidance. You evaluate IT solutions in your field and provide well-founded recommendations, taking into account other professional domains.": {
       "type": [
@@ -898,11 +1474,62 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "DI",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.39 You communicate professionally, both verbally and in writing with an (internal) client": {
       "type": [
@@ -918,11 +1545,73 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BIP",
       "subject": "DI",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>BIP in Oostenrijk (Krems)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het academiejaar namen we deel aan een Blended Intensive Programme (BIP) aan de <strong>IMC University of Applied Sciences Krems</strong> in Oostenrijk. Het centrale thema van de week was <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em>.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het programma combineerde een online voortraject met een intensieve fysieke projectweek ter plaatse. We volgden interactieve colleges en workshops over onder andere:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Pitching en presentatievaardigheden:</strong> het helder en overtuigend overbrengen van innovatieve concepten aan stakeholders en jury&rsquo;s.</li>
+                <li><strong>Interculturele communicatie:</strong> samenwerken met diverse culturen en achtergronden in een internationale omgeving.</li>
+                <li><strong>AI-tools en innovatie:</strong> het praktisch benutten van moderne AI-technologieën met de mens als uitgangspunt.</li>
+                <li><strong>Business modeling en conceptvalidatie:</strong> van een reëel maatschappelijk probleem toewerken naar een levensvatbare oplossing.</li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                Aan het programma namen studenten deel uit vier verschillende landen: <strong>België, Finland, Roemenië en Moldavië</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Internationale teamsamenstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Om de interculturele en communicatieve vaardigheden in de praktijk te brengen, werkten we in multidisciplinaire, internationale groepen. Ons team bestond uit 6 personen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>David en ikzelf (België)</li>
+                <li>Medestudenten afkomstig uit <strong>Roemenië</strong>, <strong>Finland</strong> en <strong>Oostenrijk</strong></li>
+              </ul>
+              <p class='text-gray-700 leading-relaxed'>
+                De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het BIP-project in Krems deed zich een situatie voor waarin ik mijn eigen handelen en communicatie bewust moest evalueren en bijsturen. In tegenstelling tot onze projecten binnen Digital Innovation (DI) &ndash; waar we uitsluitend met IT-studenten samenwerken en technisch vakjargon vanzelfsprekend is &ndash; bestond ons internationale team grotendeels uit studenten met een niet-IT achtergrond (zoals business en gezondheidszorg).
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Ik merkte aanvankelijk dat mijn vertrouwde technische manier van uitleggen voor verwarring zorgde bij de teamgenoten. Ik heb hierop gereflecteerd en mijn aanpak doelgericht aangepast: ik moest goed nadenken over hoe ik technische AI-concepten en architectuurkeuzes kon vertalen naar heldere, begrijpelijke mensentaal zonder in jargon te vervallen. Door het gebruik van tastbare voorbeelden, metaforen en regelmatige check-ins verliep de samenwerking vervolgens uitstekend en konden we elkaars verschillende achtergronden optimaal benutten om tot een gedragen concept te komen.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
+                  assets/BIP-1.jpg
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
+                  assets/BIP-2.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.41 You produce manuals and procedures for users and team members": {
       "type": [
