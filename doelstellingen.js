@@ -3802,11 +3802,169 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Orangepi Kubernetes (ansible)",
       "subject": "Cloud Engineering - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen het project <strong>Orange Pi Kubernetes Cluster</strong> is een complete bare-metal containerinfrastructuur ontworpen, geautomatiseerd en beheerd over 5 fysieke Orange Pi 3 LTS nodes. Hierbij is de complete levenscyclus van de infrastructuur, het cluster-netwerk, de microservice-applicaties en de beveiligingsmechanismen ingericht volgens het <strong>Infrastructure-as-Code (IaC)</strong> principe.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Alle componenten – van OS-initialisatie en SSH-key management tot de uitrol van K3s via Ansible en de declaratieve orkestratie van microservices (Nginx frontend, Flask REST backend, Traefik Ingress, SQLite persistent storage en Horizontal Pod Autoscalers) – zijn vastgelegd in version-controlled configuratiebestanden en YAML-manifesten.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten (IaC & Automatisering)</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>Geautomatiseerde provisioning via Ansible:</strong> Volledig geautomatiseerde installatie, configuratie en lifecycle-management van een K3s Kubernetes cluster met de <code>k3s-ansible</code> collection en custom playbooks (o.a. gecontroleerde cluster shutdown).</li>
+                <li><strong>Declaratief netwerkbeheer:</strong> Uitrol van een Flannel CNI overlay netwerk, interne service discovery via Kubernetes <code>ClusterIP</code> services en geavanceerde HTTP-routing via de Traefik Ingress Controller en custom Traefik Middlewares (path prefix stripping).</li>
+                <li><strong>Applicatie-orkestratie as Code:</strong> Uitrol van een multi-tier gedecoupleerde webapplicatie (Alpine Nginx frontend, Python 3 Flask/Gunicorn backend) met dynamische configuratie-injectie op runtime en persistente opslag via <code>PersistentVolumeClaims</code>.</li>
+                <li><strong>Dynamische elasticiteit:</strong> Declaratieve implementatie van <code>HorizontalPodAutoscaler</code> (HPA) manifesten voor geautomatiseerde horizontale schaling op basis van CPU-belasting.</li>
+                <li><strong>Security as Code:</strong> Beveiligingsharding geïmplementeerd via geautomatiseerde Ed25519 SSH-sleuteldistributie, non-root container security contexten (UID 1000 <code>flaskuser</code> en unprivileged <code>nginx</code>), interne netwerkisolatie en expliciete container resource quotas (DoS preventie).</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Code Repositories</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster' target='_blank' class='inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: OrangePi Cluster Repository
+                </a>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/README-Ansible-K3S.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Ansible K3s IaC Guide
+                </a>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2526-ITF-004-OrangePI-Kubernetes-Cluster/blob/main/code/LearningGoals/9-27.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Leerdoel 9.27 (Ansible)
+                </a>
+              </div>
+            </section>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>1. Automatiseringstools & Infrastructure-as-Code Fundament (Ansible & GitOps)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  Het beheer en de provisioning van het 5-node Orange Pi cluster is volledig als code gedefinieerd om reproduceerbaarheid, consistentie en idempotent management te garanderen:
+                </p>
+                <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                  <li><strong>Ansible Galaxy & k3s-ansible:</strong> Het cluster is uitgerold via de officiële <code>k3s-ansible</code> collection (vastgelegd in <code>requirements.yaml</code>). Hierdoor kan de volledige cluster-bootstrap inclusief systemd service creatie en token-exchange automatisch verlopen.</li>
+                  <li><strong>Declaratieve Host Inventaris (<code>inventory.yaml</code>):</strong> Bevat de strikte scheiding tussen de control-plane node (<code>192.16.35.11</code>) en de 4 worker agent nodes (<code>192.16.35.12</code> t.e.m. <code>192.16.35.15</code>), inclusief globale variabelen zoals de Kubernetes API-versie en K3s-argumenten.</li>
+                  <li><strong>Geautomatiseerde Key Setup (<code>setup-ssh.sh</code>):</strong> Voordat Ansible gestart kan worden, distribueert een geautomatiseerd bash-script met <code>sshpass</code> en <code>ssh-copy-id</code> cryptografisch sterke Ed25519 SSH-sleutels naar alle nodes.</li>
+                  <li><strong>Custom Orchestration Playbook (<code>shutdown.yml</code>):</strong> Een op maat ontwikkeld Ansible-playbook dat met één commando (<code>ansible-playbook -i inventory.yaml shutdown.yml</code>) alle nodes gecontroleerd afsluit door eerst pods te drainen en vervolgens via de Ansible core module het OS netjes te syncen en te power-offen.</li>
+                </ul>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>2. Netwerken Declaratief Uitrollen & Beheren (CNI, ClusterIP & Traefik Ingress)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  De netwerktopologie en verkeersstromen binnen het cluster zijn volledig vastgelegd in Kubernetes IaC-manifesten:
+                </p>
+                <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                  <li><strong>Flannel CNI Overlay Network:</strong> K3s configureert geautomatiseerd een Flannel VXLAN netwerk dat pod-to-pod communicatie routeert over de fysieke ethernetlinks van de Orange Pi's.</li>
+                  <li><strong>Kubernetes Service Abstractie (<code>frontend.yaml</code>, <code>backend.yaml</code>):</strong> Interne microservice-communicatie verloopt via declaratieve <code>ClusterIP</code> services. CoreDNS verzorgt automatische service discovery (bv. <code>flask-backend-service:80</code>), wat dynamische load balancing garandeert over wisselende pod IP-adressen.</li>
+                  <li><strong>Traefik Ingress Routing (<code>ingress.yaml</code>):</strong> Inkomend HTTP-verkeer op poort 80 wordt declaratief gemapt:
+                    <br>• Pad <code>/</code> routeert direct naar de Nginx frontend service.
+                    <br>• Pad <code>/api</code> routeert naar de Python Flask backend service.
+                  </li>
+                  <li><strong>Traefik Middleware Prefix Stripping (<code>middleware.yaml</code>):</strong> Een Traefik CRD Middleware (<code>Middleware</code> met <code>spec.stripPrefix.prefixes: ['/api']</code>) verwijdert automatisch de <code>/api</code> prefix vóór de request bij de Flask container aankomt. Hierdoor hoeven backend routes niet herschreven te worden en treden er geen cross-origin (CORS) problemen op in de browser.</li>
+                </ul>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>3. Applicaties Uitrollen, Beheren & Schalen via Kubernetes Manifests</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  De multi-tier webapplicatie is volledig gedefinieerd in modulaire YAML-manifesten onder versiebeheer:
+                </p>
+                <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                  <li><strong>Frontend Deployment:</strong> Alpine Nginx container die statische assets (HTML/CSS/JS) serveert op poort 8080. Een <code>entrypoint.sh</code> script injecteert op runtime de dynamische <code>BACKEND_URL</code> environment variabele in <code>config.js</code> via <code>envsubst</code>, waardoor containers immutable blijven tussen omgevingen.</li>
+                  <li><strong>Backend Deployment:</strong> WSGI Python 3.14 Flask API gemanaged door Gunicorn op poort 5001, communicerend via REST/JSON endpoints (<code>/entries</code>).</li>
+                  <li><strong>Persistente Dataopslag (<code>pvc.yaml</code>):</strong> Declaratief gekoppelde storage via een <code>PersistentVolumeClaim</code> (<code>sqlite-pvc</code>, 1Gi) gemount op <code>/app/data</code>. Hierdoor blijft de SQLite database behouden bij restarts, pod-rescheduling of node maintenance.</li>
+                  <li><strong>Horizontal Pod Autoscaling (<code>hpa.yaml</code>):</strong> Declaratieve elasticiteit geconfigureerd via Kubernetes Metrics Server. Het cluster schaalt het aantal frontend- en backend-pods dynamisch op (tussen 1 en 5 replica's) wanneer het CPU-gebruik de 50% overschrijdt, en schaalt automatisch af bij rustig verkeer.</li>
+                </ul>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>4. Securitytechnologieën & Hardening as Code</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed mb-3'>
+                  Security is geïntegreerd in de code-declaraties (Security as Code) om kwetsbaarheden en misconfiguraties te voorkomen:
+                </p>
+                <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                  <li><strong>SSH Hardening & Key Authentication:</strong> Geen wachtwoordauthenticatie voor cluster-nodes; uitsluitend cryptografisch sterke Ed25519-sleutels worden geaccepteerd voor remote Ansible-operaties.</li>
+                  <li><strong>Least-Privilege Container Security Context:</strong>
+                    <br>• De Nginx frontend container draait als unprivileged <code>nginx</code> gebruiker op poort 8080 (in plaats van root op poort 80).
+                    <br>• De Flask backend container draait expliciet onder een niet-root gebruiker (<code>flaskuser</code>, UID 1000).
+                  </li>
+                  <li><strong>Netwerkisolatie & Attack Surface Reductie:</strong> Noch de backend service noch de database zijn publiek blootgesteld via NodePort of directe poorten. Ze communiceren uitsluitend intern via ClusterIP, waardoor alle binnenkomende verkeer verplicht via de Traefik Ingress controller loopt.</li>
+                  <li><strong>Resource Constraints (DoS & Starvation Preventie):</strong> Expliciete <code>resources.requests</code> en <code>resources.limits</code> voor CPU en Memory zijn gedefinieerd in de deployment YAML's. Dit voorkomt dat een gecrashte of aangevallen container alle resources van de fysieke Orange Pi verbruikt (noisy neighbor problematiek).</li>
+                  <li><strong>Resilience & Health Probes:</strong> Declaratieve <code>readinessProbe</code> en <code>livenessProbe</code> instellingen zorgen ervoor dat niet-functionerende pods automatisch door Kubernetes worden herstart en dat verkeer alleen naar gezonde containers wordt gerouteerd.</li>
+                </ul>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+          </div>
+        </div>
+      </div>`
     }
   },
   "13 Extra learning goals Cloud Automation & Defence": {
