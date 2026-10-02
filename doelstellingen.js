@@ -2602,21 +2602,117 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
-      "project": "Datacenter stuff",
+      "project": "DI Datacenter: Netwerkinfrastructuur D202 & WireGuard VPN",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Voor de Digital Innovation datacenterinfrastructuur en het lokaal D202 is een complete netwerkomgeving opgezet. Hierbij zijn de fundamentele netwerkprincipes toegepast voor lokale netwerksegmentatie, routering en veilige verbindingen van buitenaf.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026 & 2026-2027</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Waarom dit leerdoel behaald is</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                De basisprincipes van computernetwerken zijn aantoonbaar in de praktijk gebracht en gedocumenteerd:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1.5'>
+                <li><strong>IP-adressering & Subnetting:</strong> Opzetten van een gestructureerd IPv4-subnet met statische toewijzingen voor netwerkinfrastructuur en een dynamische DHCP-pool voor clients.</li>
+                <li><strong>Layer 2 Switching & VLAN-segmentatie:</strong> Toepassen van VLAN-scheiding voor het lokale netwerk en de WAN-uplink, inclusief configuratie van tagged trunkpoorten naar de router en untagged access-poorten voor wandcontactdozen en servers.</li>
+                <li><strong>Layer 3 Routing, Gateways & NAT:</strong> Routering tussen private subnets en de WAN-omgeving via OPNsense en pfSense, inclusief port forwarding en NAT om interne containers zoals de VPN-server veilig te ontsluiten.</li>
+                <li><strong>Protocollen & Tunneling:</strong> Inzet van kernprotocollen zoals DHCP, DNS, 802.1Q tagging en WireGuard VPN voor remote access en een site-to-site verbinding.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Bewijs</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2425-Documentation-servers-in-datacenter/blob/main/Documentation-D202.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Netwerkinfrastructuur D202
+                </a>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2425-Documentation-servers-in-datacenter/blob/main/Documentation-VPN.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: WireGuard VPN Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "9.9 You build and configure a corporate network with routers, switches, and current protocols.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
-      "project": "Datacenter stuff",
+      "project": "DI Datacenter: Netwerkinfrastructuur D202 & WireGuard VPN",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Voor de Digital Innovation werkomgeving is een volwaardig bedrijfs- en labnetwerk opgebouwd en geconfigureerd bestaande uit routers, managed switches, een access point en hedendaagse protocollen inclusief een site-to-site VPN.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026 & 2026-2027</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Waarom dit leerdoel behaald is</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het bedrijfsnetwerk is van hardware tot protocol geconfigureerd en in gebruik genomen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1.5'>
+                <li><strong>Routers & Firewalls:</strong> Inrichten van OPNsense als centrale router en firewall in lokaal D202 voor WAN en LAN DHCP, en pfSense in het datacenter met port forwarding en NAT-regels.</li>
+                <li><strong>Managed Switches:</strong> Twee Cisco SG300-28 enterprise switches geconfigureerd met vaste management-IP&apos;s, switch interconnecties, VLAN-toewijzingen en poortmodi voor wandcontactdozen en servers.</li>
+                <li><strong>Wireless Access:</strong> TP-Link access point geïntegreerd in het netwerk voor draadloze toegang in lokaal D202.</li>
+                <li><strong>Hedendaagse Protocollen & Site-to-Site VPN:</strong> Toepassing van 802.1Q trunking, DHCP, DNS en WireGuard VPN voor een Site-to-Site tunnel tussen het datacenter en lokaal D202 én beveiligde remote access voor studenten en docenten.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Bewijs</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2425-Documentation-servers-in-datacenter/blob/main/Documentation-D202.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Netwerkinfrastructuur D202
+                </a>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2425-Documentation-servers-in-datacenter/blob/main/Documentation-VPN.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: WireGuard VPN Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "9.10 You identify threats to a corporate network and apply standardized security methods to protect it.": {
       "type": [
