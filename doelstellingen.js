@@ -2622,11 +2622,188 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
-      "project": "Datacenter stuff",
+      "project": "DI Datacenter: Cloudflare Zero Trust Access & Kimai Time Tracking",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Cloudflare Zero Trust Access & Kimai Time Tracking</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen de <strong>Digital Innovation (DI) datacenterinfrastructuur</strong> is de open-source tijdsregistratietool <strong>Kimai</strong> (bereikbaar via <code>time.digitalinnovation.be</code>) uitgerold. Studenten gebruiken deze tool om hun gewerkte uren per project nauwkeurig bij te houden.
+              </p>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Omdat de applicatie draait op een virtuele machine (VM) binnen het private netwerk van het DI-gedeelte van het datacenter, maar tegelijkertijd wereldwijd bereikbaar moet zijn voor studenten en docenten, ontstond er een belangrijk beveiligingsvraagstuk. Traditioneel openstellen van poorten brengt aanzienlijke risico&apos;s met zich mee, zeker omdat Kimai standaard enkel beschikt over een basis gebruikersnaam/wachtwoord authenticatie. Bovendien wilde we vermijden dat de applicatie permanent gemonitord en handmatig gehardened moest worden tegen continue internetdreigingen.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Als oplossing is gekozen voor een gestandaardiseerde Zero Trust architectuur met <strong>Cloudflare Zero Trust Access</strong> en <strong>Cloudflare Tunnels</strong>. Hiermee wordt de applicatie volledig afgeschermd van het publieke internet en is een strikte identiteitscontrole via GitHub OAuth afgedwongen. Daarnaast is voor docenten geautomatiseerde API-toegang (voor het geautomatiseerd aanmaken van projecten) veilig gerealiseerd via <strong>Service Tokens</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Geïdentificeerde Bedreigingen & Risico&apos;s</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Zwakke Standaardauthenticatie & Password Spraying:</strong> Kimai gebruikt standaard enkel een eenvoudige gebruikersnaam/wachtwoord login. Als je een inkomende poort direct openzet naar deze VM, staat het inlogformulier publiek op het internet. Hierdoor is de applicatie kwetsbaar voor password spraying aanvallen en brute-force pogingen op studenten- en docentenaccounts.</li>
+                <li><strong>Applicatiekwetsbaarheden & CVE&apos;s:</strong> Zelf-gehoste open-source applicaties kunnen bekende of nieuwe kwetsbaarheden (CVE&apos;s) bevatten. Wanneer de webapplicatie rechtstreeks via een open poort op het internet staat, kan iedereen ongehinderd de server scannen en eventuele beveiligingslekken proberen te misbruiken.</li>
+                <li><strong>Beheerlast & Monitoring:</strong> Een publiek bereikbare webapplicatie vereist voortdurende monitoring van logs, inlogpogingen en snelle beveiligingspatches. We wilden vermijden dat we deze applicatie continu handmatig moesten opvolgen en zelf complexe authenticatie moesten inbouwen.</li>
+                <li><strong>Onbeveiligde API-toegang:</strong> Een docent wilde geautomatiseerd projecten aanmaken via de REST API van Kimai. Dit vereist een veilige manier om geautomatiseerd verkeer toe te laten zonder statische wachtwoorden open te stellen op het internet.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Toegepaste Beveiligingsmethoden</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Cloudflare Tunnel (Geen inkomende poorten openzetten):</strong> In plaats van poort forwarding in te stellen op de firewall naar de VM, is een Cloudflare Tunnel (<code>ingress-tunnel</code>) geconfigureerd. Deze zet vanuit het netwerk een uitgaande, versleutelde tunnel op naar Cloudflare. Verkeer naar <code>time.digitalinnovation.be</code> wordt doorgestuurd naar de VM zonder dat er ook maar één inkomende poort op de firewall open hoeft te staan.</li>
+                <li><strong>Toegangscontrole via Cloudflare Access (GitHub Organisatiecheck):</strong> Vóór gebruikers bij de Kimai-applicatie kunnen komen, moeten ze inloggen via Cloudflare Access met hun GitHub-account. De policy <code>Thomas More DI GitHub</code> controleert of de gebruiker lid is van de <em>Thomas More Digital Innovation</em> GitHub-organisatie. Alleen wie lid is, wordt doorgelaten naar het echte inlogscherm van Kimai. Niet-leden worden direct aan de edge geblokkeerd.</li>
+                <li><strong>Service Token voor API-automatisatie:</strong> Voor de docent die automatisch projecten aanmaakt via de API, is een <code>Time Service Token</code> aangemaakt met de actie <code>Service Auth</code>. Scripts sturen de gegenereerde <code>CF-Access-Client-Id</code> en <code>CF-Access-Client-Secret</code> headers mee, waardoor de API geautomatiseerd en veilig bereikbaar is zonder interactieve login.</li>
+                <li><strong>Twee Lagen Beveiliging:</strong> Cloudflare Access vangt al het internetverkeer op en filtert onbevoegden weg. Pas na deze succesvolle verificatie komt een geautoriseerde gebruiker op de inlogpagina van Kimai terecht. Dit schermt de applicatie af tegen password spraying en willekeurige internetscans.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Configuratie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2425-Documentation-servers-in-datacenter/' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Datacenter Server Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class='border-t pt-6'>
+          <p class='text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4'>Gedetailleerde technische bewijzen & configuratie</p>
+          <div class='space-y-4'>
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>1. Netwerkarchitectuur: Cloudflare Ingress Tunnel (Geen open firewallpoorten)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <div class='bg-gray-50 p-4 rounded-lg border border-gray-200 mb-4'>
+                  <div class='flex flex-wrap items-center justify-between gap-2 mb-2'>
+                    <div class='flex items-center gap-2'>
+                      <span class='font-mono font-bold text-blue-700 text-sm'>time.digitalinnovation.be</span>
+                      <span class='text-gray-400'>&rarr;</span>
+                      <span class='font-mono text-xs bg-gray-200 px-2 py-0.5 rounded text-gray-800'>http://10.19.10.54:8001</span>
+                    </div>
+                  </div>
+                  <p class='text-sm text-gray-600'>
+                    In de <code>ingress-tunnel</code> configuratie is te zien dat inkomend verkeer voor de tijdregistratie uitsluitend via een uitgaande, versleutelde tunnel naar de VM in het private DI-netwerk (<code>10.19.10.54:8001</code>) wordt gerouteerd. Er is geen poortforwarding nodig op de fysieke datacenter-firewall.
+                  </p>
+                </div>
+                <p class='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Cloudflare Ingress Tunnel configuratie:</p>
+                assets/DI-time-app-2.png
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>2. Toegangsbeleid: GitHub SSO & API Service Token</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
+                  <div class='p-4 bg-gray-50 rounded-lg border border-gray-200'>
+                    <div class='flex items-center justify-between mb-2'>
+                      <span class='font-bold text-gray-800 text-sm'>Thomas More DI GitHub</span>
+                      <span class='px-2 py-0.5 text-xs font-bold rounded bg-emerald-100 text-emerald-800 border border-emerald-300'>Allow</span>
+                    </div>
+                    <p class='text-xs text-gray-600 leading-relaxed'>
+                      Interactieve login voor studenten en docenten. Verifieert via GitHub OAuth of de gebruiker actief lid is van de <em>Thomas More Digital Innovation</em> organisatie.
+                    </p>
+                  </div>
+                  <div class='p-4 bg-gray-50 rounded-lg border border-gray-200'>
+                    <div class='flex items-center justify-between mb-2'>
+                      <span class='font-bold text-gray-800 text-sm'>Time Service Token</span>
+                      <span class='px-2 py-0.5 text-xs font-bold rounded bg-blue-100 text-blue-800 border border-blue-300'>Service Auth</span>
+                    </div>
+                    <p class='text-xs text-gray-600 leading-relaxed'>
+                      Machine-to-machine verificatie voor de docent die geautomatiseerd projecten aanmaakt via de REST API via <code>CF-Access-Client-Id</code> en <code>CF-Access-Client-Secret</code>.
+                    </p>
+                  </div>
+                </div>
+
+                <div class='space-y-6'>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Applicatiedetails & Toegangsregels (Allow & Service Auth):</p>
+                    assets/DI-time-app-3.png
+                  </div>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Identity Provider configuratie & Traffic Preview (24u sessieduur):</p>
+                    assets/DI-time-app-4.png
+                  </div>
+                </div>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>3. Inlog-flow: Pre-Authentication Gateway & Afgeschermde Kimai Login</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed text-sm mb-4'>
+                  De gebruikerservaring bestaat uit twee strikt gescheiden stappen. Pas wanneer Cloudflare Access aan de edge heeft vastgesteld dat de bezoeker tot de GitHub-organisatie behoort, wordt de interne loginpagina van Kimai op de VM getoond:
+                </p>
+
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                  <div class='bg-gray-50 p-4 rounded-lg border border-gray-200 flex flex-col'>
+                    <div class='mb-2'>
+                      <span class='inline-block px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-800 border border-blue-200 mb-1'>Stap 1: Edge Pre-Authentication</span>
+                      <h4 class='font-bold text-gray-800 text-sm'>Cloudflare Access Login</h4>
+                      <p class='text-xs text-gray-600 mt-1'>Studenten melden zich aan via GitHub. Alleen geverifieerde leden van de Digital Innovation organisatie krijgen doorgang.</p>
+                    </div>
+                    <div class='mt-auto pt-2'>
+                      assets/DI-time-app-1.png
+                    </div>
+                  </div>
+
+                  <div class='bg-gray-50 p-4 rounded-lg border border-gray-200 flex flex-col'>
+                    <div class='mb-2'>
+                      <span class='inline-block px-2 py-0.5 rounded text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-200 mb-1'>Stap 2: Applicatietoegang</span>
+                      <h4 class='font-bold text-gray-800 text-sm'>Kimai Loginpagina op VM</h4>
+                      <p class='text-xs text-gray-600 mt-1'>Het interne inlogscherm van Kimai op de VM. Omdat dit achter Cloudflare Access zit, is het beschermd tegen password spraying en scans.</p>
+                    </div>
+                    <div class='mt-auto pt-2'>
+                      assets/DI-time-app-5.png
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+          </div>
+        </div>
+      </div>`
     },
     "9.12 You master the basic principles of network virtualization.": {
       "type": [
@@ -3735,11 +3912,11 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "OpenStack (3-Tier App) / Bastion & Security Groups",
+      "project": "OpenStack (3-Tier App) & Cloudflare Zero Trust (Kimai Time Tracking)",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
-          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: OpenStack 3-Tier App (Bastion & Security Groups)</h2>
           <div class='space-y-6'>
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
@@ -3777,6 +3954,171 @@ const doelstellingen = {
                 </a>
               </div>
             </section>
+          </div>
+        </div>
+
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Cloudflare Zero Trust Access & Kimai Time Tracking</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen het Digital Innovation (DI) gedeelte van het datacenter draait de open-source tijdsregistratietool <strong>Kimai</strong> (bereikbaar via <code>time.digitalinnovation.be</code>) op een virtuele machine (VM) in het private netwerk (<code>http://10.19.10.54:8001</code>). Studenten moeten hiermee hun uren per project bijhouden.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Om deze interne datacenterdienst veilig toegankelijk te maken vanaf het internet zonder open inkomende poorten op de firewall te vereisen, is een geavanceerd netwerktoegangsverificatiesysteem geïmplementeerd met <strong>Cloudflare Zero Trust Access</strong> en <strong>Cloudflare Tunnels</strong>. Dit systeem verifieert vooraf alle inkomende netwerktoegang op basis van identiteit en context (zowel voor interactieve gebruikers als voor geautomatiseerde REST API communicatie) vóórdat verkeer tot het interne netwerk wordt toegelaten.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten (Netwerktoegangsverificatie)</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Toegangsverificatie via Cloudflare Access:</strong> In plaats van de VM direct op het internet te zetten via een open poort, fungeert Cloudflare Access als een toegangsverificatiesysteem aan de rand van het netwerk. Verzoeken worden eerst gecontroleerd op identiteit voordat ze worden doorgelaten naar de VM.</li>
+                <li><strong>Identiteitsverificatie via GitHub (DI Organisatie):</strong> Studenten en docenten die surfen naar <code>time.digitalinnovation.be</code> moeten inloggen via GitHub. De policy <code>Thomas More DI GitHub</code> controleert of de gebruiker behoort tot de <em>Thomas More Digital Innovation</em> GitHub-organisatie. Pas na deze controle krijgt de gebruiker toegang tot de echte login van Kimai.</li>
+                <li><strong>Geautomatiseerde Toegangsverificatie via Service Tokens:</strong> Voor een docent die geautomatiseerd projecten in Kimai wil aanmaken via de REST API, is een <code>Time Service Token</code> geconfigureerd (met actie <code>Service Auth</code>). Scripts moeten de geldige client-id en client-secret headers meesturen om toegang te krijgen tot de API endpoints.</li>
+                <li><strong>Geen Inkomende Poorten via Cloudflare Tunnel:</strong> De verbinding naar de VM (<code>http://10.19.10.54:8001</code>) verloopt via een uitgaande Cloudflare Tunnel (<code>ingress-tunnel</code>). Hierdoor hoeven er op de datacenter firewall geen inkomende poorten geopend te worden en kan enkel geverifieerd verkeer de VM bereiken.</li>
+                <li><strong>Sessiebeheer & Audit Logging:</strong> Sessies hebben een maximale geldigheid van 24 uur, waarna opnieuw moet worden ingelogd. Alle inlogpogingen worden bijgehouden in de Cloudflare Access audit logs.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Configuratie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2425-Documentation-servers-in-datacenter/' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Datacenter Server Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class='border-t pt-6'>
+          <p class='text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4'>Gedetailleerde technische bewijzen & verificatie</p>
+          <div class='space-y-4'>
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>1. Netwerkarchitectuur: Cloudflare Ingress Tunnel (Geen open firewallpoorten)</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <div class='bg-gray-50 p-4 rounded-lg border border-gray-200 mb-4'>
+                  <div class='flex flex-wrap items-center justify-between gap-2 mb-2'>
+                    <div class='flex items-center gap-2'>
+                      <span class='font-mono font-bold text-blue-700 text-sm'>time.digitalinnovation.be</span>
+                      <span class='text-gray-400'>&rarr;</span>
+                      <span class='font-mono text-xs bg-gray-200 px-2 py-0.5 rounded text-gray-800'>http://10.19.10.54:8001</span>
+                    </div>
+                  </div>
+                  <p class='text-sm text-gray-600'>
+                    In de <code>ingress-tunnel</code> configuratie is te zien dat inkomend verkeer voor de tijdregistratie uitsluitend via een uitgaande, versleutelde tunnel naar de VM in het private DI-netwerk (<code>10.19.10.54:8001</code>) wordt gerouteerd. Er is geen poortforwarding nodig op de fysieke datacenter-firewall.
+                  </p>
+                </div>
+                <p class='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Cloudflare Ingress Tunnel configuratie:</p>
+                assets/DI-time-app-2.png
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>2. Toegangsbeleid: GitHub SSO & API Service Token</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
+                  <div class='p-4 bg-gray-50 rounded-lg border border-gray-200'>
+                    <div class='flex items-center justify-between mb-2'>
+                      <span class='font-bold text-gray-800 text-sm'>Thomas More DI GitHub</span>
+                      <span class='px-2 py-0.5 text-xs font-bold rounded bg-emerald-100 text-emerald-800 border border-emerald-300'>Allow</span>
+                    </div>
+                    <p class='text-xs text-gray-600 leading-relaxed'>
+                      Interactieve login voor studenten en docenten. Verifieert via GitHub OAuth of de gebruiker actief lid is van de <em>Thomas More Digital Innovation</em> organisatie.
+                    </p>
+                  </div>
+                  <div class='p-4 bg-gray-50 rounded-lg border border-gray-200'>
+                    <div class='flex items-center justify-between mb-2'>
+                      <span class='font-bold text-gray-800 text-sm'>Time Service Token</span>
+                      <span class='px-2 py-0.5 text-xs font-bold rounded bg-blue-100 text-blue-800 border border-blue-300'>Service Auth</span>
+                    </div>
+                    <p class='text-xs text-gray-600 leading-relaxed'>
+                      Machine-to-machine verificatie voor de docent die geautomatiseerd projecten aanmaakt via de REST API via <code>CF-Access-Client-Id</code> en <code>CF-Access-Client-Secret</code>.
+                    </p>
+                  </div>
+                </div>
+
+                <div class='space-y-6'>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Applicatiedetails & Toegangsregels (Allow & Service Auth):</p>
+                    assets/DI-time-app-3.png
+                  </div>
+                  <div>
+                    <p class='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Identity Provider configuratie & Traffic Preview (24u sessieduur):</p>
+                    assets/DI-time-app-4.png
+                  </div>
+                </div>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
+
+            <div class='accordion-item border rounded-lg overflow-hidden'>
+              <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                <div class='flex items-center gap-3'>
+                  <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                  <span class='font-semibold'>3. Inlog-flow: Pre-Authentication Gateway & Afgeschermde Kimai Login</span>
+                </div>
+                <svg class='w-5 h-5 transition-transform duration-200' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </div>
+              <div class='toggle hidden p-4 border-t bg-white'>
+                <p class='text-gray-700 leading-relaxed text-sm mb-4'>
+                  De gebruikerservaring bestaat uit twee strikt gescheiden stappen. Pas wanneer Cloudflare Access aan de edge heeft vastgesteld dat de bezoeker tot de GitHub-organisatie behoort, wordt de interne loginpagina van Kimai op de VM getoond:
+                </p>
+
+                <div class='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                  <div class='bg-gray-50 p-4 rounded-lg border border-gray-200 flex flex-col'>
+                    <div class='mb-2'>
+                      <span class='inline-block px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-800 border border-blue-200 mb-1'>Stap 1: Edge Pre-Authentication</span>
+                      <h4 class='font-bold text-gray-800 text-sm'>Cloudflare Access Login</h4>
+                      <p class='text-xs text-gray-600 mt-1'>Studenten melden zich aan via GitHub. Alleen geverifieerde leden van de Digital Innovation organisatie krijgen doorgang.</p>
+                    </div>
+                    <div class='mt-auto pt-2'>
+                      assets/DI-time-app-1.png
+                    </div>
+                  </div>
+
+                  <div class='bg-gray-50 p-4 rounded-lg border border-gray-200 flex flex-col'>
+                    <div class='mb-2'>
+                      <span class='inline-block px-2 py-0.5 rounded text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-200 mb-1'>Stap 2: Applicatietoegang</span>
+                      <h4 class='font-bold text-gray-800 text-sm'>Kimai Loginpagina op VM</h4>
+                      <p class='text-xs text-gray-600 mt-1'>Het interne inlogscherm van Kimai op de VM. Omdat dit achter Cloudflare Access zit, is het beschermd tegen password spraying en scans.</p>
+                    </div>
+                    <div class='mt-auto pt-2'>
+                      assets/DI-time-app-5.png
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='line hidden h-1 bg-blue-600'></div>
+            </div>
           </div>
         </div>
       </div>`
