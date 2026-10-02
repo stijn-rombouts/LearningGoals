@@ -2632,11 +2632,54 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
-      "project": "Datacenter stuff (Openstack (neutron) / Proxmox SDN)",
+      "project": "OpenStack (Neutron SDN)",
       "subject": "Networking Advanced - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen het <strong>OpenStack 3-Tier App Deployment</strong> project is een complete Software-Defined Network (SDN) architectuur ontworpen en uitgerold met <strong>OpenStack Neutron</strong>. Hierbij worden netwerkvirtualisatieprincipes toegepast om een virtuele netwerktopologie over de fysieke server- en switchinfrastructuur heen te realiseren.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Via declaratieve <strong>Terraform</strong> configuraties worden geïsoleerde virtuele broadcast domains, gesegmenteerde subnets, virtual routers en gedistribueerde security groups op poortniveau georkestreerd.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten (Netwerkvirtualisatie & SDN)</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>SDN Layer-2 Isolatie & Overlay Netwerken:</strong> Creatie van een geïsoleerd tenantnetwerk via OpenStack Neutron met overlay tunneling (VXLAN/Geneve) voor complete afscherming van andere tenants op de fysieke switches.</li>
+                <li><strong>Virtuele Microsegmentatie (Subnets):</strong> Opdelen van het virtuele netwerk in drie geïsoleerde subnets: Web (<code>10.0.1.0/24</code>), Applicatie (<code>10.0.2.0/24</code>) en Database (<code>10.0.3.0/24</code>).</li>
+                <li><strong>Virtuele Routers & Default Gateways:</strong> Inzet van virtuele routers (<code>openstack_networking_router_v2</code>) met interface koppelingen per subnet om inter-subnet routing en connectiviteit naar het externe fysieke providernetwerk te faciliteren.</li>
+                <li><strong>Gedistribueerde Virtuele Firewalling:</strong> Beveiliging op virtueel poortniveau via Neutron Security Groups met stateful packet filtering en inter-tier rule referencing op basis van <code>remote_group_id</code>.</li>
+                <li><strong>Virtuele NAT & Floating IPs:</strong> Implementatie van bi-directionele 1:1 NAT mapping (Floating IPs) en SNAT via de virtual router gateway voor gecontroleerde inkomende en uitgaande internetconnectiviteit.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/openstack-deploy-3-tier-app/-/blob/main/LEARNING_GOAL_12_1.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                  </svg>
+                  GitLab: OpenStack Neutron SDN Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "9.13 You configure, install, and secure on-premise mail servers.": {
       "type": [
@@ -3690,11 +3733,53 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
-      "project": "Erik Thijs: MISP: Integratie met firewalls",
+      "project": "OpenStack (3-Tier App) / Bastion & Security Groups",
       "subject": "Network & OS Security - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen het project <strong>OpenStack 3-Tier App Deployment</strong> zijn geavanceerde netwerktoegangscontrole- en verificatiesystemen geïmplementeerd om de veiligheid van de cloud- en applicatie-infrastructuur te waarborgen. Hierbij wordt een Zero-Trust model gehanteerd op basis van perimeter-validatie en strikte poort- en identity-verificatie.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Toegang tot interne netwerksegmenten wordt bewaakt door een geharde Bastion Jump Host (SSH key verificatie) en hypervisor-level Neutron Security Groups die verkeer uitsluitend autoriseren op basis van cryptografische identiteit en specifieke beveiligingsgroepen.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten (Netwerktoegangsverificatie & Security)</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>Geharde Bastion Jump Host (Access Gateway):</strong> Alle beheer- en deploymenttoegang tot de private netwerksegmenten (Web, App, DB) wordt geverifieerd via een centrale Bastion Host. Rechtstreekse SSH-toegang vanaf het internet naar interne hosts is fysiek onmogelijk doordat deze geen publiek IP bezitten en SSH-toegang enkel toegestaan is vanuit de Bastion security group.</li>
+                <li><strong>Cryptografische Toegangsverificatie:</strong> Toegang tot instances vereist cryptografische sleutelauthenticatie via dynamisch gegenereerde Nova keypairs (SSH private keys met permissie <code>chmod 600</code>). Wachtwoordauthenticatie is uitgeschakeld.</li>
+                <li><strong>Stateful Poortverificatie via Neutron Security Groups:</strong> Hypervisor-level pakketfiltering verifieert en valideert verkeersstromen tussen tiers. Inkomend verkeer op de applicatieserver (poort 8065) wordt uitsluitend geautoriseerd indien afkomstig van de <code>web_sg</code> identiteit, en databaseverkeer (poort 5432) enkel vanaf de <code>app_sg</code> identiteit.</li>
+                <li><strong>Veilige Deployment Tunneling (SSH ProxyJump):</strong> Geautomatiseerde deployment via Ansible verloopt over een geauthenticeerde OpenSSH <code>ProxyCommand</code> tunnel via de Bastion host, waardoor netwerktoegang strikt wordt gevalideerd zonder security bridges te creëren.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/openstack-deploy-3-tier-app/-/blob/main/LEARNING_GOAL_12_1.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                  </svg>
+                  GitLab: Network Access Verification & Security Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "11.10 You test the security of endpoints and enhance them based on advanced cybersecurity guidelines.": {
       "type": [
@@ -3877,11 +3962,53 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "OpenStack (3-Tier App)",
       "subject": "Cloud Engineering - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen het <strong>OpenStack 3-Tier App Deployment</strong> project is de gehele provisioning en configuratie geautomatiseerd via CI/CD pipelines en automation scripts die programmatisch en beveiligd communiceren met de REST API endpoints van het OpenStack cloudplatform.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Hierbij worden authenticatietokens en scoped application credentials ingezet om veilig data uit te wisselen tussen de GitLab CI runner, Terraform providers, de OpenStack Keystone, Nova en Neutron API services, en de downstream Ansible provisioning scripts.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten (API Automatisering & Beveiliging)</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>Veilige API Authenticatie (OpenStack Keystone):</strong> In de CI/CD pipeline worden via gemaskerde environment variables veilig OpenStack Application Credentials (<code>application_credential_id</code> en <code>application_credential_secret</code>) geïnjecteerd in een dynamisch gegenereerde <code>clouds.yml</code>. Hierdoor vindt API authenticatie plaats via de v3 Identity API zonder statische root wachtwoorden in code.</li>
+                <li><strong>Programmatische API Interactie via Terraform Providers:</strong> Declaratieve scripts communiceren over HTTPS met REST API endpoints: de <strong>Nova API</strong> (instance lifecycle, dynamic keypair generation), de <strong>Neutron API</strong> (orchestratie van SDN networks, subnets, routers, ports en security groups) en de <strong>Glance API</strong> (image resolution).</li>
+                <li><strong>Dynamische Data-extractie & Scripting in CI/CD:</strong> De GitLab CI runner extraheert runtime attributen via Terraform outputs (zoals dynamisch gegenereerde SSH-keys, Floating IPs en private IP-adressen) en gebruikt shell scripts om dynamisch een <code>inventory.ini</code> en SSH proxy configuratie te genereren voor Ansible.</li>
+                <li><strong>Foutafhandeling & API Verificatie:</strong> De pipeline scripts voeren pre-flight validaties uit (<code>terraform validate</code>, netwerk connectivity checks via <code>nc</code> en IP route validaties) om te verifiëren dat endpoints en resources correct responderen alvorens configuratie playbooks worden gestart.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/openstack-deploy-3-tier-app/-/blob/main/LEARNING_GOAL_12_1.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                  </svg>
+                  GitLab: OpenStack API & Automation Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "12.5 You use automation tools to deploy, configure, and manage networks, applications, and security technologies using Infrastructure-as-Code.": {
       "type": [
