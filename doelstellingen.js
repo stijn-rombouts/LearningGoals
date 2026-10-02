@@ -3762,21 +3762,106 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "OpenStack (3-Tier App)",
       "subject": "Cloud Engineering - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen het project <strong>OpenStack 3-Tier App Deployment</strong> is de volledige lifecycle van een 3-tier applicatie-architectuur (Mattermost: Nginx reverse proxy, Go backend applicatieserver en PostgreSQL database, beveiligd met een Bastion host) geautomatiseerd en georkestreerd op een private OpenStack cloudomgeving.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Zowel de virtuele cloud resources (Nova compute instances, floating IPs, SSH keypairs) als de netwerkinfrastructuur (Neutron SDN private network, gesegmenteerde subnets, virtual routers gekoppeld aan het fysieke providernetwerk en least-privilege security groups) worden declaratief beheerd via <strong>Terraform</strong>. Het configuration management en de applicatiedistributie worden verzorgd door modulaire <strong>Ansible</strong> playbooks, aangestuurd via een multi-stage <strong>GitLab CI/CD pipeline</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
+                <li><strong>Automatisering via GitLab CI/CD Pipeline:</strong> Opzet van een multi-stage pipeline (<code>validate</code>, <code>deploy</code> via Terraform en <code>configure</code> via Ansible) met pipeline artifacts (SSH keys, IP text files), Docker execution environments en geheimbeheer via masked variables.</li>
+                <li><strong>Cloud Resource & Netwerk Orchestratie (Terraform & Neutron):</strong> Declaratieve provisioning van Nova compute instances, Neutron SDN-netwerken met microsegmentatie over 3 subnets (Web, App, DB), virtual routers met gateways naar het fysieke netwerk, least-privilege security groups en floating IPs (1:1 NAT).</li>
+                <li><strong>Configuration Management as Code (Ansible):</strong> Geautomatiseerde installatie en configuratie van PostgreSQL, Mattermost (systemd daemon) en Nginx (reverse proxy & WebSocket handling) via modulaire roles, uitgevoerd over een beveiligde SSH Bastion ProxyJump tunnel.</li>
+                <li><strong>Integratie van Virtuele en Fysieke Infrastructuur:</strong> Verbinding tussen virtuele tenant SDN overlays en fysieke netwerkinterfaces/hypervisors via Neutron routers met SNAT en Floating IP DNAT.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/openstack-deploy-3-tier-app/-/blob/main/OVERVIEW.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                  </svg>
+                  GitLab: Leerdoel 12.1 Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "12.2 You identify and explain key terms related to DevOps, automated deployment strategies, and Infrastructure-as-Code.": {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "OpenStack (3-Tier App)",
       "subject": "Cloud Engineering - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                In het kader van het <strong>OpenStack 3-Tier App Deployment</strong> project zijn de kernconcepten en terminologieën rondom <strong>DevOps</strong>, <strong>Infrastructure-as-Code (IaC)</strong> en <strong>Automated Deployment Strategies</strong> praktisch toegepast en gedocumenteerd bij het geautomatiseerd uitrollen van een complete multi-tier webapplicatie (Mattermost stack).
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Het project demonstreert hoe moderne software delivery methodieken theorie en praktijk verbinden: van declaratieve infrastructuurdefinities en pipeline staging tot geautomatiseerd configuratiebeheer en veilige zero-trust netwerktoegang.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2025-2026</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Toegepaste en Toegelichte Kernbegrippen</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2'>
+                <li><strong>Infrastructure-as-Code (IaC) & Declaratieve Provisioning:</strong> De cloudinfrastructuur (computeresources, SDN-netwerken, security groups) is vastgelegd in HCL met <strong>Terraform</strong>. Dit waarborgt <em>idempotentie</em>, versiebeheer via Git, reproduceerbaarheid en het vermijden van configuration drift via planningfases (<code>terraform plan</code>).</li>
+                <li><strong>DevOps & CI/CD Pipelines:</strong> Implementatie van een geautomatiseerde software delivery pipeline via <strong>GitLab CI/CD</strong>. Belangrijke DevOps principes zoals continue integratie, pipeline stages (<code>validate</code>, <code>deploy</code>, <code>configure</code>), geautomatiseerde validatie, containerized build environments en secret management (gemaskerde variabelen voor OpenStack credentials) worden hierin gedemonstreerd.</li>
+                <li><strong>Automated Deployment Strategies & Staging:</strong> Toepassing van gecontroleerde uitrolstrategieën met deployment gates (<code>when: manual</code>), dynamische artifact passing (IPs en SSH-keys gegenereerd tijdens runtime voor latere stages) en geautomatiseerde inventarisatie (dynamic inventory generation).</li>
+                <li><strong>Configuration Management (CM) vs. Provisioning:</strong> Duidelijke scheiding tussen infrastructure provisioning (Terraform) en applicatieconfiguratie (<strong>Ansible</strong>). Rollen worden in strikte topologische volgorde uitgevoerd (Database &rarr; Applicatieserver &rarr; Web reverse proxy) om afhankelijkheden correct op te lossen.</li>
+                <li><strong>Zero-Trust & Bastion Deployment:</strong> Veilige deployment strategie waarbij interne applicatieservers in private subnets blijven zonder publiek IP, en deployment traffic veilig gerouteerd wordt via een geharde Bastion Jump Host met SSH <code>ProxyCommand</code> tunneling.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/openstack-deploy-3-tier-app/-/blob/main/OVERVIEW.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                  </svg>
+                  GitLab: OpenStack 3-Tier Deployment & IaC Documentatie
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "12.3 You collaborate in a team to apply existing knowledge and skills to new technologies, products, and domains.": {
       "type": [
