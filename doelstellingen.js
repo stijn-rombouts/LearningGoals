@@ -474,6 +474,18 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
               <p class='text-gray-700 leading-relaxed'>
                 Tijdens het BIP in Krems stond het thema <em>&ldquo;From Ideas to Impact: Innovating with AI and People at Heart&rdquo;</em> centraal. We hebben vertrekkend vanuit reële maatschappelijke uitdagingen gezocht naar opportuniteiten waar AI daadwerkelijk meerwaarde kan creëren voor de eindgebruiker. Binnen de workshops rond <strong>business modeling en conceptvalidatie</strong> hebben we aannames getoetst, waardeproposities opgesteld en het concept iteratief gevalideerd op basis van feedback van docenten en peers. Zo werkten we van een initieel idee toe naar een levensvatbare en gevalideerde oplossing met de mens centraal.
@@ -481,8 +493,20 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -490,6 +514,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -614,6 +642,18 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
               <p class='text-gray-700 leading-relaxed'>
                 Een cruciaal onderdeel van het programma was het overtuigen van stakeholders en een deskundige jury van onze AI-innovatie. Tijdens de workshops <strong>Pitching en presentatievaardigheden</strong> leerden we hoe je een innovatief businessconcept helder structureert en met overtuiging overbrengt met behulp van een sterke waardepropositie, probleemstelling en storytelling. Aan het einde van de week hebben we met ons team een overtuigende business pitch gehouden voor een internationale jury en publiek, waarbij we hen enthousiast wisten te maken over de haalbaarheid en impact van onze innovatie.
@@ -621,8 +661,20 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -630,6 +682,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -725,9 +781,34 @@ const doelstellingen = {
                 De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
               </p>
             </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -735,6 +816,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -803,9 +888,34 @@ const doelstellingen = {
                 De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
               </p>
             </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -813,6 +923,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -881,9 +995,34 @@ const doelstellingen = {
                 De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
               </p>
             </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -891,6 +1030,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -959,9 +1102,34 @@ const doelstellingen = {
                 De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
               </p>
             </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -969,6 +1137,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -1037,9 +1209,34 @@ const doelstellingen = {
                 De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
               </p>
             </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -1047,6 +1244,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -1257,6 +1458,18 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
               <p class='text-gray-700 leading-relaxed'>
                 Tijdens het BIP kregen we intensieve training in presentatietechnieken van internationale docenten om onze boodschap krachtig en to-the-point over te brengen. Aan het einde van de week presenteerden we ons uitgewerkte concept voor een grote groep internationale medestudenten en een officiële vakjury. Door de gerichte voorbereiding, het herhaaldelijk oefenen van pitches en constructieve feedbackmomenten, lukte het om presentatiespanning om te zetten in een zelfverzekerde, professionele presentatie in het Engels met een duidelijke en krachtige boodschap.
@@ -1264,8 +1477,20 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -1273,6 +1498,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -1336,6 +1565,18 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
               <p class='text-gray-700 leading-relaxed'>
                 Het BIP-programma was opgezet als een intensieve en dynamische communicatiechallenge. Samen met medestudenten uit vier verschillende landen (België, Finland, Roemenië en Moldavië) gingen we in internationale teams aan de slag met een reëel maatschappelijk vraagstuk. De week combineerde actieve debatten, brainstormsessies en een vriendschappelijke pitchcompetitie als finale. Dit bood een fantastische kans om presentatie- en communicatieve vaardigheden in het Engels te versterken, samen te werken onder tijdsdruk en hechte internationale connecties op te bouwen.
@@ -1343,8 +1584,20 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -1352,6 +1605,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -1514,9 +1771,34 @@ const doelstellingen = {
                 De voertaal gedurende de hele week was Engels. We moesten elkaars sterke punten, werkmethoden en achtergronden snel op elkaar afstemmen om binnen de strakke deadline een compleet concept uit te werken en te presenteren.
               </p>
             </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -1524,6 +1806,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
@@ -1587,6 +1873,18 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van het project & presentatie: Humanify</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens het project onderzochten en presenteerden we <strong>Humanify</strong>, een IT-oplossing gericht op het humaan en betrouwbaar inzetten van AI binnen klantenservice:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Human-on-the-Loop (HOTL) AI:</strong> Een autonoom systeem waarin een primair AI-model klantvragen behandelt, terwijl een toezichthoudend tweede controlemodel antwoorden valideert op veiligheid en toon.</li>
+                <li><strong>Fail-safe & Handover:</strong> Input- en output blocklists filteren ongepaste interacties. Faalt de validatie drie keer op rij, dan volgt automatisch een human handover naar een medewerker.</li>
+                <li><strong>Aanbeveling & Business Case:</strong> Aan een jury van experts toonden we aan hoe deze architectuur en het SaaS-model bedrijfsefficiëntie verhogen zónder verlies van klantvertrouwen of personeel.</li>
+              </ul>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Koppeling aan het leerdoel</h3>
               <p class='text-gray-700 leading-relaxed mb-3'>
                 Tijdens het BIP-project in Krems deed zich een situatie voor waarin ik mijn eigen handelen en communicatie bewust moest evalueren en bijsturen. In tegenstelling tot onze projecten binnen Digital Innovation (DI) &ndash; waar we uitsluitend met IT-studenten samenwerken en technisch vakjargon vanzelfsprekend is &ndash; bestond ons internationale team grotendeels uit studenten met een niet-IT achtergrond (zoals business en gezondheidszorg).
@@ -1597,8 +1895,20 @@ const doelstellingen = {
             </section>
 
             <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Pitch Deck </h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/BIP-Pitch-Deck.pdf' class='w-full h-[600px] border-0' title='BIP Pitch Deck Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-1 text-right'>
+                <a href='assets/BIP-Pitch-Deck.pdf' target='_blank' class='text-xs text-gray-500 hover:text-blue-600 hover:underline'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+
+            <section>
               <h3 class='font-bold text-gray-800 mb-2'>Sfeerbeelden & Bewijsmateriaal</h3>
-              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2'>
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Groepsuitstap met de Belgische delegatie naar de heuvels rondom Krems</p>
                   assets/BIP-1.jpg
@@ -1606,6 +1916,10 @@ const doelstellingen = {
                 <div>
                   <p class='text-sm font-medium text-gray-700 mb-1'>Workshops op de IMC Campus</p>
                   assets/BIP-2.png
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Presentatie voor de internationale jury en medestudenten</p>
+                  assets/BIP-3.png
                 </div>
               </div>
             </section>
