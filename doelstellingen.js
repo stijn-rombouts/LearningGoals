@@ -1406,11 +1406,83 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Stage",
       "subject": "Communication Skills 3 - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via stage-sollicitatie & intakegesprek</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Context & Organisatie: Stage bij Scholengroep KOGEKA</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                In het kader van de afstudeerfase van de opleiding <strong>Digital Innovation (Thomas More Geel)</strong> heb ik zelfstandig gesolliciteerd voor een uitdagende stageplaats binnen het ICT-team van <strong>Scholengroep KOGEKA</strong> (Geel).
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Scholengroep KOGEKA overkoepelt een basisschool en vijf secundaire scholen in Geel en Kasterlee, en beschikt over een omvangrijke en diverse IT-infrastructuur. Het sollicitatie- en selectietraject verliep in direct contact met de ICT-teamco&ouml;rdinator, <strong>Kris Loyens</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sollicitatie- en Selectieproces</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-4 rounded-lg border border-gray-200 mb-3'>
+                <div>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>Kerngegevens Stage</h4>
+                  <ul class='text-sm text-gray-700 space-y-1'>
+                    <li><strong>Organisatie:</strong> Scholengroep KOGEKA (Technische Schoolstraat 52, Geel)</li>
+                    <li><strong>Contactpersoon / Mentor:</strong> Kris Loyens (ICT-teamco&ouml;rdinator)</li>
+                    <li><strong>Kandidaat:</strong> Stijn Rombouts (2e/3e fase Digital Innovation)</li>
+                    <li><strong>Stageperiode:</strong> 1 maart t/m 28 mei (13 weken)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>Selectiefasen</h4>
+                  <ul class='text-sm text-gray-700 space-y-1'>
+                    <li><strong>1. Schriftelijke afstemming (juni 2026):</strong> Proactieve en professionele mailcommunicatie om beschikbaarheden en een overlegmoment af te stemmen na de examenperiode.</li>
+                    <li><strong>2. Sollicitatie- / Intakegesprek (19 augustus 2026):</strong> Formeel gesprek via Microsoft Teams over verwachtingen, technische vaardigheden en projectinvulling.</li>
+                    <li><strong>3. Bevestiging & Contract (september 2026):</strong> Definitieve acceptatie en administratieve formalisering via Thomas More.</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Het Sollicitatie- en Intakegesprek (19 augustus 2026)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Op woensdag 19 augustus 2026 vond een online intake- en sollicitatiegesprek van een uur plaats via Microsoft Teams met ICT-teamco&ouml;rdinator Kris Loyens. Tijdens dit interview stonden de volgende zaken centraal:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Presentatie van profiel en competenties:</strong> Toelichting van mijn achtergrond binnen Digital Innovation, mijn opgebouwde kennis op het gebied van cloudtechnologie, serverbeheer, infrastructuur en netwerken.</li>
+                <li><strong>Motivatie & meerwaarde:</strong> Helder en overtuigend toelichten waarom ik bij Scholengroep KOGEKA stage wil lopen en hoe ik met mijn zelfstandige werkhouding en technische vaardigheden kan bijdragen aan lopende en nieuwe ICT-projecten binnen de scholengemeenschap.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Bewijsmateriaal & Correspondentie</h3>
+              <div class='space-y-6'>
+                <div class='bg-white p-4 rounded-lg border border-gray-200'>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>1. Eerste contactname & afstemming intakegesprek (22&ndash;23 juni 2026)</h4>
+                  <p class='text-xs text-gray-600 mb-3'>E-mailwisseling met ICT-teamco&ouml;rdinator Kris Loyens om na de examens een overleg in te plannen.</p>
+                  assets/Stage/image2.png
+                </div>
+
+                <div class='bg-white p-4 rounded-lg border border-gray-200'>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>2. Teams-uitnodiging & planning sollicitatiegesprek (19 augustus 2026)</h4>
+                  <p class='text-xs text-gray-600 mb-3'>Offici&euml;le Microsoft Teams meetinguitnodiging (10:30 &ndash; 11:30) voor het stageoverleg / intakegesprek.</p>
+                  assets/Stage/image3.png
+                </div>
+
+                <div class='bg-white p-4 rounded-lg border border-gray-200'>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>3. Bevestiging stageperiode & opstart stagecontract (23 september 2026)</h4>
+                  <p class='text-xs text-gray-600 mb-3'>Formele bevestiging van de stageperiode (1 maart t/m 28 mei) en opstart van het stagecontract met Thomas More.</p>
+                  assets/Stage/image.png
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.24 Present and impose. You will continue to practice presentation skills, both in front of your classmates and in front of a jury. Byebye presentation stress and hello powerful message.": {
       "type": [
