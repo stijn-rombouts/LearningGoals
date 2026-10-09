@@ -2803,7 +2803,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "Bram Verbruggen",
-      "project": "UAnt Arcadekast Docker / Trackmore",
+      "project": "Orangepi K3S",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
