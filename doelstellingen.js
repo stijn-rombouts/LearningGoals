@@ -4372,7 +4372,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Laravel Application Security Testing",
       "subject": "Application Security - Fase 2",
       "bewijs": `<div class='space-y-4'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
@@ -4397,7 +4397,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Laravel Application Security Testing",
       "subject": "Application Security - Fase 2",
       "bewijs": `<div class='space-y-4'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
@@ -4422,7 +4422,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Laravel Application Security Testing",
       "subject": "Application Security - Fase 2",
       "bewijs": `<div class='space-y-4'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
@@ -4447,7 +4447,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Laravel Application Security Testing",
       "subject": "Application Security - Fase 2",
       "bewijs": `<div class='space-y-4'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
@@ -4472,7 +4472,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Laravel Application Security Testing",
       "subject": "Application Security - Fase 2",
       "bewijs": `<div class='space-y-4'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
