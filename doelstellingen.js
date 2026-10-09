@@ -5141,11 +5141,143 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
-      "project": "Erik Thijs: Phising simulatie naar studenten.",
+      "project": "Erik Thijs: Phishing simulatie naar studenten",
       "subject": "Network & OS Security - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Focused Phishing Awareness Campaign voor Studenten</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving &amp; Doelstelling</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                In opdracht van <strong>Thomas More Dienst ICTS</strong> (Campus Geel, onder leiding van systeem- en netwerkbeheerder <strong>Erik Thijs</strong>) is een gerichte cybersecurity awareness campagne ontworpen en getest voor de studentenpopulatie. Waar medewerkers reeds periodiek getraind worden via commerci&euml;le oplossingen, ontbrak een gestructureerd programma voor studenten.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Dit leerdoel focust op het <strong>ontwerpen en uitrollen van een doelgerichte bewustwordingscampagne</strong> om eindgebruikers (studenten) hands-on te begeleiden in het veilig omgaan met IT-systemen. De kernfilosofie hierbij is een <em>educatieve, niet-bestraffende benadering</em>: door realistische social engineering scenario's te combineren met directe leermomenten (&ldquo;teachable moments&rdquo;), interactieve trainingen en heldere vuistregels, leren studenten verdachte situaties te herkennen en adequaat te handelen.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Doelgroepanalyse &amp; Focus van de Campagne</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Studenten vormen binnen een onderwijsinstelling een specifiek risicoprofiel: ze wisselen frequent bestanden uit via cloudplatformen, werken vanaf diverse niet-beheerde apparaten (BYOD) en zijn extra vatbaar voor communicatie over cijfers, studentenstatuten, stagevergoedingen of gedeelde opleidingsdocumenten. De campagne richtte zich daarom op de meest prevalente dreiging: <strong>Credential Harvesting via vertrouwde cloud-services</strong>.
+              </p>
+              <div class='grid grid-cols-1 md:grid-cols-3 gap-4 mt-3'>
+                <div class='bg-white p-4 rounded-lg border border-gray-200 shadow-xs'>
+                  <h4 class='font-bold text-gray-800 text-sm mb-1'>1. M365 Defender Simulatie</h4>
+                  <p class='text-gray-600 text-xs leading-relaxed'>
+                    <strong>Payload:</strong> <em>&ldquo;Payroll work file sharing&rdquo;</em>.<br>
+                    <strong>Aanvalsvector:</strong> Nabootsen van een interne payroll- en documentnotificatie om studenten te verleiden in te loggen op een gespoofde M365 authenticatiepagina.
+                  </p>
+                </div>
+                <div class='bg-white p-4 rounded-lg border border-gray-200 shadow-xs'>
+                  <h4 class='font-bold text-gray-800 text-sm mb-1'>2. CanIPhish Cloud Campagne</h4>
+                  <p class='text-gray-600 text-xs leading-relaxed'>
+                    <strong>Payload:</strong> <em>&ldquo;Google Drive Shared File&rdquo;</em>.<br>
+                    <strong>Aanvalsvector:</strong> Misbruik maken van de dagelijkse gewoonte om cloudkoppelingen te openen, rechtstreeks gericht op de gesynchroniseerde Entra ID-groep <em>Students</em>.
+                  </p>
+                </div>
+                <div class='bg-white p-4 rounded-lg border border-gray-200 shadow-xs'>
+                  <h4 class='font-bold text-gray-800 text-sm mb-1'>3. Wizer Boost Campagne</h4>
+                  <p class='text-gray-600 text-xs leading-relaxed'>
+                    <strong>Payload:</strong> <em>&ldquo;Word Document Tagged&rdquo;</em>.<br>
+                    <strong>Aanvalsvector:</strong> Melding dat de student getagd is in een gedeeld document, leidend naar een nagemaakte inlogpagina voor verificatie van accountgegevens.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Begeleiding van Eindgebruikers: Teachable Moments &amp; Training</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                In plaats van louter te registreren wie &ldquo;in de val trapt&rdquo;, is de campagne specifiek ingericht om direct gedragsverandering en bewustwording te stimuleren zodra een gebruiker een onveilige handeling verricht:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Directe Feedbackpagina's (Teachable Moments):</strong> Bij interactie (het klikken op de link of het invoeren van e-mailgegevens) wordt de student niet doorgestuurd naar een gecompromitteerde omgeving, maar onmiddellijk opgevangen met een heldere educatieve landingspagina. In Wizer krijgt de student direct een korte, visuele video te zien die uitlegt wat er zojuist gebeurde en welke indicatoren (URL, urgentie, afzender) over het hoofd werden gezien.</li>
+                <li><strong>Geautomatiseerde Toewijzing van Trainingen (Targeted Assignment):</strong> Binnen Microsoft 365 Defender en CanIPhish is de trainingsworkflow zo geconfigureerd dat gebruikers die gecompromitteerd raken (hun credentials invoeren) automatisch een gerichte trainingsmodule krijgen toegewezen (zoals de interactieve module <em>&ldquo;Phishing&rdquo;</em>). De student ontvangt per e-mail een vriendelijke uitnodiging en periodieke herinneringen tot afronding.</li>
+                <li><strong>Positieve Bekrachtiging &amp; Kennisvalidatie:</strong> Na het doorlopen van de interactieve lesmodule leggen gebruikers een korte toets af waarin ze veilige vs. onveilige e-mails leren onderscheiden. Bij succesvolle afronding toont het platform een felicitatiemelding (<em>&ldquo;Great job! You passed the phishing training&rdquo;</em>), wat het vertrouwen in veilig IT-gedrag versterkt.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Aangeleerde Richtlijnen voor Veilig IT-Systeemgebruik</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                De awareness campagne reikt studenten concrete, direct toepasbare handelingsperspectieven aan om IT-systemen en hun eigen accountgegevens veilig te beheren:
+              </p>
+              <div class='bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg space-y-2 text-sm text-gray-700'>
+                <p><strong>1. Afzender- en Domeinverificatie:</strong> Controleer altijd het werkelijke e-mailadres achter de weergavenaam, in het bijzonder bij communicatie over betalingen of logins.</p>
+                <p><strong>2. Inspecteren van Hyperlinks (&ldquo;Think Before You Click&rdquo;):</strong> Beweeg de cursor over links (hoveren) om het bestemmingsdomein te controleren vóór het aanklikken.</p>
+                <p><strong>3. Geen Inloggegevens Delen via Links:</strong> Navigeer bij twijfel altijd zelf rechtstreeks naar de officiële portal (bv. <code>portal.office.com</code>) in plaats van door te klikken vanuit een e-mail.</p>
+                <p><strong>4. Alertheid rond MFA-prompts:</strong> Accepteer nooit authenticatieverzoeken in de Authenticator-app die je niet zelf op dat exacte moment hebt ge&iuml;nitieerd.</p>
+                <p><strong>5. Melden bij de ICT-Helpdesk:</strong> Verdachte e-mails niet zomaar negeren of verwijderen, maar rapporteren via de &ldquo;Report Phishing&rdquo;-knop in Outlook zodat de dreiging organisatiebreed geblokkeerd kan worden.</p>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Campagneresultaten, Metingen &amp; Rapportage</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Via de beheeromgevingen zijn de effecten van de awareness simulaties nauwgezet gemonitord. Hierbij werden kritieke metrics bijgehouden zoals het klikpercentage (click rate), het percentage gecompromitteerde accounts (compromise rate) en de voltooiingsgraad van de toegewezen trainingen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>M365 Defender Resultaten:</strong> Validatie met testaccounts toonde aan dat een gebruiker (<code>teststudent1</code>) na het invoeren van zijn gegevens onmiddellijk geregistreerd werd als gecompromitteerd (waarna de geautomatiseerde trainingsuitnodiging werd uitgestuurd), nog vóór de MFA-challenge voltooid was.</li>
+                <li><strong>CanIPhish &amp; Wizer Dashboards:</strong> Duidelijke rapportagegrafieken over trainingsvoortgang, gemiddelde interactietijd en kwetsbaarheid per gebruikersgroep, wat IT-beheerders in staat stelt om risicogroepen in de toekomst doelgerichter te begeleiden.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Visueel Bewijsmateriaal &amp; Campagnestappen</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>1. Realistische Phishing Lure (M365 Defender - Payroll/Work Sharing)</p>
+                  <img src='assets/PhishingAwareness/m365-email.png' class='w-full rounded border border-gray-100 shadow-xs' alt='M365 Phishing e-mail'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>2. Gecompromitteerde Gebruiker &amp; Risicometing</p>
+                  <img src='assets/PhishingAwareness/m365-compromised.png' class='w-full rounded border border-gray-100 shadow-xs' alt='Compromised student status'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>3. Automatische Trainingstoewijzing per E-mail (M365)</p>
+                  <img src='assets/PhishingAwareness/m365-training-email.png' class='w-full rounded border border-gray-100 shadow-xs' alt='Training toewijzing email'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>4. Campagne Dashboard &amp; Compromise Analytics</p>
+                  <img src='assets/PhishingAwareness/m365-overview.png' class='w-full rounded border border-gray-100 shadow-xs' alt='M365 Campagne resultaten overview'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>5. Gerichte Educatieve Landingspagina (&ldquo;Teachable Moment&rdquo; Video in Wizer)</p>
+                  <img src='assets/PhishingAwareness/wizer-teachable-moment.png' class='w-full rounded border border-gray-100 shadow-xs' alt='Wizer Teachable Moment landingspagina'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>6. Configuratie van Training Triggers (CanIPhish)</p>
+                  <img src='assets/PhishingAwareness/caniphish-training-settings.png' class='w-full rounded border border-gray-100 shadow-xs' alt='CanIPhish training configuratie'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>7. Interactieve Trainingsmodule voor Eindgebruikers (CanIPhish)</p>
+                  <img src='assets/PhishingAwareness/caniphish-training-module.png' class='w-full rounded border border-gray-100 shadow-xs' alt='CanIPhish trainingsmodule'>
+                </div>
+                <div class='bg-white p-3 rounded-lg border border-gray-200'>
+                  <p class='text-xs font-semibold text-gray-700 mb-2'>8. Voltooiing van Bewustwordingstraining (Training Passed)</p>
+                  <img src='assets/PhishingAwareness/caniphish-training-passed.png' class='w-full rounded border border-gray-100 shadow-xs' alt='CanIPhish training behaald'>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie &amp; GitHub Repository</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2526-ICTS-001-Phishing-simulation' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Phishing Simulation Project Repository
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "11.12 You analyze network traffic using advanced network analysis tools.": {
       "type": [
