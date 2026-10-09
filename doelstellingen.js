@@ -1934,7 +1934,7 @@ const doelstellingen = {
       "status": "d",
       "verified": "",
       "project": "ArubaOS - Tom Bosch",
-      "subject": "Wireless Networks - Fase 3",
+      "subject": "DI",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
           <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Handleiding & Procedure ArubaOS Virtual Appliance & WLAN Setup</h2>
