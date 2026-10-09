@@ -4660,21 +4660,99 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "WPA2-Enterprise & Dynamic VLAN - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: WPA2-Enterprise & Netwerksegmentatie</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Tijdens het lab <strong>WPA2-Enterprise & Aruba Internal Auth Server</strong> voor het vak Wireless Networks is gewerkt aan het beveiligen van een draadloos netwerk en het aanpakken van beveiligings- en isolatierisico's door middel van 802.1X-authenticatie en dynamische netwerksegmentatie.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode & Opdrachtgever</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027 | Opdrachtgever: Tom Bosch</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Uitdagingen & Risico's aangepakt in het lab</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Ongeautoriseerde toegang & gebrek aan inzicht:</strong> Bij een standaard WPA2-Personal netwerk heeft iedereen hetzelfde wachtwoord, waardoor iedereen met de sleutel op het netwerk kan en het moeilijk is om te zien wie het netwerk daadwerkelijk gebruikt. Bedrijven kiezen daarom voor WPA2-Enterprise (802.1X): dit maakt individuele authenticatie en role-based access control (RBAC) mogelijk, zodat je per gebruiker kan bepalen wie wel of geen toegang krijgt. In het lab is dit opgelost door WPA2-Enterprise te configureren met individuele accounts (<code>user1</code>, <code>user2</code>) op de interne authenticatieserver.</li>
+                <li><strong>Gebrek aan netwerkisolatie:</strong> Wanneer alle clients in één plat netwerk zitten, kunnen gebruikers bij elkaars apparaten en verkeer. Dit is aangepakt door dynamische VLAN-sturing in te stellen, zodat gebruikers op basis van regels automatisch gescheiden worden in aparte netwerksegmenten (VLAN 5 en VLAN 6).</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & PDF Preview</h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf' class='w-full h-[600px] border-0' title='WPA2-Enterprise Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+                <span>Bestand: assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf</span>
+                <a href='assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "11.15 You apply security measures to protect wireless networks from attacks and unauthorized access.": {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "WPA2-Enterprise & Dynamic VLAN - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: WPA2-Enterprise (802.1X) & Dynamische VLAN-Toewijzing</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Voor het vak <strong>Wireless Networks</strong> zijn beveiligingsmaatregelen geïmplementeerd op de ArubaOS Mobility Controller. Door middel van WPA2-Enterprise (802.1X) via de interne authenticatieserver en dynamische VLAN-sturing worden draadloze clients beveiligd tegen ongeautoriseerde toegang en onderling van elkaar geïsoleerd.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode & Opdrachtgever</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027 | Opdrachtgever: Tom Bosch</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Toegepaste Beveiligingsmaatregelen</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Interne authenticatieserver:</strong> Gebruikersaccounts <code>user1</code> en <code>user2</code> aangemaakt op de Aruba controller met de rol <code>authenticated</code>.</li>
+                <li><strong>WPA2-Enterprise WLAN:</strong> SSID <code>TestWLAN2</code> opgezet met WPA2-Enterprise beveiliging en gekoppeld aan de interne auth server.</li>
+                <li><strong>Dynamische VLAN-toewijzing:</strong> Server- en rolregels geconfigureerd die <code>user1</code> dynamisch toewijzen aan VLAN 5 en <code>user2</code> aan VLAN 6.</li>
+                <li><strong>Verificatie op client:</strong> Met een smartphone succesvol verbonden via WPA2-Enterprise en gevalideerd dat <code>user1</code> IP <code>192.168.2.3</code> (VLAN 5) ontvangt en <code>user2</code> IP <code>192.168.3.2</code> (VLAN 6).</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & PDF Preview</h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf' class='w-full h-[600px] border-0' title='WPA2-Enterprise Configuration Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+                <span>Bestand: assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf</span>
+                <a href='assets/Wireless-Networks/WPA2-Enterprise-Aruba-Internal-Auth-Server.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     }
   },
   "12 Extra learning goals Cloud Engineering": {
