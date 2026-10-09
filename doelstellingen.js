@@ -1513,11 +1513,179 @@ const doelstellingen = {
       "type": [
         "ALLES"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "DI4D Study Groups: Data Essentials",
       "subject": "Communication Skills 3 - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via workshops & tutoring</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Context & Initiatief: DI4D Study Groups</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Voor studenten van de opleiding <strong>DI4D (Digital Innovation)</strong> die in eerste zittijd niet geslaagd waren voor het opleidingsonderdeel <strong>Data Essentials</strong>, hebben David Maat en ikzelf het initiatief genomen om een gerichte, tweedelige workshopreeks te organiseren. Het doel van deze studiebegeleidingssessies was om de studenten intensief te ondersteunen bij de meest uitdagende leerstofonderdelen, met name conceptuele datamodellering en SQL, zodat zij met grondig begrip en hernieuwd zelfvertrouwen konden slagen voor hun Data Essentials herexamen.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Als trainers hebben we het volledige traject zelf voorbereid en gefaciliteerd: van het opstellen van gestructureerde didactische lesplannen met concrete doelstellingen en een strakke tijdsindeling, tot het ontwikkelen van interactieve presentaties, praktijkoefeningen en individuele hands-on coaching.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Didactische Doelen & Doelgroep</h3>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-4 rounded-lg border border-gray-200 mb-3'>
+                <div>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>Doelgroep & Omvang</h4>
+                  <ul class='text-sm text-gray-700 space-y-1'>
+                    <li><strong>Doelgroep:</strong> 4 DI4D-studenten ter voorbereiding op het herexamen Data Essentials</li>
+                    <li><strong>Trainers / Begeleiders:</strong> Stijn Rombouts & David Maat</li>
+                    <li><strong>Infrastructuur:</strong> Laptops, beamer, whiteboard, StarUML, MySQL Server & MySQL Workbench</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class='font-semibold text-gray-800 text-sm mb-1'>Concrete Doelstellingen</h4>
+                  <ul class='text-sm text-gray-700 space-y-1'>
+                    <li>Begrijpen wat relationele data is en hoe entiteiten en relaties samenhangen</li>
+                    <li>Zelfstandig een conceptueel datamodel opstellen a.d.h.v. een casus</li>
+                    <li>Het conceptueel model vertalen naar tabellen en veldtypes in MySQL</li>
+                    <li>SQL-queries kunnen opbouwen en begrijpen: van basis SELECT tot correlated subqueries</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sessie 1 (04/05/2026): Data Essentials Modelling & SQL Basics</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Tijdens de eerste sessie (van 16:00 tot 17:30) legden we het fundament voor relationele gegevensstructuren en basisquery&rsquo;s:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Installatie- en omgevingscontrole:</strong> Verifiëren dat alle studenten beschikten over een werkende installatie van StarUML, MySQL en MySQL Workbench om technische obstakels direct uit de weg te ruimen.</li>
+                <li><strong>Structuur van een datamodel:</strong> Heldere toelichting op conceptuele datamodellen, entiteiten, attributen, relaties en kardinaliteiten (1-op-veel, veel-op-veel).</li>
+                <li><strong>Examencasus analyseren:</strong> Leren hoe een beschrijvende opdracht gelezen en ontleed moet worden om de essentiële entiteiten en afhankelijkheden te identificeren.</li>
+                <li><strong>Interactieve modelleeroefening:</strong> Samen met de groep een volledig datamodel opstellen in StarUML op basis van een concrete use-case.</li>
+                <li><strong>Vertaling naar SQL-tabellen:</strong> De koppeling maken tussen het abstracte model en fysieke tabellen in MySQL, inclusief datatypes (o.a. <code>VARCHAR</code>, <code>INT</code>, <code>BOOLEAN</code>, <code>DATE</code>) en primary/foreign keys.</li>
+                <li><strong>Opbouw van SQL-queries:</strong> Syntaxis en logica van <code>SELECT</code>, <code>FROM</code>, <code>WHERE</code>, <code>ORDER BY</code> en gerichte live oefeningen.</li>
+                <li><strong>SQL-functies:</strong> Uitleg en toepassing van scalaire functies (zoals datum- en tekstbewerkingen) en set-/aggregaatfuncties (<code>COUNT</code>, <code>SUM</code>, <code>AVG</code>, <code>MIN</code>, <code>MAX</code>).</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Sessie 2 (11/05/2026): Advanced SQL Queries & Correlated Subqueries</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                In de tweede sessie (van 16:00 tot 17:30) diepten we de materie verder uit naar het niveau vereist voor het examen:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Recap & huiswerkbespreking:</strong> Korte herhaling van de concepten uit sessie 1 en het bespreken van vragen over zelfstandig gemaakte oefeningen.</li>
+                <li><strong>Verdieping functies & groeperen:</strong> Toepassing van scalaire en aggregatiefuncties in combinatie met <code>GROUP BY</code> en <code>HAVING</code> filters.</li>
+                <li><strong>Correlated Subqueries ontrafeld:</strong> Didactische stap-voor-stap analyse van geneste en gecorreleerde subqueries. We illustreerden hoe een subquery per rij uit de buitenste tabel wordt uitgevoerd, hoe aliassen en condities correleren, en hoe je dergelijke logische vraagstukken methodisch aanpakt.</li>
+                <li><strong>Interactieve query-uitdagingen:</strong> Zelfstandig en klassikaal oplossen van complexe data-analysescenario&rsquo;s die representatief zijn voor het examen, met directe 1-op-1 coaching en foutanalyse op het bord.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-3'>Lesdocumentatie & Presentaties (Bewijsmateriaal)</h3>
+              <div class='space-y-4'>
+                <div class='accordion-item border rounded-lg overflow-hidden shadow-xs'>
+                  <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                    <div class='flex items-center gap-3'>
+                      <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                      <span class='font-semibold text-gray-800'>Sessie 1: Presentatieslides (Datamodellering & SQL Basics)</span>
+                    </div>
+                    <svg class='w-5 h-5 transition-transform duration-200 text-gray-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                      <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                    </svg>
+                  </div>
+                  <div class='toggle hidden p-4 border-t bg-white'>
+                    <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50 mb-2'>
+                      <iframe src='assets/DI4D-SQL/DI4D-Study-Groups-1.pdf' class='w-full h-[600px] border-0' title='Sessie 1 Presentatie Preview'>
+                        <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/DI4D-SQL/DI4D-Study-Groups-1.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                      </iframe>
+                    </div>
+                    <div class='flex justify-between items-center text-xs text-gray-500'>
+                      <span>Bestand: assets/DI4D-SQL/DI4D-Study-Groups-1.pdf</span>
+                      <a href='assets/DI4D-SQL/DI4D-Study-Groups-1.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+                    </div>
+                  </div>
+                  <div class='line hidden h-1 bg-blue-600'></div>
+                </div>
+
+                <div class='accordion-item border rounded-lg overflow-hidden shadow-xs'>
+                  <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                    <div class='flex items-center gap-3'>
+                      <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                      <span class='font-semibold text-gray-800'>Sessie 1: Lesvoorbereiding & Didactisch Plan</span>
+                    </div>
+                    <svg class='w-5 h-5 transition-transform duration-200 text-gray-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                      <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                    </svg>
+                  </div>
+                  <div class='toggle hidden p-4 border-t bg-white'>
+                    <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50 mb-2'>
+                      <iframe src='assets/DI4D-SQL/Data-essentials-Part-1_DI4D-study-groups.pdf' class='w-full h-[600px] border-0' title='Sessie 1 Lesvoorbereiding Preview'>
+                        <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/DI4D-SQL/Data-essentials-Part-1_DI4D-study-groups.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                      </iframe>
+                    </div>
+                    <div class='flex justify-between items-center text-xs text-gray-500'>
+                      <span>Bestand: assets/DI4D-SQL/Data-essentials-Part-1_DI4D-study-groups.pdf</span>
+                      <a href='assets/DI4D-SQL/Data-essentials-Part-1_DI4D-study-groups.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+                    </div>
+                  </div>
+                  <div class='line hidden h-1 bg-blue-600'></div>
+                </div>
+
+                <div class='accordion-item border rounded-lg overflow-hidden shadow-xs'>
+                  <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                    <div class='flex items-center gap-3'>
+                      <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                      <span class='font-semibold text-gray-800'>Sessie 2: Presentatieslides (Advanced SQL & Correlated Subqueries)</span>
+                    </div>
+                    <svg class='w-5 h-5 transition-transform duration-200 text-gray-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                      <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                    </svg>
+                  </div>
+                  <div class='toggle hidden p-4 border-t bg-white'>
+                    <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50 mb-2'>
+                      <iframe src='assets/DI4D-SQL/DI4D-Study-Groups-2.pdf' class='w-full h-[600px] border-0' title='Sessie 2 Presentatie Preview'>
+                        <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/DI4D-SQL/DI4D-Study-Groups-2.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                      </iframe>
+                    </div>
+                    <div class='flex justify-between items-center text-xs text-gray-500'>
+                      <span>Bestand: assets/DI4D-SQL/DI4D-Study-Groups-2.pdf</span>
+                      <a href='assets/DI4D-SQL/DI4D-Study-Groups-2.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+                    </div>
+                  </div>
+                  <div class='line hidden h-1 bg-blue-600'></div>
+                </div>
+
+                <div class='accordion-item border rounded-lg overflow-hidden shadow-xs'>
+                  <div class='header flex justify-between items-center p-4 bg-gray-50 cursor-pointer hover:bg-blue-50 transition-colors'>
+                    <div class='flex items-center gap-3'>
+                      <div class='circle w-3 h-3 rounded-full border-2 border-gray-400'></div>
+                      <span class='font-semibold text-gray-800'>Sessie 2: Lesvoorbereiding & Didactisch Plan</span>
+                    </div>
+                    <svg class='w-5 h-5 transition-transform duration-200 text-gray-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                      <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'></path>
+                    </svg>
+                  </div>
+                  <div class='toggle hidden p-4 border-t bg-white'>
+                    <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50 mb-2'>
+                      <iframe src='assets/DI4D-SQL/Data-essentials-Part-2_DI4D-study-groups.pdf' class='w-full h-[600px] border-0' title='Sessie 2 Lesvoorbereiding Preview'>
+                        <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/DI4D-SQL/Data-essentials-Part-2_DI4D-study-groups.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                      </iframe>
+                    </div>
+                    <div class='flex justify-between items-center text-xs text-gray-500'>
+                      <span>Bestand: assets/DI4D-SQL/Data-essentials-Part-2_DI4D-study-groups.pdf</span>
+                      <a href='assets/DI4D-SQL/Data-essentials-Part-2_DI4D-study-groups.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+                    </div>
+                  </div>
+                  <div class='line hidden h-1 bg-blue-600'></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.26 Collaborate and compete in fun communication challenges. Take part in exciting communication challenges where you’ll collaborate with your peers, solve real-world problems, and even compete in friendly debates or pitch competitions. It’s a great way to sharpen your skills, have fun, and build lasting connections!": {
       "type": [
