@@ -4811,11 +4811,73 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Linux Network Services & Proxmox Firewalling",
       "subject": "Network & OS Security - Fase 2",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Enterprise Linux Network Services & Hypervisor-Level Firewalling</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen een gesimuleerde datacenter- en netwerkinfrastructuur op een Proxmox VE hypervisor cluster (Node <code>pve05</code>) is een complete multi-node architectuur gerealiseerd binnen een geïsoleerde <strong>Software-Defined Network (SDN Simple Zone: 10.0.69.0/24)</strong>. Dit labproject pakt diepgaande uitdagingen aan op het snijvlak van netwerkdiensten, OS-geharde authenticatie en netwerkbeveiliging.
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                De infrastructuur bestaat uit een declaratief geconfigureerde <strong>NixOS Server (VM 125)</strong> die essentiële netwerkservices levert (Kea DHCP, BIND9 DNS, OpenLDAP, phpLDAPadmin en Samba SMB), een <strong>Debian 13 Client (VM 116)</strong> die volledig afhankelijk is van gecentraliseerde netwerk- en identity-services, en een afzonderlijke <strong>Bastion Jump Host (VM 118)</strong> voor beveiligd beheer. De volledige netwerkomgeving is voorzien van stateful hypervisor-level firewalling met Proxmox VE Firewalling en diepgaand gevalideerd aan de hand van gestructureerde penetratie- en pentestscenario's.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Aangepakte Uitdagingen & Behaalde Resultaten (Network & OS Security)</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-2 mb-3'>
+                <li><strong>Gesimuleerde SDN Infrastructuur & Zero-Trust Architectuur:</strong> Opzet van een geisoleerd Software-Defined Network (SDN) met SNAT-gateway (<code>10.0.69.1</code>). Alle beheerstromen zijn strikt gescheiden van regulier netwerkverkeer via een dual-homed Bastion Jump Host (<code>10.19.10.17</code> extern, <code>10.0.69.5</code> SDN).</li>
+                <li><strong>OS-Geharde Gecentraliseerde Identiteitsbeveiliging (OpenLDAP, SSSD & PAM):</strong> Implementatie van enterprise-grade directory services via OpenLDAP en integratie op Linux-clients via SSSD (System Security Services Daemon). Authenticatie en autorisatie zijn geïntegreerd in de Linux PAM-stack (<code>libpam-sss</code>) en NSS (<code>libnss-sss</code>), inclusief automatische en beveiligde aanmaak van gebruikershomedirectories met permissie <code>0700</code> (<code>pam_mkhomedir.so</code>). Hierdoor loggen gebruikers in met centrale credentials en worden lokale OS-rechten strikt afgebakend.</li>
+                <li><strong>Netwerkdiensten & Opslagbeveiliging (Kea DHCP, BIND9 DNS & Samba SMB):</strong> Veilige uitrol van kernservices: dynamische IP-provisioning met Kea DHCP, authoratieve en recursieve DNS-resolutie met BIND9 (zone <code>lab.lan</code>), en SMB-bestandsshares met strikte hostbeperkingen (<code>hosts allow = 10.0.69. 127.0.0.1</code>; <code>hosts deny = 0.0.0.0/0</code>) en groepsgebaseerde toegangscontrole (<code>valid users = @sambashare</code>).</li>
+                <li><strong>Hypervisor-Level Firewalling & Microsegmentatie (Proxmox VE Firewall):</strong> Implementatie van stateful firewallregels op het niveau van de hypervisor (Node <code>pve05</code>) in plaats van enkel op gast-OS-niveau. Gevoelige beheerinterfaces (SSH poort 22 en de phpLDAPadmin webinterface poort 8080) zijn hypervisor-breed geblokkeerd voor gewone client-werkstations en uitsluitend geautoriseerd voor verkeer afkomstig van het statische IP van de Bastion Jump Host (<code>10.0.69.5</code>).</li>
+                <li><strong>Client Firewall Hardening (VM 116):</strong> De inkomende policy voor het Debian-werkstation staat standaard op <code>DROP</code>, waarbij enkel stateful gerelateerd verkeer (<code>ESTABLISHED, RELATED</code>), DHCP-replies (UDP 68 vanaf de server) en beheer-SSH vanaf de jump host worden binnengelaten.</li>
+                <li><strong>Verificatie & Penetratietesting (Baseline vs. Hardened State):</strong> Grondige validatie van de beveiligingsmaatregelen via Nmap poortscans en service-tests. Aangetoond dat beheerpoorten voor ongeautoriseerde clients veranderen van <code>open</code> (toegankelijk) naar <code>filtered</code> (stilzwijgende packet-drop door Proxmox hypervisor zonder TCP RST replies), wat netwerkverkenning en exploitatie door aanvallers effectief neutraliseert.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & GitHub Repositories</h3>
+              <div class='flex flex-wrap gap-3'>
+                <a href='https://github.com/stijn-rombouts/LinuxNetworkServices-LearningGoals' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub: Linux Network Services Repository
+                </a>
+                <a href='https://github.com/stijn-rombouts/LinuxNetworkServices-LearningGoals/blob/main/PROXMOX_FIREWALL_GUIDE.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  Proxmox VE Firewall Handleiding
+                </a>
+                <a href='https://github.com/stijn-rombouts/LinuxNetworkServices-LearningGoals/blob/main/DEBIAN_CLIENT_SETUP.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  Debian Client Setup &amp; SSSD
+                </a>
+                <a href='https://github.com/stijn-rombouts/LinuxNetworkServices-LearningGoals/blob/main/DEBIAN_CLIENT_TESTING_GUIDE.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  Client Testing &amp; Validatiegids
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "11.14 You identify the challenges and risks associated with wireless networks, including security and interference issues.": {
       "type": [
