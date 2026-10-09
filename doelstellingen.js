@@ -4662,7 +4662,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "WPA2-Enterprise & Dynamic VLAN - Tom Bosch",
+      "project": "ArubaOS - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
@@ -4710,7 +4710,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "WPA2-Enterprise & Dynamic VLAN - Tom Bosch",
+      "project": "ArubaOS - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
