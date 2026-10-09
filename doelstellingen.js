@@ -1931,11 +1931,54 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
-      "subject": "DI",
-      "bewijs": ""
+      "project": "ArubaOS - Tom Bosch",
+      "subject": "Wireless Networks - Fase 3",
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Handleiding & Procedure ArubaOS Virtual Appliance & WLAN Setup</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                In opdracht van de docent van het vak <strong>Wireless Networks</strong> (Tom Bosch) is een stapsgewijze handleiding opgesteld voor studenten die het vak volgen. De handleiding beschrijft hoe studenten ArubaOS opzetten in een VirtualBox VM, alle benodigde instellingen configureren (licenties, DHCP, interfaces) en een werkend Wi-Fi-netwerk opzetten met een fysiek Aruba Access Point.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode & Opdrachtgever</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027 | Opdrachtgever: Tom Bosch</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Inhoud van de Handleiding</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li>Opzetten en configureren van de ArubaOS VM in VirtualBox.</li>
+                <li>CLI-initialisatie en toegang tot de beheerinterface (WebUI).</li>
+                <li>Licenties toevoegen en activeren.</li>
+                <li>DHCP-server en IP-bereiken instellen.</li>
+                <li>Fysiek Aruba AP koppelen via de allowlist en provisionen.</li>
+                <li>VLAN's en het Wi-Fi-netwerk (WLAN) configureren.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & PDF Preview</h3>
+              <p class='text-sm text-gray-600 mb-3'>Hieronder kan de volledige studentenhandleiding interactief worden ingezien:</p>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/Wireless-Networks/ArubaOS.pdf' class='w-full h-[600px] border-0' title='ArubaOS Studentenhandleiding Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/Wireless-Networks/ArubaOS.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+                <span>Bestand: assets/Wireless-Networks/ArubaOS.pdf</span>
+                <a href='assets/Wireless-Networks/ArubaOS.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.42 You expand your professional and international network by attending networking events": {
       "type": [
@@ -3885,11 +3928,51 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "ArubaOS - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: ArubaOS Virtual Appliance & Campus AP Setup</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                Voor het vak <strong>Wireless Networks</strong> is een ArubaOS Virtual Mobility Controller (VMC) opgezet in VirtualBox en gekoppeld aan een fysiek Aruba Access Point. Aan de hand van gerichte configuratie- en troubleshootingtechnieken zijn de virtuele netwerkomgeving, DHCP-infrastructuur, interfaces en het Wi-Fi-netwerk operationeel gemaakt en geoptimaliseerd.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode & Opdrachtgever</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027 | Opdrachtgever: Tom Bosch</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Configuratie & Performance Optimalisatie</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Troubleshooting & Hypervisor setup:</strong> Voorkomen van netwerklussen en switching loops door overbodige adapters uit te schakelen en adapter 2 in te stellen op bridged mode met promiscuous mode <em>Allow All</em>.</li>
+                <li><strong>Netwerk- & DHCP-configuratie:</strong> Vermijden van IP-conflicten door exclusion ranges in te stellen in de DHCP-pool, en statische IP-adressering toe te passen voor stabiele beheer- en AP-connectiviteit.</li>
+                <li><strong>Performance & Segmentatie:</strong> Verkeersoptimalisatie via VLAN 5 (<code>wlan-clients</code>) om broadcastdomeinen te scheiden, en Tunnel Forwarding mode om dataverkeer gecentraliseerd te routeren en beheren.</li>
+                <li><strong>Radio-monitoring:</strong> Validatie via het ArubaOS dashboard dat het AP operationeel is op zowel 2.4 GHz als 5 GHz met een optimale radiokanaalkwaliteit zonder co-channel interferentie.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & PDF Preview</h3>
+              <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+                <iframe src='assets/Wireless-Networks/ArubaOS.pdf' class='w-full h-[600px] border-0' title='ArubaOS Configuration Preview'>
+                  <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/Wireless-Networks/ArubaOS.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+                </iframe>
+              </div>
+              <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+                <span>Bestand: assets/Wireless-Networks/ArubaOS.pdf</span>
+                <a href='assets/Wireless-Networks/ArubaOS.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "9.30 You understand the role of wireless networks in the evolution of IoT (Internet of Things) and 5G communication.": {
       "type": [
@@ -3905,9 +3988,9 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
-      "project": "",
+      "project": "Site Survey - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
       "bewijs": ""
     }
