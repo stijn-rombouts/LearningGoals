@@ -2061,11 +2061,121 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Arcadekast / Erik Thijs / MPI Oosterlo",
       "subject": "DI",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>Professionele mondelinge en schriftelijke communicatie met (interne) klanten</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Context &amp; Leerdoel</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Binnen verschillende projecten en initiatieven heb ik intensief en professioneel gecommuniceerd met zowel <strong>interne klanten</strong> (zoals IT-diensten binnen de hogeschool) als <strong>externe organisaties en opdrachtgevers</strong>. Deze communicatie verliep zowel <strong>schriftelijk</strong> (via duidelijke en doelgerichte e-mails over technische architecturen, requirements en opvolging) als <strong>mondeling</strong> (prototype demonstrations en online meetings via Microsoft Teams of fysiek overleg).
+              </p>
+              <p class='text-gray-700 leading-relaxed'>
+                Hieronder wordt dit aangetoond aan de hand van drie representatieve projecten waarin communicatie met klanten centraal stond:
+              </p>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mt-2'>
+                <li><strong>Project Arcadekast</strong> &ndash; Externe opdrachtgevers: Universiteit Antwerpen (Wander / Bijzondere Collecties)</li>
+                <li><strong>Project Threat Intelligence &amp; Phishing</strong> &ndash; Interne klant: Dienst ICTS Thomas More (Erik Thijs)</li>
+                <li><strong>Project Arbeidsinteressetest</strong> &ndash; Externe klant/partner: MPI Oosterlo vzw (Kim Hendrickx)</li>
+              </ul>
+            </section>
+
+            <!-- Project 1: Arcadekast -->
+            <section class='border-t pt-4'>
+              <h3 class='text-lg font-bold text-gray-800 mb-2'>1. Project Arcadekast (Universiteit Antwerpen / Wander)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                In opdracht van de <strong>Universiteit Antwerpen (Wander &amp; Bijzondere Collecties)</strong> hebben we gewerkt aan het ontwikkelen en implementeren van een interactieve arcadekast en de bijbehorende cloudinfrastructuur.
+              </p>
+              <div class='space-y-3 mb-4'>
+                <div>
+                  <h4 class='font-semibold text-gray-800'>Schriftelijke communicatie over cloudarchitectuur en hosting:</h4>
+                  <p class='text-gray-700 text-sm leading-relaxed'>
+                    In overleg met contactpersoon Juno Steegmans heb ik een overzichtelijke technische uiteenzetting gegeven van de benodigde hostingservices (Render.com voor de backend, Cloudflare R2 voor S3-compatibele object storage, Neon.tech voor PostgreSQL database, Cloudflare Workers voor frontend hosting en GitHub Runners voor CI/CD). Hierbij heb ik transparant de kostenaspecten en creditcardvoorwaarden van Cloudflare toegelicht en afgestemd hoe accounts en e-mailadressen overgedragen konden worden. De klant heeft hierop proactief een specifieke mailgroep (<code>arcade@mail.wander.be</code>) aangemaakt.
+                  </p>
+                </div>
+                <div>
+                  <h4 class='font-semibold text-gray-800'>Mondelinge afstemming en prototype review:</h4>
+                  <p class='text-gray-700 text-sm leading-relaxed'>
+                    Zodra het eerste werkende prototype van de arcadekast gereed was, hebben we schriftelijk contact gelegd met Bart Moelans en Jef De Ridder (Bijzondere Collecties UAntwerpen) om een mondeling overleg in te plannen. Doel was het fysiek en online demonstreren van het prototype en het aftoetsen van feedback. Hierin zijn agenda&rsquo;s en beschikbaarheden professioneel geco&ouml;rdineerd.
+                  </p>
+                </div>
+              </div>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-3'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Schriftelijk overleg over hosting en accountoverdracht (Juno Steegmans)</p>
+                  <img src='assets/ArcadeKast/image.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Arcadekast communicatie hosting'>
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Inplannen prototype demonstratie &amp; meeting (Bart Moelans &amp; Jef De Ridder)</p>
+                  <img src='assets/ArcadeKast/image2.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Arcadekast prototype meeting'>
+                </div>
+              </div>
+            </section>
+
+            <!-- Project 2: Erik Thijs (Dienst ICTS) -->
+            <section class='border-t pt-4'>
+              <h3 class='text-lg font-bold text-gray-800 mb-2'>2. Project Threat Intelligence (MISP) &amp; Phishing (Dienst ICTS - Interne Klant)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Voor de <strong>Dienst ICTS van Thomas More Campus Geel</strong> trad dhr. <strong>Erik Thijs</strong> (Systeem- en netwerkbeheerder) op als interne klant. Het project betrof het onderzoeken en opzetten van een MISP-server (Malware Information Sharing Platform), threat feed integraties met firewalls (Checkpoint, Palo Alto) en monitoringtools (Vectra), en het uitwerken van phishing-simulaties voor studenten.
+              </p>
+              <div class='space-y-3 mb-4'>
+                <div>
+                  <h4 class='font-semibold text-gray-800'>Zelfstandig initiatief en schriftelijke communicatie:</h4>
+                  <p class='text-gray-700 text-sm leading-relaxed'>
+                    Na overdracht door de docent/co&ouml;rdinator (Jochen Mari&euml;n) heb ik direct het initiatief genomen om per e-mail contact op te nemen met dhr. Erik Thijs. Ik heb mijzelf formeel voorgesteld, mijn wekelijkse beschikbaarheden doorgegeven en voorgesteld om samen te zitten om de requirements en wensen van de interne klant scherp te stellen.
+                  </p>
+                </div>
+                <div>
+                  <h4 class='font-semibold text-gray-800'>Flexibele agendaco&ouml;rdinatie en mondeling overleg (Microsoft Teams):</h4>
+                  <p class='text-gray-700 text-sm leading-relaxed'>
+                    Aangezien de voorgestelde overlegdatum in de vakantieperiode viel, heb ik flexibel en meedenkend gereageerd door voor te stellen de afstemming via Microsoft Teams online te laten plaatsvinden. We hebben vervolgens een concreet tijdstip (donderdag om 10:00 uur) vastgelegd, waarna in de online meeting de projectvereisten, use cases en SIEM-integraties mondeling zijn besproken.
+                  </p>
+                </div>
+              </div>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-3'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Schriftelijk intake-initiatief n.a.v. projectvoorstel (Erik Thijs)</p>
+                  <img src='assets/ErikThijs/image.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Erik Thijs intake email'>
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Agendaco&ouml;rdinatie voor online Teams-meeting</p>
+                  <img src='assets/ErikThijs/image2.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Erik Thijs Teams afspraak'>
+                </div>
+              </div>
+            </section>
+
+            <!-- Project 3: MPI Oosterlo -->
+            <section class='border-t pt-4'>
+              <h3 class='text-lg font-bold text-gray-800 mb-2'>3. Project Arbeidsinteressetest (MPI Oosterlo vzw)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Voor de zorgorganisatie <strong>MPI Oosterlo vzw</strong> (in samenwerking met Raf Hensbergen) hebben we een vernieuwde versie van de Arbeidsinteressetest gerealiseerd. Om de applicatie in productie te kunnen nemen, was technische afstemming met de IT-dienst van de organisatie vereist.
+              </p>
+              <div class='space-y-3 mb-4'>
+                <div>
+                  <h4 class='font-semibold text-gray-800'>Schriftelijke technische communicatie met IT-diensthoofd:</h4>
+                  <p class='text-gray-700 text-sm leading-relaxed'>
+                    Ik heb contact opgenomen met <strong>Kim Hendrickx</strong> (Diensthoofd IT bij MPI Oosterlo vzw) met een gerichte, professionele e-mail. Ik heb duidelijk toegelicht dat de applicatie ontworpen is rond Docker en kan draaien op een VPS of VM, en formuleerde vier concrete technische vragen rond infrastructuur (VPS-keuze, toegang tot een virtuele machine, domeinnaam/DNS en mailservervoorziening).
+                  </p>
+                </div>
+                <div>
+                  <h4 class='font-semibold text-gray-800'>Constructieve opvolging en afstemming:</h4>
+                  <p class='text-gray-700 text-sm leading-relaxed'>
+                    De IT-verantwoordelijke koppelde terug met concrete informatie over hun on-premise VMware ESX-infrastructuur en lokale Exchange-omgeving, en gaf aan intern af te stemmen met de inhoudelijke projectverantwoordelijke om tot een passende uitrol te komen.
+                  </p>
+                </div>
+              </div>
+              <div class='mt-3'>
+                <p class='text-sm font-medium text-gray-700 mb-1'>Schriftelijke communicatie over Docker-deployment, VMware ESX en hosting (Kim Hendrickx)</p>
+                <img src='assets/MPI/image.png' class='max-w-2xl w-full rounded-lg border border-gray-200 shadow-sm' alt='MPI Oosterlo communicatie hosting'>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "5.40 You evaluate your own actions and make adjustments if necessary": {
       "type": [
