@@ -3918,11 +3918,59 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BLE-LAB - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Vergelijking Draadloze Standaarden (BLE vs. Wi-Fi vs. 5G)</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                In het lab <a href='https://github.com/stijn-rombouts/BLE-LAB' target='_blank' class='text-blue-600 underline font-medium'>BLE-LAB</a> is een telemetriesysteem gebouwd met een Raspberry Pi Pico W (BMP280 sensor) en een Raspberry Pi 3B+ gateway. Op basis hiervan zijn de toepassingen en beperkingen van BLE, Wi-Fi en 5G vergeleken.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode & Opdrachtgever</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027 | Opdrachtgever: Tom Bosch</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Vergelijking van Technologieën & Toepassingen</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>Bluetooth Low Energy (BLE):</strong> Uitermate geschikt voor de sensornode (Pico W op batterij). Zeer laag stroomverbruik voor periodieke kleine payloads (2 bytes elke 2s), maar beperkt in bereik (~10-30m) en lage doorvoersnelheid.</li>
+                <li><strong>Wi-Fi (802.11):</strong> Ingezet op de centrale Raspberry Pi gateway voor het lokale webdashboard (poort 8080). Hoge bandbreedte en directe IP-connectiviteit, maar een veel te hoog energieverbruik voor autonome batterijsensoren.</li>
+                <li><strong>5G / Cellular:</strong> Biedt directe connectiviteit over grote afstanden (kilometers) voor mobiele sensoren in het veld zonder lokale Wi-Fi-infrastructuur of gateway, maar vereist duurdere modems en actieve data-abonnementen.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Bewijsmateriaal</h3>
+              <div class='flex flex-wrap gap-3 mb-4'>
+                <a href='https://github.com/stijn-rombouts/BLE-LAB' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub Repository: stijn-rombouts/BLE-LAB
+                </a>
+              </div>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Real-time Telemetrie Dashboard over Wi-Fi / Web</p>
+                  <img src='assets/Wireless-Networks/ble-plot.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Real-time Telemetrie Dashboard'>
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Directe BLE GATT Uitlezing via Mobiele nRF Connect App</p>
+                  <img src='assets/Wireless-Networks/ble-app.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Directe BLE GATT Uitlezing'>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "9.29 You manage and optimize the performance of wireless networks through configuration and troubleshooting techniques.": {
       "type": [
@@ -3978,11 +4026,59 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "BLE-LAB - Tom Bosch",
       "subject": "Wireless Networks - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>B. Leerdoel behaald via een project: Draadloze Netwerken in IoT-Architectuur</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
+              <p class='text-gray-700 leading-relaxed'>
+                In het project <a href='https://github.com/stijn-rombouts/BLE-LAB' target='_blank' class='text-blue-600 underline font-medium'>BLE-LAB</a> is een complete edge-to-gateway IoT-infrastructuur gerealiseerd. Sensordata wordt op de edge uitgelezen door een Raspberry Pi Pico W, via BLE verzonden en door een Raspberry Pi gateway ontsloten op het IP-netwerk.
+              </p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Periode & Opdrachtgever</h3>
+              <p class='text-gray-700'>Academiejaar 2026-2027 | Opdrachtgever: Tom Bosch</p>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Rol van Draadloze Netwerken in IoT & 5G</h3>
+              <ul class='list-disc ml-5 text-gray-700 space-y-1 mb-3'>
+                <li><strong>GATT-standaardisatie & interoperabiliteit:</strong> Door gebruik van officiële Bluetooth SIG specificaties (Environmental Sensing <code>0x181A</code> en Temperature <code>0x2A6E</code>) kan elk willekeurig BLE-apparaat of app (zoals nRF Connect) de data direct uitlezen zonder klantspecifieke drivers.</li>
+                <li><strong>Edge-to-Gateway model:</strong> Praktische toepassing van de typische tweetraps IoT-architectuur: low-power microcontrollers zenden data via energiezuinige radio (BLE) naar een gateway, die de data omzet naar IP-protocollen (Wi-Fi/HTTP).</li>
+                <li><strong>Link met 5G:</strong> Demonstratie van het onderliggende IoT-principe waarbij duizenden low-power sensoren lokaal via BLE/LPWAN communiceren met een gateway, die data vervolgens via hoge-snelheidsnetwerken zoals 5G kan doorsturen naar de cloud.</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie & Bewijsmateriaal</h3>
+              <div class='flex flex-wrap gap-3 mb-4'>
+                <a href='https://github.com/stijn-rombouts/BLE-LAB' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
+                  <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
+                  </svg>
+                  GitHub Repository: stijn-rombouts/BLE-LAB
+                </a>
+              </div>
+              <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mt-2'>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Pico W Firmware Console Logs (MicroPython aioble)</p>
+                  <img src='assets/Wireless-Networks/ble-terminal.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Pico W Console Logs'>
+                </div>
+                <div>
+                  <p class='text-sm font-medium text-gray-700 mb-1'>Raspberry Pi 3B+ Telemetry Collector Logs</p>
+                  <img src='assets/Wireless-Networks/ble-terminal2.png' class='w-full rounded-lg border border-gray-200 shadow-sm' alt='Raspberry Pi Gateway Logs'>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "9.31 You utilize monitoring tools and analytical methods to evaluate and improve the performance of wireless networks.": {
       "type": [
