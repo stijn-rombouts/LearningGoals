@@ -2334,9 +2334,10 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "d",
+      "status": "ip",
       "verified": "",
-      "project": "Alumni Avond",
+      "project": "Alumni Avond + Fosdem",
+      "project": "Alumni Avond + Fosdem?",
       "subject": "DI",
       "bewijs": "Alumni Avond 28/04/2026"
     }
