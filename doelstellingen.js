@@ -5582,7 +5582,7 @@ const doelstellingen = {
       ],
       "status": "d",
       "verified": "",
-      "project": "OpenStack (3-Tier App)",
+      "project": "Internal Developer Platform (IDP)",
       "subject": "Cloud Engineering - Fase 3",
       "bewijs": `<div class='space-y-6'>
         <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
@@ -5591,10 +5591,10 @@ const doelstellingen = {
             <section>
               <h3 class='font-bold text-gray-800 mb-2'>Projectbeschrijving</h3>
               <p class='text-gray-700 leading-relaxed mb-3'>
-                Binnen het <strong>OpenStack 3-Tier App Deployment</strong> project is de gehele provisioning en configuratie geautomatiseerd via CI/CD pipelines en automation scripts die programmatisch en beveiligd communiceren met de REST API endpoints van het OpenStack cloudplatform.
+                Binnen het project <strong>Internal Developer Platform for Digital Innovation (DI-IDP)</strong> is een backend service ontwikkeld in Python (FastAPI &amp; <code>httpx</code>) die fungeert als centrale orchestrator voor geautomatiseerde project-onboarding. In plaats van abstracte declaratie-tools zoals Terraform of Ansible, communiceert deze backend op de klassieke programmatische manier rechtstreeks over HTTPS met diverse externe REST API services via HTTP requests.
               </p>
               <p class='text-gray-700 leading-relaxed'>
-                Hierbij worden authenticatietokens en scoped application credentials ingezet om veilig data uit te wisselen tussen de GitLab CI runner, Terraform providers, de OpenStack Keystone, Nova en Neutron API services, en de downstream Ansible provisioning scripts.
+                De service voert een volledige provisioning flow uit waarbij veilig data wordt uitgewisseld met de <strong>GitHub REST API</strong>, de <strong>Rancher Management API</strong> en de <strong>Authentik API</strong>. Hierbij worden strikte authenticatiemethoden (waaronder Bearer token authenticatie, dynamische login sessies en asymmetrische payload encryptie via libsodium) toegepast.
               </p>
             </section>
 
@@ -5604,23 +5604,13 @@ const doelstellingen = {
             </section>
 
             <section>
-              <h3 class='font-bold text-gray-800 mb-2'>Behaalde resultaten (API Automatisering & Beveiliging)</h3>
-              <ul class='list-disc ml-5 text-gray-700 space-y-1'>
-                <li><strong>Veilige API Authenticatie (OpenStack Keystone):</strong> In de CI/CD pipeline worden via gemaskerde environment variables veilig OpenStack Application Credentials (<code>application_credential_id</code> en <code>application_credential_secret</code>) geïnjecteerd in een dynamisch gegenereerde <code>clouds.yml</code>. Hierdoor vindt API authenticatie plaats via de v3 Identity API zonder statische root wachtwoorden in code.</li>
-                <li><strong>Programmatische API Interactie via Terraform Providers:</strong> Declaratieve scripts communiceren over HTTPS met REST API endpoints: de <strong>Nova API</strong> (instance lifecycle, dynamic keypair generation), de <strong>Neutron API</strong> (orchestratie van SDN networks, subnets, routers, ports en security groups) en de <strong>Glance API</strong> (image resolution).</li>
-                <li><strong>Dynamische Data-extractie & Scripting in CI/CD:</strong> De GitLab CI runner extraheert runtime attributen via Terraform outputs (zoals dynamisch gegenereerde SSH-keys, Floating IPs en private IP-adressen) en gebruikt shell scripts om dynamisch een <code>inventory.ini</code> en SSH proxy configuratie te genereren voor Ansible.</li>
-                <li><strong>Foutafhandeling & API Verificatie:</strong> De pipeline scripts voeren pre-flight validaties uit (<code>terraform validate</code>, netwerk connectivity checks via <code>nc</code> en IP route validaties) om te verifiëren dat endpoints en resources correct responderen alvorens configuratie playbooks worden gestart.</li>
-              </ul>
-            </section>
-
-            <section>
-              <h3 class='font-bold text-gray-800 mb-2'>Documentatie</h3>
+              <h3 class='font-bold text-gray-800 mb-2'>Documentatie &amp; Broncode</h3>
               <div class='flex flex-wrap gap-3'>
-                <a href='https://gitlab.com/it-factory-thomas-more/digital-innovation/students/25-26/r1036855/openstack-deploy-3-tier-app/-/blob/main/LEARNING_GOAL_12_1.md' target='_blank' class='inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors gap-2 text-sm font-medium'>
+                <a href='https://github.com/Thomas-More-Digital-Innovation/2526-DI-IDP-Internal-Developer-Platform-for-Digital-Innovation/blob/334ce3954329bdbfb17fc3f44d110922acb00701/backend/main.py#L240' target='_blank' class='inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors gap-2 text-sm font-medium'>
                   <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 24 24'>
-                    <path d='M4.844.904a1.007 1.007 0 00-.955.692l-2.53 7.783c0 .007-.005.012-.007.02L.07 13.335a1.437 1.437 0 00.522 1.607l11.072 8.045a.566.566 0 00.67-.004l11.074-8.04a1.436 1.436 0 00.522-1.61l-1.26-3.867a.547.547 0 00-.031-.104l-2.526-7.775a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.406 7.408H8.203l-2.41-7.408a.987.987 0 00-.943-.69h-.006zm-.006 1.42l2.174 6.678H2.674l2.164-6.678zm14.328 0l2.168 6.678h-4.342l2.174-6.678zm-10.594 7.81h6.862l-2.15 6.618L12 20.693 8.572 10.135zm-5.515.005h4.322l3.086 9.5-7.408-9.5zm13.568 0h4.326l-6.703 8.588-.709.914 2.959-9.108.127-.394zM2.1 10.762l6.978 8.947-7.818-5.682a.305.305 0 01-.112-.341l.952-2.924zm19.8 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.025-.035 6.953-8.91Z'/>
+                    <path d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/>
                   </svg>
-                  GitLab: OpenStack API & Automation Documentatie
+                  GitHub: IDP Backend API Orchestrator (backend/main.py#L240)
                 </a>
               </div>
             </section>
