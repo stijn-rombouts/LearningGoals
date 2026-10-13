@@ -590,7 +590,7 @@ const doelstellingen = {
         "APP", "AI",
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
@@ -5901,7 +5901,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
@@ -5911,7 +5911,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
@@ -5921,7 +5921,7 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "ip",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
