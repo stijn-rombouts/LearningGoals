@@ -5,7 +5,7 @@ const doelstellingen = {
         "APP", "AI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -16,7 +16,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -56,7 +56,7 @@ const doelstellingen = {
         "APP", "AI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -66,7 +66,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -76,7 +76,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -86,7 +86,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Systems Engineering & Analysis - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -700,7 +700,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -711,7 +711,7 @@ const doelstellingen = {
         "APPAI, DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -722,7 +722,7 @@ const doelstellingen = {
         "APPAI, DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -732,7 +732,7 @@ const doelstellingen = {
         "APPAI, DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -1952,7 +1952,7 @@ const doelstellingen = {
         "DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3198,7 +3198,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/1 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3208,7 +3208,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3218,7 +3218,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3228,7 +3228,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2/2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3666,7 +3666,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3676,7 +3676,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3686,7 +3686,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3696,7 +3696,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3706,7 +3706,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3716,7 +3716,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3726,7 +3726,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3736,7 +3736,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3746,7 +3746,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3756,7 +3756,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -3766,7 +3766,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Windows Server Advanced - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -4537,7 +4537,7 @@ const doelstellingen = {
         "APPAI, DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -4547,7 +4547,7 @@ const doelstellingen = {
         "APPAI, DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -4557,7 +4557,7 @@ const doelstellingen = {
         "APPAI, DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Jochen",
       "project": "",
       "subject": "Skills Integration Lab 2 - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
