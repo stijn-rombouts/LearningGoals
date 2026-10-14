@@ -5595,11 +5595,30 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Skill2",
       "subject": "Cloud Engineering - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>A. Leerdoel behaald via vak: Skills Integration Lab 2</h2>
+          <div class='space-y-6'>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Toelichting</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Dit leerdoel is afgetoetst binnen het vak <strong>Skills Integration Lab 2 (Skill2)</strong>. Tijdens dit opleidingsonderdeel werd er in teamverband samengewerkt aan een IT-project (een hostingplatform). Hierbij werd bestaande kennis en skills gecombineerd en toegepast op nieuwe technologieën, frameworks en domeinen.
+              </p>
+            </section>
+            <section>
+              <h3 class='font-bold text-gray-800 mb-2'>Bewijsstuk (KU Loket)</h3>
+              <p class='text-gray-700 leading-relaxed mb-3'>
+                Het vak Skills Integration Lab 2 is succesvol afgerond, zoals weergegeven op het KU Loket overzicht:
+              </p>
+              <img src='assets/kuloket-jaar2.png' class='max-w-full h-auto rounded-lg shadow-lg border mt-2' alt='KU Loket resultaten Skills Integration Lab 2'>
+            </section>
+          </div>
+        </div>
+      </div>`
     },
     "12.4 You develop scripts that securely connect to and exchange data with API services.": {
       "type": [
