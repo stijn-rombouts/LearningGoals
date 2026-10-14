@@ -5844,58 +5844,6 @@ const doelstellingen = {
       "bewijs": ""
     }
   },
-  "14 Extra learning goals Cyber Security & Security Operations": {
-    "14.1 You identify and leverage various IT threats, applying them in a real-world cyberattack.": {
-      "type": [
-        "CCS"
-      ],
-      "status": "td",
-      "verified": "",
-      "project": "",
-      "subject": "Cyber Security & Security Operations - Fase 3",
-      "bewijs": ""
-    },
-    "14.2 You conduct an ethical pentest/security audit in compliance with professional frameworks, agreements, and best practices.": {
-      "type": [
-        "CCS"
-      ],
-      "status": "td",
-      "verified": "",
-      "project": "",
-      "subject": "Cyber Security & Security Operations - Fase 3",
-      "bewijs": ""
-    },
-    "14.3 You analyze and classify detected vulnerabilities, providing actionable recommendations based on recognized frameworks.": {
-      "type": [
-        "CCS"
-      ],
-      "status": "td",
-      "verified": "",
-      "project": "",
-      "subject": "Cyber Security & Security Operations - Fase 3",
-      "bewijs": ""
-    },
-    "14.4 You integrate multiple security technologies into a self-designed Security Operation Center (SOC), testing and refining its performance.": {
-      "type": [
-        "CCS"
-      ],
-      "status": "td",
-      "verified": "",
-      "project": "",
-      "subject": "Cyber Security & Security Operations - Fase 3",
-      "bewijs": ""
-    },
-    "14.5 You utilize incident analysis tools and security playbooks to investigate and respond to cyberattacks.": {
-      "type": [
-        "CCS"
-      ],
-      "status": "td",
-      "verified": "",
-      "project": "",
-      "subject": "Cyber Security & Security Operations - Fase 3",
-      "bewijs": ""
-    }
-  },
   "15 Extra learning goals IT Governance": {
     "15.1 You can recognize IT processes in a first phase and then schematically represent them in a second phase according to the reference framework 'Information Technology Infrastructure Library' (ITIL).": {
       "type": [
