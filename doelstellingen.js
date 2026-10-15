@@ -2395,7 +2395,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -4902,7 +4902,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "VPN to datacenter",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -4953,7 +4953,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "OpenStack (3-Tier App) & Cloudflare Zero Trust (Kimai Time Tracking)",
       "subject": "Network & OS Security - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -5504,7 +5504,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "OpenStack (3-Tier App)",
       "subject": "Cloud Engineering - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -5556,7 +5556,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "OpenStack (3-Tier App)",
       "subject": "Cloud Engineering - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -5680,7 +5680,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Orangepi Kubernetes (ansible)",
       "subject": "Cloud Engineering - Fase 3",
       "bewijs": `<div class='space-y-6'>
