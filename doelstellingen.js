@@ -590,11 +590,24 @@ const doelstellingen = {
         "APP", "AI",
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <p class='text-gray-700 leading-relaxed mb-4'>This was accomplished with a replacement task:</p>
+          <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+            <iframe src='assets/ITIL_Replacement_Assignment_Report.pdf' class='w-full h-[600px] border-0' title='ITIL Replacement Assignment Report'>
+              <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+            </iframe>
+          </div>
+          <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+            <span>Bestand: assets/ITIL_Replacement_Assignment_Report.pdf</span>
+            <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+          </div>
+        </div>
+      </div>`
     },
     "4.10 You enthuse others to go along with an innovation with a convincing business pitch.": {
       "type": [
@@ -5868,31 +5881,70 @@ const doelstellingen = {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <p class='text-gray-700 leading-relaxed mb-4'>This was accomplished with a replacement task:</p>
+          <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+            <iframe src='assets/ITIL_Replacement_Assignment_Report.pdf' class='w-full h-[600px] border-0' title='ITIL Replacement Assignment Report'>
+              <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+            </iframe>
+          </div>
+          <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+            <span>Bestand: assets/ITIL_Replacement_Assignment_Report.pdf</span>
+            <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+          </div>
+        </div>
+      </div>`
     },
     "15.2 You can describe the scope of an IT business process within a real business context, show it schematically, and derive bottlenecks according to the best practices and concepts of ITIL. You can connect business and IT.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <p class='text-gray-700 leading-relaxed mb-4'>This was accomplished with a replacement task:</p>
+          <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+            <iframe src='assets/ITIL_Replacement_Assignment_Report.pdf' class='w-full h-[600px] border-0' title='ITIL Replacement Assignment Report'>
+              <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+            </iframe>
+          </div>
+          <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+            <span>Bestand: assets/ITIL_Replacement_Assignment_Report.pdf</span>
+            <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+          </div>
+        </div>
+      </div>`
     },
     "15.3 You can select, choose and use the learned methodologies in a summary.": {
       "type": [
         "CCS"
       ],
-      "status": "ip",
+      "status": "d",
       "verified": "",
       "project": "",
       "subject": "IT Governance - Fase 3",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <p class='text-gray-700 leading-relaxed mb-4'>This was accomplished with a replacement task:</p>
+          <div class='w-full rounded-xl overflow-hidden border border-gray-300 shadow-sm bg-gray-50'>
+            <iframe src='assets/ITIL_Replacement_Assignment_Report.pdf' class='w-full h-[600px] border-0' title='ITIL Replacement Assignment Report'>
+              <p class='p-4 text-sm text-gray-600'>Je browser ondersteunt geen ingesloten PDF-preview. <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 underline font-medium'>Open de PDF hier in een nieuw tabblad</a>.</p>
+            </iframe>
+          </div>
+          <div class='mt-2 flex justify-between items-center text-xs text-gray-500'>
+            <span>Bestand: assets/ITIL_Replacement_Assignment_Report.pdf</span>
+            <a href='assets/ITIL_Replacement_Assignment_Report.pdf' target='_blank' class='text-blue-600 hover:underline font-medium'>Open in nieuw tabblad &nearr;</a>
+          </div>
+        </div>
+      </div>`
     }
   }
 };
