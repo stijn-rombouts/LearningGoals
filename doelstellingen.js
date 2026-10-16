@@ -2385,7 +2385,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -2405,7 +2405,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -2415,7 +2415,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "",
       "subject": "Datacenter Technology - Fase 2",
       "bewijs": "assets/kuloket-jaar2.png"
@@ -2425,7 +2425,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Erik Thijs: Phising simulatie naar studenten. Vergelijken M365 en andere (gratis) oplossingen",
       "subject": "Cloud Platforms - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -3098,7 +3098,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Orangepi K3S",
       "subject": "Linux Web Services - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -5609,7 +5609,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Skill2",
       "subject": "Cloud Engineering - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -5638,7 +5638,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Bram Verbruggen",
       "project": "Internal Developer Platform (IDP)",
       "subject": "Cloud Engineering - Fase 3",
       "bewijs": `<div class='space-y-6'>
