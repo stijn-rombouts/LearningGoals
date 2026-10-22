@@ -433,7 +433,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Business Essentials - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -614,7 +614,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Business Essentials - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -755,7 +755,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -862,7 +862,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -969,7 +969,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1076,7 +1076,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1183,7 +1183,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 2 - Fase 2",
       "bewijs": `<div class='space-y-6'>
@@ -1502,7 +1502,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 3 - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -1777,7 +1777,7 @@ const doelstellingen = {
         "ALLES"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "Communication Skills 3 - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -1985,7 +1985,7 @@ const doelstellingen = {
         "DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "DI",
       "bewijs": `<div class='space-y-6'>
@@ -2195,7 +2195,7 @@ const doelstellingen = {
         "DI"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Tinne",
       "project": "BIP",
       "subject": "DI",
       "bewijs": `<div class='space-y-6'>
