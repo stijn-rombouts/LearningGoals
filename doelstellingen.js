@@ -591,7 +591,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Michiel Verboven",
       "project": "",
       "subject": "IT Governance - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -5951,7 +5951,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Michiel Verboven",
       "project": "",
       "subject": "IT Governance - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -5974,7 +5974,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Michiel Verboven",
       "project": "",
       "subject": "IT Governance - Fase 3",
       "bewijs": `<div class='space-y-6'>
@@ -5997,7 +5997,7 @@ const doelstellingen = {
         "CCS"
       ],
       "status": "d",
-      "verified": "",
+      "verified": "Michiel Verboven",
       "project": "",
       "subject": "IT Governance - Fase 3",
       "bewijs": `<div class='space-y-6'>
