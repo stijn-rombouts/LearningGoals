@@ -26,8 +26,6 @@
 
   <body class="bg-white pb-8">
     <div class="px-8">
-      <canvas id="chart" height="200" width="450" class="absolute ml-6 scale-50 lg:scale-100"></canvas>
-      
       <!-- Header Section -->
       <div class="bg-gray-100 border border-black/10 rounded-2xl shadow-xl p-8 my-8 mx-4 lg:mx-auto">
         <div class="flex justify-center items-center flex-col">
@@ -36,6 +34,9 @@
             <div class="h-1 bg-[#FA6432] rounded-full"></div>
           </div>
           <p class="text-lg text-gray-600 mt-4">Learning Goals Portfolio</p>
+        </div>
+        <div class="relative w-full max-w-lg h-72 mx-auto mt-6">
+          <canvas id="chart" aria-label="Learning goal status overview" role="img"></canvas>
         </div>
         
         <!-- Filter Controls -->

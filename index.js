@@ -191,18 +191,19 @@ function generate() {
     type: 'doughnut',
     data: data,
     options: {
-      responsive: false,
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: {
         legend: {
-          position: 'right',
+          position: 'bottom',
           labels: {
             font: {
-              size: 13,
+              size: 12,
               family: "'Inter', 'system-ui', 'sans-serif'",
               weight: '500'
             },
             color: '#00293F',
-            padding: 12,
+            padding: 8,
             usePointStyle: true,
             pointStyle: 'circle'
           }
