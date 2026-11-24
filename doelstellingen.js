@@ -1974,11 +1974,18 @@ const doelstellingen = {
       "type": [
         "DI"
       ],
-      "status": "td",
+      "status": "d",
       "verified": "",
-      "project": "",
+      "project": "Startproject 2DI",
       "subject": "DI",
-      "bewijs": ""
+      "bewijs": `<div class='space-y-6'>
+        <div class='bg-gray-50 p-6 rounded-xl border border-gray-200 shadow-sm'>
+          <h2 class='text-xl font-bold mb-6 text-gray-900 border-b pb-2'>Begeleiding van het startproject</h2>
+          <p class='text-gray-700 leading-relaxed'>
+            Ik heb studenten van het <strong>tweede jaar Digital Innovation</strong> begeleid tijdens hun startproject. Voor dit project moesten zij de <strong>Scrum-methodologie</strong> gebruiken om hun project uit te voeren. Door hen hierbij te begeleiden, kon ik mijn kennis van Scrum in een projectcontext inzetten en delen met andere studenten.
+          </p>
+        </div>
+      </div>`
     },
     "5.38 You actively participate and collaborate effectively in a group setting": {
       "type": [
